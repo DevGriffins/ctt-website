@@ -65,7 +65,9 @@ export function Desktop() {
                 aspectRatio: "21 / 9",
                 borderRadius: "24px",
                 background: "#34312F",
-                backgroundImage: "repeating-linear-gradient(135deg, #3A3736 0 1px, transparent 1px 16px)",
+                backgroundImage: "url(/images/ai.jpg)",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
@@ -75,7 +77,6 @@ export function Desktop() {
                 color: "#C1C3C2",
               }}
             >
-              FEATURED IMAGE · FROM CMS
             </div>
             <figcaption style={{ fontSize: "14px", color: "#C1C3C2" }}>[Image caption]</figcaption>
           </figure>
@@ -366,7 +367,9 @@ export function Desktop() {
                 style={{
                   aspectRatio: "16 / 10",
                   background: "#34312F",
-                  backgroundImage: "repeating-linear-gradient(135deg, #3A3736 0 1px, transparent 1px 14px)",
+                  backgroundImage: "url(/images/future-of-work.jpg)",
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
                 }}
               />
               <div style={{ display: "flex", flexDirection: "column", gap: "12px", padding: "24px" }}>
@@ -405,7 +408,9 @@ export function Desktop() {
                 style={{
                   aspectRatio: "16 / 10",
                   background: "#34312F",
-                  backgroundImage: "repeating-linear-gradient(135deg, #3A3736 0 1px, transparent 1px 14px)",
+                  backgroundImage: "url(/images/teams.jpg)",
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
                 }}
               />
               <div style={{ display: "flex", flexDirection: "column", gap: "12px", padding: "24px" }}>
@@ -444,7 +449,9 @@ export function Desktop() {
                 style={{
                   aspectRatio: "16 / 10",
                   background: "#34312F",
-                  backgroundImage: "repeating-linear-gradient(135deg, #3A3736 0 1px, transparent 1px 14px)",
+                  backgroundImage: "url(/images/data.jpg)",
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
                 }}
               />
               <div style={{ display: "flex", flexDirection: "column", gap: "12px", padding: "24px" }}>
@@ -656,7 +663,9 @@ export function Mobile() {
               aspectRatio: "4 / 3",
               borderRadius: "16px",
               background: "#34312F",
-              backgroundImage: "repeating-linear-gradient(135deg, #3A3736 0 1px, transparent 1px 14px)",
+              backgroundImage: "url(/images/ai.jpg)",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
@@ -666,7 +675,6 @@ export function Mobile() {
               color: "#C1C3C2",
             }}
           >
-            FEATURED IMAGE · FROM CMS
           </div>
           <figcaption style={{ fontSize: "13px", color: "#C1C3C2" }}>[Image caption]</figcaption>
         </figure>
@@ -829,7 +837,9 @@ export function Mobile() {
                 flexShrink: "0",
                 borderRadius: "10px",
                 background: "#34312F",
-                backgroundImage: "repeating-linear-gradient(135deg, #3A3736 0 1px, transparent 1px 10px)",
+                backgroundImage: "url(/images/future-of-work.jpg)",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
               }}
             />
             <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
@@ -858,7 +868,9 @@ export function Mobile() {
                 flexShrink: "0",
                 borderRadius: "10px",
                 background: "#34312F",
-                backgroundImage: "repeating-linear-gradient(135deg, #3A3736 0 1px, transparent 1px 10px)",
+                backgroundImage: "url(/images/teams.jpg)",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
               }}
             />
             <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
@@ -887,7 +899,9 @@ export function Mobile() {
                 flexShrink: "0",
                 borderRadius: "10px",
                 background: "#34312F",
-                backgroundImage: "repeating-linear-gradient(135deg, #3A3736 0 1px, transparent 1px 10px)",
+                backgroundImage: "url(/images/data.jpg)",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
               }}
             />
             <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>

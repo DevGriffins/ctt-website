@@ -1234,7 +1234,9 @@ export function Desktop() {
                 style={{
                   aspectRatio: "16 / 10",
                   background: "#34312F",
-                  backgroundImage: "repeating-linear-gradient(135deg, #3A3736 0 1px, transparent 1px 14px)",
+                  backgroundImage: "url(/images/ai.jpg)",
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
@@ -1244,7 +1246,6 @@ export function Desktop() {
                   color: "#C1C3C2",
                 }}
               >
-                ARTICLE IMAGE · FROM CMS
               </div>
               <div style={{ display: "flex", flexDirection: "column", gap: "12px", padding: "24px 24px 28px" }}>
                 <span
@@ -1282,7 +1283,9 @@ export function Desktop() {
                 style={{
                   aspectRatio: "16 / 10",
                   background: "#34312F",
-                  backgroundImage: "repeating-linear-gradient(135deg, #3A3736 0 1px, transparent 1px 14px)",
+                  backgroundImage: "url(/images/data.jpg)",
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
@@ -1292,7 +1295,6 @@ export function Desktop() {
                   color: "#C1C3C2",
                 }}
               >
-                ARTICLE IMAGE · FROM CMS
               </div>
               <div style={{ display: "flex", flexDirection: "column", gap: "12px", padding: "24px 24px 28px" }}>
                 <span
@@ -1330,7 +1332,9 @@ export function Desktop() {
                 style={{
                   aspectRatio: "16 / 10",
                   background: "#34312F",
-                  backgroundImage: "repeating-linear-gradient(135deg, #3A3736 0 1px, transparent 1px 14px)",
+                  backgroundImage: "url(/images/circuit.jpg)",
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
@@ -1340,7 +1344,6 @@ export function Desktop() {
                   color: "#C1C3C2",
                 }}
               >
-                ARTICLE IMAGE · FROM CMS
               </div>
               <div style={{ display: "flex", flexDirection: "column", gap: "12px", padding: "24px 24px 28px" }}>
                 <span
@@ -2469,7 +2472,9 @@ export function Mobile() {
               style={{
                 aspectRatio: "16 / 9",
                 background: "#34312F",
-                backgroundImage: "repeating-linear-gradient(135deg, #3A3736 0 1px, transparent 1px 14px)",
+                backgroundImage: "url(/images/ai.jpg)",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
@@ -2479,7 +2484,6 @@ export function Mobile() {
                 color: "#C1C3C2",
               }}
             >
-              ARTICLE IMAGE · FROM CMS
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "10px", padding: "18px 18px 22px" }}>
               <span
@@ -2519,7 +2523,9 @@ export function Mobile() {
                 flexShrink: "0",
                 borderRadius: "10px",
                 background: "#34312F",
-                backgroundImage: "repeating-linear-gradient(135deg, #3A3736 0 1px, transparent 1px 10px)",
+                backgroundImage: "url(/images/data.jpg)",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
               }}
             />
             <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
@@ -2547,7 +2553,9 @@ export function Mobile() {
                 flexShrink: "0",
                 borderRadius: "10px",
                 background: "#34312F",
-                backgroundImage: "repeating-linear-gradient(135deg, #3A3736 0 1px, transparent 1px 10px)",
+                backgroundImage: "url(/images/circuit.jpg)",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
               }}
             />
             <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
