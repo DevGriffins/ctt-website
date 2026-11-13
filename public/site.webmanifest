@@ -1,0 +1,9 @@
+{
+  "name": "Celotti Tech Talent",
+  "short_name": "CTT",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#201F1E",
+  "theme_color": "#201F1E",
+  "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}
