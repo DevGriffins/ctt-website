@@ -168,6 +168,9 @@ export function Desktop() {
                   }}
                 >
                   <option>All locations</option>
+                  <option>Singapore</option>
+                  <option>Australia</option>
+                  <option>Remote (APAC)</option>
                 </select>
                 <svg
                   aria-hidden="true"
@@ -206,6 +209,8 @@ export function Desktop() {
                   }}
                 >
                   <option>All types</option>
+                  <option>Permanent</option>
+                  <option>Contract</option>
                 </select>
                 <svg
                   aria-hidden="true"
@@ -226,11 +231,8 @@ export function Desktop() {
           </form>
           <div style={{ display: "flex", flexWrap: "wrap", alignItems: "center", justifyContent: "space-between", gap: "12px" }}>
             <p aria-live="polite" style={{ margin: "0", fontSize: "15px", color: "#D3D9DB" }}>
-              <strong style={{ color: "#FFFFFF" }}>[n]</strong>
+              <strong style={{ color: "#FFFFFF" }}>5</strong>
               {" roles"}
-            </p>
-            <p style={{ margin: "0", fontSize: "13px", fontWeight: "700", letterSpacing: "0.06em", color: "#C1C3C2" }}>
-              LISTINGS MANAGED IN CMS · EXAMPLE LAYOUT
             </p>
           </div>
           <ul style={{ listStyle: "none", margin: "0", padding: "0", display: "flex", flexDirection: "column", gap: "12px" }}>
@@ -252,7 +254,7 @@ export function Desktop() {
                 }}
               >
                 <span style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
-                  <span style={{ fontSize: "21px", fontWeight: "700" }}>[Job title]</span>
+                  <span style={{ fontSize: "21px", fontWeight: "700" }}>Senior Machine Learning Engineer</span>
                   <span
                     style={{
                       alignSelf: "flex-start",
@@ -282,10 +284,10 @@ export function Desktop() {
                     <path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z" />
                     <circle cx="12" cy="10" r="2.5" />
                   </svg>
-                  [Location]
+                  Singapore
                 </span>
-                <span style={{ fontSize: "16px", color: "#D3D9DB" }}>[Job type]</span>
-                <span style={{ fontSize: "15px", color: "#C1C3C2" }}>Posted [date]</span>
+                <span style={{ fontSize: "16px", color: "#D3D9DB" }}>Permanent, full-time</span>
+                <span style={{ fontSize: "15px", color: "#C1C3C2" }}>Posted 10 Nov 2026</span>
                 <span
                   style={{
                     width: "48px",
@@ -332,7 +334,7 @@ export function Desktop() {
                 }}
               >
                 <span style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
-                  <span style={{ fontSize: "21px", fontWeight: "700" }}>[Job title]</span>
+                  <span style={{ fontSize: "21px", fontWeight: "700" }}>Lead Data Engineer</span>
                   <span
                     style={{
                       alignSelf: "flex-start",
@@ -363,10 +365,10 @@ export function Desktop() {
                     <path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z" />
                     <circle cx="12" cy="10" r="2.5" />
                   </svg>
-                  [Location]
+                  Singapore
                 </span>
-                <span style={{ fontSize: "16px", color: "#D3D9DB" }}>[Job type]</span>
-                <span style={{ fontSize: "15px", color: "#C1C3C2" }}>Posted [date]</span>
+                <span style={{ fontSize: "16px", color: "#D3D9DB" }}>Permanent, full-time</span>
+                <span style={{ fontSize: "15px", color: "#C1C3C2" }}>Posted 6 Nov 2026</span>
                 <span
                   style={{
                     width: "48px",
@@ -413,7 +415,7 @@ export function Desktop() {
                 }}
               >
                 <span style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
-                  <span style={{ fontSize: "21px", fontWeight: "700" }}>[Job title]</span>
+                  <span style={{ fontSize: "21px", fontWeight: "700" }}>Embedded AI Engineer, Edge Inference</span>
                   <span
                     style={{
                       alignSelf: "flex-start",
@@ -444,10 +446,10 @@ export function Desktop() {
                     <path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z" />
                     <circle cx="12" cy="10" r="2.5" />
                   </svg>
-                  [Location]
+                  Singapore
                 </span>
-                <span style={{ fontSize: "16px", color: "#D3D9DB" }}>[Job type]</span>
-                <span style={{ fontSize: "15px", color: "#C1C3C2" }}>Posted [date]</span>
+                <span style={{ fontSize: "16px", color: "#D3D9DB" }}>Permanent, full-time</span>
+                <span style={{ fontSize: "15px", color: "#C1C3C2" }}>Posted 3 Nov 2026</span>
                 <span
                   style={{
                     width: "48px",
@@ -494,7 +496,7 @@ export function Desktop() {
                 }}
               >
                 <span style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
-                  <span style={{ fontSize: "21px", fontWeight: "700" }}>[Job title]</span>
+                  <span style={{ fontSize: "21px", fontWeight: "700" }}>Robotics Software Engineer, Navigation</span>
                   <span
                     style={{
                       alignSelf: "flex-start",
@@ -525,10 +527,10 @@ export function Desktop() {
                     <path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z" />
                     <circle cx="12" cy="10" r="2.5" />
                   </svg>
-                  [Location]
+                  Singapore
                 </span>
-                <span style={{ fontSize: "16px", color: "#D3D9DB" }}>[Job type]</span>
-                <span style={{ fontSize: "15px", color: "#C1C3C2" }}>Posted [date]</span>
+                <span style={{ fontSize: "16px", color: "#D3D9DB" }}>Permanent, full-time</span>
+                <span style={{ fontSize: "15px", color: "#C1C3C2" }}>Posted 28 Oct 2026</span>
                 <span
                   style={{
                     width: "48px",
@@ -575,7 +577,7 @@ export function Desktop() {
                 }}
               >
                 <span style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
-                  <span style={{ fontSize: "21px", fontWeight: "700" }}>[Job title]</span>
+                  <span style={{ fontSize: "21px", fontWeight: "700" }}>AI Product Manager</span>
                   <span
                     style={{
                       alignSelf: "flex-start",
@@ -605,10 +607,10 @@ export function Desktop() {
                     <path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z" />
                     <circle cx="12" cy="10" r="2.5" />
                   </svg>
-                  [Location]
+                  Sydney, Australia
                 </span>
-                <span style={{ fontSize: "16px", color: "#D3D9DB" }}>[Job type]</span>
-                <span style={{ fontSize: "15px", color: "#C1C3C2" }}>Posted [date]</span>
+                <span style={{ fontSize: "16px", color: "#D3D9DB" }}>Permanent, full-time</span>
+                <span style={{ fontSize: "15px", color: "#C1C3C2" }}>Posted 21 Oct 2026</span>
                 <span
                   style={{
                     width: "48px",
@@ -638,37 +640,6 @@ export function Desktop() {
               </Link>
             </li>
           </ul>
-          {/* Empty state (shown when filters return nothing) */}
-          <div
-            style={{
-              display: "flex",
-              flexWrap: "wrap",
-              alignItems: "center",
-              justifyContent: "space-between",
-              gap: "16px",
-              padding: "24px 28px",
-              borderRadius: "16px",
-              border: "1.5px dashed #60554F",
-            }}
-          >
-            <span style={{ display: "flex", flexDirection: "column", gap: "4px" }}>
-              <span style={{ fontSize: "12px", fontWeight: "700", letterSpacing: "0.08em", color: "#C1C3C2" }}>EMPTY STATE</span>
-              <span style={{ fontSize: "18px", fontWeight: "700" }}>No roles match these filters right now.</span>
-            </span>
-            <a
-              href="#"
-              style={{
-                fontSize: "15px",
-                fontWeight: "700",
-                textDecoration: "underline",
-                textDecorationColor: "#DFE21B",
-                textDecorationThickness: "3px",
-                textUnderlineOffset: "5px",
-              }}
-            >
-              Clear filters
-            </a>
-          </div>
         </div>
       </section>
       {/* S3 NO MATCH BAND */}
@@ -943,7 +914,7 @@ export function Mobile() {
           </div>
         </form>
         <p style={{ margin: "4px 4px 0", fontSize: "14px", color: "#D3D9DB" }}>
-          <strong style={{ color: "#FFFFFF" }}>[n]</strong>
+          <strong style={{ color: "#FFFFFF" }}>5</strong>
           {" roles"}
         </p>
         <Link
@@ -960,7 +931,7 @@ export function Mobile() {
           }}
         >
           <div style={{ display: "flex", alignItems: "flex-start", justifyContent: "space-between", gap: "12px" }}>
-            <span style={{ fontSize: "18px", fontWeight: "700" }}>[Job title]</span>
+            <span style={{ fontSize: "18px", fontWeight: "700" }}>Senior Machine Learning Engineer</span>
             <span
               style={{
                 padding: "3px 10px",
@@ -974,8 +945,8 @@ export function Mobile() {
               AI
             </span>
           </div>
-          <span style={{ fontSize: "14px", color: "#D3D9DB" }}>[Location] · [Job type]</span>
-          <span style={{ fontSize: "13px", color: "#C1C3C2" }}>Posted [date]</span>
+          <span style={{ fontSize: "14px", color: "#D3D9DB" }}>Singapore · Permanent, full-time</span>
+          <span style={{ fontSize: "13px", color: "#C1C3C2" }}>Posted 10 Nov 2026</span>
         </Link>
         <Link
           to="/open-roles/role"
@@ -991,7 +962,7 @@ export function Mobile() {
           }}
         >
           <div style={{ display: "flex", alignItems: "flex-start", justifyContent: "space-between", gap: "12px" }}>
-            <span style={{ fontSize: "18px", fontWeight: "700" }}>[Job title]</span>
+            <span style={{ fontSize: "18px", fontWeight: "700" }}>Lead Data Engineer</span>
             <span
               style={{
                 padding: "3px 10px",
@@ -1006,8 +977,8 @@ export function Mobile() {
               Data
             </span>
           </div>
-          <span style={{ fontSize: "14px", color: "#D3D9DB" }}>[Location] · [Job type]</span>
-          <span style={{ fontSize: "13px", color: "#C1C3C2" }}>Posted [date]</span>
+          <span style={{ fontSize: "14px", color: "#D3D9DB" }}>Singapore · Permanent, full-time</span>
+          <span style={{ fontSize: "13px", color: "#C1C3C2" }}>Posted 6 Nov 2026</span>
         </Link>
         <Link
           to="/open-roles/role"
@@ -1023,7 +994,7 @@ export function Mobile() {
           }}
         >
           <div style={{ display: "flex", alignItems: "flex-start", justifyContent: "space-between", gap: "12px" }}>
-            <span style={{ fontSize: "18px", fontWeight: "700" }}>[Job title]</span>
+            <span style={{ fontSize: "18px", fontWeight: "700" }}>Embedded AI Engineer, Edge Inference</span>
             <span
               style={{
                 padding: "3px 10px",
@@ -1038,8 +1009,8 @@ export function Mobile() {
               Deep Tech
             </span>
           </div>
-          <span style={{ fontSize: "14px", color: "#D3D9DB" }}>[Location] · [Job type]</span>
-          <span style={{ fontSize: "13px", color: "#C1C3C2" }}>Posted [date]</span>
+          <span style={{ fontSize: "14px", color: "#D3D9DB" }}>Singapore · Permanent, full-time</span>
+          <span style={{ fontSize: "13px", color: "#C1C3C2" }}>Posted 3 Nov 2026</span>
         </Link>
         <Link
           to="/open-roles/role"
@@ -1055,7 +1026,7 @@ export function Mobile() {
           }}
         >
           <div style={{ display: "flex", alignItems: "flex-start", justifyContent: "space-between", gap: "12px" }}>
-            <span style={{ fontSize: "18px", fontWeight: "700" }}>[Job title]</span>
+            <span style={{ fontSize: "18px", fontWeight: "700" }}>Robotics Software Engineer, Navigation</span>
             <span
               style={{
                 padding: "3px 10px",
@@ -1070,25 +1041,40 @@ export function Mobile() {
               Robotics
             </span>
           </div>
-          <span style={{ fontSize: "14px", color: "#D3D9DB" }}>[Location] · [Job type]</span>
-          <span style={{ fontSize: "13px", color: "#C1C3C2" }}>Posted [date]</span>
+          <span style={{ fontSize: "14px", color: "#D3D9DB" }}>Singapore · Permanent, full-time</span>
+          <span style={{ fontSize: "13px", color: "#C1C3C2" }}>Posted 28 Oct 2026</span>
         </Link>
-        <div
+        <Link
+          to="/open-roles/role"
           style={{
-            padding: "18px",
-            borderRadius: "14px",
-            border: "1.5px dashed #60554F",
             display: "flex",
             flexDirection: "column",
-            gap: "6px",
+            gap: "10px",
+            padding: "18px",
+            borderRadius: "14px",
+            border: "1px solid #3A3736",
+            textDecoration: "none",
+            color: "#FFFFFF",
           }}
         >
-          <span style={{ fontSize: "11px", fontWeight: "700", letterSpacing: "0.08em", color: "#C1C3C2" }}>EMPTY STATE</span>
-          <span style={{ fontSize: "16px", fontWeight: "700" }}>No roles match these filters right now.</span>
-          <a href="#" style={{ fontSize: "14px", fontWeight: "700" }}>
-            Clear filters
-          </a>
-        </div>
+          <div style={{ display: "flex", alignItems: "flex-start", justifyContent: "space-between", gap: "12px" }}>
+            <span style={{ fontSize: "18px", fontWeight: "700" }}>AI Product Manager</span>
+            <span
+              style={{
+                padding: "3px 10px",
+                borderRadius: "999px",
+                background: "#DFE21B",
+                fontSize: "12px",
+                fontWeight: "700",
+                color: "#201F1E",
+              }}
+            >
+              AI
+            </span>
+          </div>
+          <span style={{ fontSize: "14px", color: "#D3D9DB" }}>Sydney, Australia · Permanent, full-time</span>
+          <span style={{ fontSize: "13px", color: "#C1C3C2" }}>Posted 21 Oct 2026</span>
+        </Link>
       </section>
       <section aria-labelledby="mor-nm" style={{ position: "relative", overflow: "hidden", background: "#4E4748", color: "#FFFFFF" }}>
         <div

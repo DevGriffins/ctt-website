@@ -98,7 +98,7 @@ export function Desktop() {
               >
                 From Transactional Recruitment to Data-Driven Talent Partnerships
               </h2>
-              <p style={{ margin: "0", fontSize: "18px", lineHeight: "1.6", color: "#C1C3C2" }}>[Excerpt from CMS]</p>
+              <p style={{ margin: "0", fontSize: "18px", lineHeight: "1.6", color: "#C1C3C2" }}>Why the best AI and data hires now come from long-term partnerships built on market intelligence, structured mapping and shared hiring goals, not CV volume.</p>
               <div
                 style={{
                   display: "flex",
@@ -109,7 +109,7 @@ export function Desktop() {
                   borderTop: "1px solid #4A4644",
                 }}
               >
-                <span style={{ fontSize: "15px", color: "#C1C3C2" }}>[Date] · [Read time]</span>
+                <span style={{ fontSize: "15px", color: "#C1C3C2" }}>12 November 2026 · 7 min read</span>
                 <span style={{ display: "inline-flex", alignItems: "center", gap: "8px", fontSize: "16px", fontWeight: "700" }}>
                   Read article
                   <svg
@@ -457,8 +457,8 @@ export function Desktop() {
                   Future of Work
                 </span>
                 <h3 style={{ margin: "0", fontSize: "22px", lineHeight: "1.3", fontWeight: "700" }}>The Work of the Future Is Here</h3>
-                <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.55", color: "#D3D9DB", flexGrow: "1" }}>[Excerpt from CMS]</p>
-                <p style={{ margin: "0", fontSize: "14px", color: "#C1C3C2" }}>[Date] · [Read time]</p>
+                <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.55", color: "#D3D9DB", flexGrow: "1" }}>AI is changing what roles exist, how teams are structured and which skills matter. Here is what that means for workforce planning in APAC.</p>
+                <p style={{ margin: "0", fontSize: "14px", color: "#C1C3C2" }}>28 October 2026 · 5 min read</p>
               </div>
             </Link>
             <Link
@@ -509,8 +509,8 @@ export function Desktop() {
                 <h3 style={{ margin: "0", fontSize: "22px", lineHeight: "1.3", fontWeight: "700" }}>
                   The AI-Powered World Is Reshaping Talent
                 </h3>
-                <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.55", color: "#D3D9DB", flexGrow: "1" }}>[Excerpt from CMS]</p>
-                <p style={{ margin: "0", fontSize: "14px", color: "#C1C3C2" }}>[Date] · [Read time]</p>
+                <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.55", color: "#D3D9DB", flexGrow: "1" }}>Every industry is becoming an AI industry. We look at how demand for AI, ML and data talent is changing hiring across Singapore and the region.</p>
+                <p style={{ margin: "0", fontSize: "14px", color: "#C1C3C2" }}>15 October 2026 · 8 min read</p>
               </div>
             </Link>
             <Link
@@ -562,8 +562,8 @@ export function Desktop() {
                 <h3 style={{ margin: "0", fontSize: "22px", lineHeight: "1.3", fontWeight: "700" }}>
                   Building High-Performance AI, Data and Technology Teams
                 </h3>
-                <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.55", color: "#D3D9DB", flexGrow: "1" }}>[Excerpt from CMS]</p>
-                <p style={{ margin: "0", fontSize: "14px", color: "#C1C3C2" }}>[Date] · [Read time]</p>
+                <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.55", color: "#D3D9DB", flexGrow: "1" }}>The roles, structures and hiring sequence that help AI and data teams deliver, from first hires to a scalable function.</p>
+                <p style={{ margin: "0", fontSize: "14px", color: "#C1C3C2" }}>30 September 2026 · 6 min read</p>
               </div>
             </Link>
             <a
@@ -610,11 +610,11 @@ export function Desktop() {
                   }}
                   className="ax-tint"
                 >
-                  [Category]
+                  Data & Analytics
                 </span>
-                <h3 style={{ margin: "0", fontSize: "22px", lineHeight: "1.3", fontWeight: "700" }}>[Article title from CMS]</h3>
-                <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.55", color: "#D3D9DB", flexGrow: "1" }}>[Excerpt from CMS]</p>
-                <p style={{ margin: "0", fontSize: "14px", color: "#C1C3C2" }}>[Date] · [Read time]</p>
+                <h3 style={{ margin: "0", fontSize: "22px", lineHeight: "1.3", fontWeight: "700" }}>Why Data Engineering Decides Whether Your AI Roadmap Ships</h3>
+                <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.55", color: "#D3D9DB", flexGrow: "1" }}>Models are only as good as the pipelines behind them. Why data engineers are the hires that decide whether AI roadmaps ship.</p>
+                <p style={{ margin: "0", fontSize: "14px", color: "#C1C3C2" }}>16 September 2026 · 6 min read</p>
               </div>
             </a>
             <a
@@ -661,11 +661,11 @@ export function Desktop() {
                   }}
                   className="ax-tint"
                 >
-                  [Category]
+                  DeepTech
                 </span>
-                <h3 style={{ margin: "0", fontSize: "22px", lineHeight: "1.3", fontWeight: "700" }}>[Article title from CMS]</h3>
-                <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.55", color: "#D3D9DB", flexGrow: "1" }}>[Excerpt from CMS]</p>
-                <p style={{ margin: "0", fontSize: "14px", color: "#C1C3C2" }}>[Date] · [Read time]</p>
+                <h3 style={{ margin: "0", fontSize: "22px", lineHeight: "1.3", fontWeight: "700" }}>Hiring for DeepTech: Where Hardware Meets Machine Learning</h3>
+                <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.55", color: "#D3D9DB", flexGrow: "1" }}>Robotics, edge AI and semiconductor teams need engineers who work across hardware and software. How to find and keep them.</p>
+                <p style={{ margin: "0", fontSize: "14px", color: "#C1C3C2" }}>2 September 2026 · 5 min read</p>
               </div>
             </a>
             <a
@@ -712,11 +712,11 @@ export function Desktop() {
                   }}
                   className="ax-tint"
                 >
-                  [Category]
+                  Market Insights
                 </span>
-                <h3 style={{ margin: "0", fontSize: "22px", lineHeight: "1.3", fontWeight: "700" }}>[Article title from CMS]</h3>
-                <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.55", color: "#D3D9DB", flexGrow: "1" }}>[Excerpt from CMS]</p>
-                <p style={{ margin: "0", fontSize: "14px", color: "#C1C3C2" }}>[Date] · [Read time]</p>
+                <h3 style={{ margin: "0", fontSize: "22px", lineHeight: "1.3", fontWeight: "700" }}>Singapore as Asia's AI Talent Hub: What Employers Need to Know</h3>
+                <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.55", color: "#D3D9DB", flexGrow: "1" }}>Singapore remains the region's hub for AI and data talent. What employers should know about supply, competition and hiring timelines.</p>
+                <p style={{ margin: "0", fontSize: "14px", color: "#C1C3C2" }}>19 August 2026 · 7 min read</p>
               </div>
             </a>
           </div>
@@ -1046,7 +1046,7 @@ export function Mobile() {
             <h2 style={{ margin: "0", fontSize: "24px", lineHeight: "1.2", fontWeight: "700" }}>
               From Transactional Recruitment to Data-Driven Talent Partnerships
             </h2>
-            <p style={{ margin: "0", fontSize: "14px", color: "#C1C3C2" }}>[Date] · [Read time]</p>
+            <p style={{ margin: "0", fontSize: "14px", color: "#C1C3C2" }}>12 November 2026 · 7 min read</p>
           </div>
         </Link>
       </section>
@@ -1235,8 +1235,8 @@ export function Mobile() {
               Future of Work
             </span>
             <h3 style={{ margin: "0", fontSize: "20px", lineHeight: "1.3", fontWeight: "700" }}>The Work of the Future Is Here</h3>
-            <p style={{ margin: "0", fontSize: "15px", lineHeight: "1.5", color: "#D3D9DB" }}>[Excerpt from CMS]</p>
-            <p style={{ margin: "0", fontSize: "13px", color: "#C1C3C2" }}>[Date] · [Read time]</p>
+            <p style={{ margin: "0", fontSize: "15px", lineHeight: "1.5", color: "#D3D9DB" }}>AI is changing what roles exist, how teams are structured and which skills matter. Here is what that means for workforce planning in APAC.</p>
+            <p style={{ margin: "0", fontSize: "13px", color: "#C1C3C2" }}>28 October 2026 · 5 min read</p>
           </div>
         </Link>
         <Link
@@ -1277,8 +1277,8 @@ export function Mobile() {
             <h3 style={{ margin: "0", fontSize: "20px", lineHeight: "1.3", fontWeight: "700" }}>
               The AI-Powered World Is Reshaping Talent
             </h3>
-            <p style={{ margin: "0", fontSize: "15px", lineHeight: "1.5", color: "#D3D9DB" }}>[Excerpt from CMS]</p>
-            <p style={{ margin: "0", fontSize: "13px", color: "#C1C3C2" }}>[Date] · [Read time]</p>
+            <p style={{ margin: "0", fontSize: "15px", lineHeight: "1.5", color: "#D3D9DB" }}>Every industry is becoming an AI industry. We look at how demand for AI, ML and data talent is changing hiring across Singapore and the region.</p>
+            <p style={{ margin: "0", fontSize: "13px", color: "#C1C3C2" }}>15 October 2026 · 8 min read</p>
           </div>
         </Link>
         <Link
@@ -1320,8 +1320,8 @@ export function Mobile() {
             <h3 style={{ margin: "0", fontSize: "20px", lineHeight: "1.3", fontWeight: "700" }}>
               Building High-Performance AI, Data and Technology Teams
             </h3>
-            <p style={{ margin: "0", fontSize: "15px", lineHeight: "1.5", color: "#D3D9DB" }}>[Excerpt from CMS]</p>
-            <p style={{ margin: "0", fontSize: "13px", color: "#C1C3C2" }}>[Date] · [Read time]</p>
+            <p style={{ margin: "0", fontSize: "15px", lineHeight: "1.5", color: "#D3D9DB" }}>The roles, structures and hiring sequence that help AI and data teams deliver, from first hires to a scalable function.</p>
+            <p style={{ margin: "0", fontSize: "13px", color: "#C1C3C2" }}>30 September 2026 · 6 min read</p>
           </div>
         </Link>
         <a
@@ -1350,8 +1350,8 @@ export function Mobile() {
             }}
           />
           <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
-            <h3 style={{ margin: "0", fontSize: "16px", lineHeight: "1.35", fontWeight: "700" }}>[Article title from CMS]</h3>
-            <p style={{ margin: "0", fontSize: "13px", color: "#C1C3C2" }}>[Category] · [Date]</p>
+            <h3 style={{ margin: "0", fontSize: "16px", lineHeight: "1.35", fontWeight: "700" }}>Why Data Engineering Decides Whether Your AI Roadmap Ships</h3>
+            <p style={{ margin: "0", fontSize: "13px", color: "#C1C3C2" }}>Data & Analytics · 16 September 2026</p>
           </div>
         </a>
         <nav aria-label="Pagination" style={{ display: "flex", justifyContent: "center", gap: "8px", marginTop: "12px" }}>

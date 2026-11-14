@@ -932,24 +932,21 @@ export function Desktop() {
             <div
               style={{
                 display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
+                flexDirection: "column",
+                gap: "14px",
                 minHeight: "120px",
-                padding: "20px",
-                border: "1.5px dashed #60554F",
+                padding: "24px",
                 borderRadius: "14px",
                 background: "#262423",
-                fontSize: "12px",
-                fontWeight: "700",
-                letterSpacing: "0.06em",
-                color: "#C1C3C2",
-                textAlign: "center",
-                lineHeight: "1.5",
               }}
             >
-              AI CASE STUDY · CLIENT TO PROVIDE
-              <br />
-              (IF AN AI ASSIGNMENT CAN BE FEATURED)
+              <img src="/assets/logos/velodb.svg" alt="VeloDB" style={{ height: "28px", width: "auto", alignSelf: "flex-start" }} />
+              <span style={{ fontSize: "12px", fontWeight: "700", letterSpacing: "0.06em", textTransform: "uppercase", color: "#DFE21B" }}>
+                Exclusive Search Partnership · Data
+              </span>
+              <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.6", color: "#D3D9DB" }}>
+                Specialist search for a real-time analytics database company built on Apache Doris. Candidates need depth in distributed systems and the data infrastructure that AI and analytics workloads run on, so an exclusive, focused process suited the brief.
+              </p>
             </div>
             <Link
               className="alink"
@@ -1019,14 +1016,15 @@ export function Desktop() {
                 gap: "12px",
                 padding: "22px",
                 borderRadius: "14px",
-                border: "1.5px dashed #60554F",
+                border: "1.5px solid #DFE21B",
+                background: "#383533",
               }}
             >
-              <span style={{ fontSize: "12px", fontWeight: "700", letterSpacing: "0.06em", color: "#C1C3C2" }}>
-                RECOMMENDED MODEL · TO CONFIRM
+              <span style={{ fontSize: "12px", fontWeight: "700", letterSpacing: "0.06em", color: "#DFE21B" }}>
+                RECOMMENDED MODEL
               </span>
-              <span style={{ fontSize: "22px", fontWeight: "700" }}>[Engagement model]</span>
-              <span style={{ fontSize: "16px", color: "#C1C3C2" }}>[% of TAC] · [fee structure]</span>
+              <span style={{ fontSize: "22px", fontWeight: "700" }}>Exclusive Search Partnership</span>
+              <span style={{ fontSize: "16px", color: "#C1C3C2" }}>18% of TAC · success fee on placement only</span>
             </div>
             <ul
               style={{
@@ -1261,8 +1259,8 @@ export function Desktop() {
                 >
                   Artificial Intelligence
                 </span>
-                <h3 style={{ margin: "0", fontSize: "21px", lineHeight: "1.3", fontWeight: "700" }}>[Article title, pulled from CMS]</h3>
-                <p style={{ margin: "0", fontSize: "14px", color: "#C1C3C2" }}>[Date] · [Read time]</p>
+                <h3 style={{ margin: "0", fontSize: "21px", lineHeight: "1.3", fontWeight: "700" }}>The AI-Powered World Is Reshaping Talent</h3>
+                <p style={{ margin: "0", fontSize: "14px", color: "#C1C3C2" }}>15 October 2026 · 8 min read</p>
               </div>
             </a>
             <a
@@ -1310,8 +1308,8 @@ export function Desktop() {
                 >
                   Artificial Intelligence
                 </span>
-                <h3 style={{ margin: "0", fontSize: "21px", lineHeight: "1.3", fontWeight: "700" }}>[Article title, pulled from CMS]</h3>
-                <p style={{ margin: "0", fontSize: "14px", color: "#C1C3C2" }}>[Date] · [Read time]</p>
+                <h3 style={{ margin: "0", fontSize: "21px", lineHeight: "1.3", fontWeight: "700" }}>Why Data Engineering Decides Whether Your AI Roadmap Ships</h3>
+                <p style={{ margin: "0", fontSize: "14px", color: "#C1C3C2" }}>16 September 2026 · 6 min read</p>
               </div>
             </a>
             <a
@@ -1359,8 +1357,8 @@ export function Desktop() {
                 >
                   Artificial Intelligence
                 </span>
-                <h3 style={{ margin: "0", fontSize: "21px", lineHeight: "1.3", fontWeight: "700" }}>[Article title, pulled from CMS]</h3>
-                <p style={{ margin: "0", fontSize: "14px", color: "#C1C3C2" }}>[Date] · [Read time]</p>
+                <h3 style={{ margin: "0", fontSize: "21px", lineHeight: "1.3", fontWeight: "700" }}>Hiring for DeepTech: Where Hardware Meets Machine Learning</h3>
+                <p style={{ margin: "0", fontSize: "14px", color: "#C1C3C2" }}>2 September 2026 · 5 min read</p>
               </div>
             </a>
           </div>
@@ -1512,21 +1510,10 @@ export function Desktop() {
                 </button>
               </h3>
               <div className="faq-a" hidden>
-                <div style={{ padding: "0 12px 24px" }}>
-                  <span
-                    style={{
-                      display: "inline-block",
-                      padding: "3px 8px",
-                      border: "1.5px dashed #60554F",
-                      borderRadius: "6px",
-                      fontSize: "12px",
-                      fontWeight: "700",
-                      letterSpacing: "0.04em",
-                      color: "#C1C3C2",
-                    }}
-                  >
-                    CLIENT TO PROVIDE: MARKETS SERVED
-                  </span>
+                <div style={{ padding: "0 12px 24px", fontSize: "17px", lineHeight: "1.6", color: "#D3D9DB" }}>
+                  <p style={{ margin: "0" }}>
+                    We are based in Singapore and hire AI talent across APAC, including Singapore, Australia and the wider Southeast Asia region. We also support companies headquartered elsewhere, including the US, that are building AI teams in or for the region. If a search spans several markets, we map each one before we agree the brief.
+                  </p>
                 </div>
               </div>
             </div>
@@ -1583,21 +1570,7 @@ export function Desktop() {
                     color: "#D3D9DB",
                   }}
                 >
-                  <p style={{ margin: "0" }}>You receive a shortlist of up to six candidates. [Shortlist timing]</p>
-                  <span
-                    style={{
-                      alignSelf: "flex-start",
-                      padding: "3px 8px",
-                      border: "1.5px dashed #60554F",
-                      borderRadius: "6px",
-                      fontSize: "12px",
-                      fontWeight: "700",
-                      letterSpacing: "0.04em",
-                      color: "#C1C3C2",
-                    }}
-                  >
-                    TO CONFIRM: 3 TO 5 DAY TARGET
-                  </span>
+                  <p style={{ margin: "0" }}>You receive a precision shortlist of 3 to 5 high-quality candidates per role. For most AI roles, our target is to present that shortlist within 3 to 5 working days of the brief being confirmed; highly specialised or senior searches can take longer, and we will tell you upfront.</p>
                 </div>
               </div>
             </div>
@@ -2337,24 +2310,21 @@ export function Mobile() {
             <div
               style={{
                 display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
+                flexDirection: "column",
+                gap: "14px",
                 minHeight: "96px",
-                padding: "16px",
-                border: "1.5px dashed #60554F",
+                padding: "18px",
                 borderRadius: "12px",
                 background: "#262423",
-                fontSize: "11px",
-                fontWeight: "700",
-                letterSpacing: "0.05em",
-                color: "#C1C3C2",
-                textAlign: "center",
-                lineHeight: "1.5",
               }}
             >
-              AI CASE STUDY · CLIENT TO PROVIDE
-              <br />
-              (IF AN AI ASSIGNMENT CAN BE FEATURED)
+              <img src="/assets/logos/velodb.svg" alt="VeloDB" style={{ height: "24px", width: "auto", alignSelf: "flex-start" }} />
+              <span style={{ fontSize: "11px", fontWeight: "700", letterSpacing: "0.06em", textTransform: "uppercase", color: "#DFE21B" }}>
+                Exclusive Search Partnership · Data
+              </span>
+              <p style={{ margin: "0", fontSize: "15px", lineHeight: "1.6", color: "#D3D9DB" }}>
+                Specialist search for a real-time analytics database company built on Apache Doris. Candidates need depth in distributed systems and the data infrastructure that AI and analytics workloads run on, so an exclusive, focused process suited the brief.
+              </p>
             </div>
             <Link
               to="/case-studies"
@@ -2402,14 +2372,15 @@ export function Mobile() {
                 gap: "8px",
                 padding: "18px",
                 borderRadius: "12px",
-                border: "1.5px dashed #60554F",
+                border: "1.5px solid #DFE21B",
+                background: "#383533",
               }}
             >
-              <span style={{ fontSize: "11px", fontWeight: "700", letterSpacing: "0.06em", color: "#C1C3C2" }}>
-                RECOMMENDED MODEL · TO CONFIRM
+              <span style={{ fontSize: "11px", fontWeight: "700", letterSpacing: "0.06em", color: "#DFE21B" }}>
+                RECOMMENDED MODEL
               </span>
-              <span style={{ fontSize: "19px", fontWeight: "700" }}>[Engagement model]</span>
-              <span style={{ fontSize: "15px", color: "#C1C3C2" }}>[% of TAC] · [fee structure]</span>
+              <span style={{ fontSize: "19px", fontWeight: "700" }}>Exclusive Search Partnership</span>
+              <span style={{ fontSize: "15px", color: "#C1C3C2" }}>18% of TAC · success fee on placement only</span>
             </div>
             <Link
               to="/talent-as-a-service"
@@ -2499,8 +2470,8 @@ export function Mobile() {
               >
                 Artificial Intelligence
               </span>
-              <h3 style={{ margin: "0", fontSize: "19px", lineHeight: "1.3", fontWeight: "700" }}>[Article title, pulled from CMS]</h3>
-              <p style={{ margin: "0", fontSize: "14px", color: "#C1C3C2" }}>[Date] · [Read time]</p>
+              <h3 style={{ margin: "0", fontSize: "19px", lineHeight: "1.3", fontWeight: "700" }}>The AI-Powered World Is Reshaping Talent</h3>
+              <p style={{ margin: "0", fontSize: "14px", color: "#C1C3C2" }}>15 October 2026 · 8 min read</p>
             </div>
           </a>
           <a
@@ -2529,8 +2500,8 @@ export function Mobile() {
               }}
             />
             <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
-              <h3 style={{ margin: "0", fontSize: "16px", lineHeight: "1.35", fontWeight: "700" }}>[Article title, pulled from CMS]</h3>
-              <p style={{ margin: "0", fontSize: "13px", color: "#C1C3C2" }}>Artificial Intelligence · [Date]</p>
+              <h3 style={{ margin: "0", fontSize: "16px", lineHeight: "1.35", fontWeight: "700" }}>Why Data Engineering Decides Whether Your AI Roadmap Ships</h3>
+              <p style={{ margin: "0", fontSize: "13px", color: "#C1C3C2" }}>Artificial Intelligence · 16 September 2026</p>
             </div>
           </a>
           <a
@@ -2559,8 +2530,8 @@ export function Mobile() {
               }}
             />
             <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
-              <h3 style={{ margin: "0", fontSize: "16px", lineHeight: "1.35", fontWeight: "700" }}>[Article title, pulled from CMS]</h3>
-              <p style={{ margin: "0", fontSize: "13px", color: "#C1C3C2" }}>Artificial Intelligence · [Date]</p>
+              <h3 style={{ margin: "0", fontSize: "16px", lineHeight: "1.35", fontWeight: "700" }}>Hiring for DeepTech: Where Hardware Meets Machine Learning</h3>
+              <p style={{ margin: "0", fontSize: "13px", color: "#C1C3C2" }}>Artificial Intelligence · 2 September 2026</p>
             </div>
           </a>
         </div>
@@ -2674,21 +2645,9 @@ export function Mobile() {
                   </svg>
                 </button>
               </h3>
-              <div hidden style={{ padding: "0 12px 24px" }}>
-                <span
-                  style={{
-                    display: "inline-block",
-                    padding: "3px 8px",
-                    border: "1.5px dashed #60554F",
-                    borderRadius: "6px",
-                    fontSize: "12px",
-                    fontWeight: "700",
-                    color: "#C1C3C2",
-                  }}
-                >
-                  ANSWER: CLIENT TO PROVIDE
-                </span>
-              </div>
+              <p hidden style={{ margin: "0", padding: "0 0 20px", fontSize: "16px", lineHeight: "1.6", color: "#D3D9DB" }}>
+                We are based in Singapore and hire AI talent across APAC, including Singapore, Australia and the wider Southeast Asia region. We also support companies headquartered elsewhere, including the US, that are building AI teams in or for the region. If a search spans several markets, we map each one before we agree the brief.
+              </p>
             </div>
             <div style={{ borderBottom: "1px solid #3A3736" }}>
               <h3 style={{ margin: "0" }}>
@@ -2729,21 +2688,9 @@ export function Mobile() {
                   </svg>
                 </button>
               </h3>
-              <div hidden style={{ padding: "0 12px 24px" }}>
-                <span
-                  style={{
-                    display: "inline-block",
-                    padding: "3px 8px",
-                    border: "1.5px dashed #60554F",
-                    borderRadius: "6px",
-                    fontSize: "12px",
-                    fontWeight: "700",
-                    color: "#C1C3C2",
-                  }}
-                >
-                  ANSWER: CLIENT TO PROVIDE
-                </span>
-              </div>
+              <p hidden style={{ margin: "0", padding: "0 0 20px", fontSize: "16px", lineHeight: "1.6", color: "#D3D9DB" }}>
+                You receive a precision shortlist of 3 to 5 high-quality candidates per role. For most AI roles, our target is to present that shortlist within 3 to 5 working days of the brief being confirmed; highly specialised or senior searches can take longer, and we will tell you upfront.
+              </p>
             </div>
           </div>
         </div>

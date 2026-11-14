@@ -38,7 +38,7 @@ export function Desktop() {
             id="jd-h1"
             style={{ margin: "0", fontSize: "clamp(40px, 4.6vw, 64px)", lineHeight: "1.05", letterSpacing: "-0.03em", fontWeight: "700" }}
           >
-            [Job title]
+            Senior Machine Learning Engineer
           </h1>
           <ul
             aria-label="Role details"
@@ -83,7 +83,7 @@ export function Desktop() {
                 <path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z" />
                 <circle cx="12" cy="10" r="2.5" />
               </svg>
-              [Location]
+              Singapore
             </li>
             <li
               style={{
@@ -95,22 +95,9 @@ export function Desktop() {
                 fontWeight: "700",
               }}
             >
-              [Employment type]
+              Permanent, full-time
             </li>
-            <li
-              style={{
-                padding: "8px 14px",
-                borderRadius: "999px",
-                background: "#201F1E",
-                border: "1.5px dashed #60554F",
-                fontSize: "14px",
-                fontWeight: "700",
-                color: "#D3D9DB",
-              }}
-            >
-              [Salary range · optional]
-            </li>
-            <li style={{ padding: "8px 14px", fontSize: "14px", color: "#C1C3C2" }}>Posted [date]</li>
+            <li style={{ padding: "8px 14px", fontSize: "14px", color: "#C1C3C2" }}>Posted 10 Nov 2026</li>
           </ul>
         </div>
       </section>
@@ -141,7 +128,7 @@ export function Desktop() {
           >
             <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
               <h2 style={{ margin: "0", fontSize: "28px", lineHeight: "1.2", color: "#FFFFFF", fontWeight: "700" }}>About the role</h2>
-              <p style={{ margin: "0" }}>[Role overview from CMS]</p>
+              <p style={{ margin: "0" }}>Our client is scaling its AI team in Singapore and is looking for a Senior Machine Learning Engineer to take models from prototype to production. You will own the end-to-end lifecycle of ML systems that sit at the heart of the product, working in a small, senior team where your decisions on architecture, tooling and evaluation will shape how AI is built across the company. This is a hands-on role with genuine technical ownership and a clear path to technical leadership as the team grows.</p>
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
               <h2 style={{ margin: "0", fontSize: "28px", lineHeight: "1.2", color: "#FFFFFF", fontWeight: "700" }}>Responsibilities</h2>
@@ -159,7 +146,7 @@ export function Desktop() {
                       color: "#201F1E",
                     }}
                   />
-                  [Responsibility from CMS]
+                  Design, train and deploy machine learning models that power core product features, from experimentation through to production.
                 </li>
                 <li style={{ display: "flex", gap: "14px" }}>
                   <span
@@ -174,7 +161,7 @@ export function Desktop() {
                       color: "#201F1E",
                     }}
                   />
-                  [Responsibility from CMS]
+                  Build and maintain reliable ML pipelines for data preparation, training, evaluation and monitoring, working closely with data engineering.
                 </li>
                 <li style={{ display: "flex", gap: "14px" }}>
                   <span
@@ -189,7 +176,52 @@ export function Desktop() {
                       color: "#201F1E",
                     }}
                   />
-                  [Responsibility from CMS]
+                  Take ownership of model serving and inference performance, balancing accuracy, latency and cost in a cloud environment.
+                </li>
+                <li style={{ display: "flex", gap: "14px" }}>
+                  <span
+                    aria-hidden="true"
+                    style={{
+                      width: "8px",
+                      height: "8px",
+                      marginTop: "11px",
+                      flexShrink: "0",
+                      background: "#DFE21B",
+                      transform: "skewX(-20deg)",
+                      color: "#201F1E",
+                    }}
+                  />
+                  Integrate large language models and retrieval-based approaches into products where they add real value, with sound evaluation and guardrails.
+                </li>
+                <li style={{ display: "flex", gap: "14px" }}>
+                  <span
+                    aria-hidden="true"
+                    style={{
+                      width: "8px",
+                      height: "8px",
+                      marginTop: "11px",
+                      flexShrink: "0",
+                      background: "#DFE21B",
+                      transform: "skewX(-20deg)",
+                      color: "#201F1E",
+                    }}
+                  />
+                  Partner with product managers and engineers to turn business problems into well-scoped ML solutions and clear success metrics.
+                </li>
+                <li style={{ display: "flex", gap: "14px" }}>
+                  <span
+                    aria-hidden="true"
+                    style={{
+                      width: "8px",
+                      height: "8px",
+                      marginTop: "11px",
+                      flexShrink: "0",
+                      background: "#DFE21B",
+                      transform: "skewX(-20deg)",
+                      color: "#201F1E",
+                    }}
+                  />
+                  Mentor other engineers, review code and help set engineering standards for the wider AI team.
                 </li>
               </ul>
             </div>
@@ -209,7 +241,7 @@ export function Desktop() {
                       color: "#201F1E",
                     }}
                   />
-                  [Requirement from CMS]
+                  5+ years of experience in machine learning or software engineering, including at least 3 years shipping ML models to production.
                 </li>
                 <li style={{ display: "flex", gap: "14px" }}>
                   <span
@@ -224,7 +256,7 @@ export function Desktop() {
                       color: "#201F1E",
                     }}
                   />
-                  [Requirement from CMS]
+                  Strong Python skills and hands-on experience with PyTorch or TensorFlow, plus solid software engineering practices (testing, CI/CD, code review).
                 </li>
                 <li style={{ display: "flex", gap: "14px" }}>
                   <span
@@ -239,7 +271,52 @@ export function Desktop() {
                       color: "#201F1E",
                     }}
                   />
-                  [Requirement from CMS]
+                  Experience with MLOps tooling and cloud platforms such as AWS, GCP or Azure, including containerisation with Docker and Kubernetes.
+                </li>
+                <li style={{ display: "flex", gap: "14px" }}>
+                  <span
+                    aria-hidden="true"
+                    style={{
+                      width: "8px",
+                      height: "8px",
+                      marginTop: "11px",
+                      flexShrink: "0",
+                      background: "#DFE21B",
+                      transform: "skewX(-20deg)",
+                      color: "#201F1E",
+                    }}
+                  />
+                  A good understanding of data pipelines, feature engineering and model evaluation, and the judgement to know when a simpler approach is better.
+                </li>
+                <li style={{ display: "flex", gap: "14px" }}>
+                  <span
+                    aria-hidden="true"
+                    style={{
+                      width: "8px",
+                      height: "8px",
+                      marginTop: "11px",
+                      flexShrink: "0",
+                      background: "#DFE21B",
+                      transform: "skewX(-20deg)",
+                      color: "#201F1E",
+                    }}
+                  />
+                  Exposure to LLMs, retrieval-augmented generation or vector search is a strong advantage.
+                </li>
+                <li style={{ display: "flex", gap: "14px" }}>
+                  <span
+                    aria-hidden="true"
+                    style={{
+                      width: "8px",
+                      height: "8px",
+                      marginTop: "11px",
+                      flexShrink: "0",
+                      background: "#DFE21B",
+                      transform: "skewX(-20deg)",
+                      color: "#201F1E",
+                    }}
+                  />
+                  Clear communication skills and the ability to explain technical trade-offs to non-technical stakeholders. Must have the right to work in Singapore or be eligible for an Employment Pass.
                 </li>
               </ul>
             </div>
@@ -254,7 +331,7 @@ export function Desktop() {
               }}
             >
               <h2 style={{ margin: "0", fontSize: "24px", lineHeight: "1.2", color: "#FFFFFF", fontWeight: "700" }}>About the client</h2>
-              <p style={{ margin: "0" }}>[Client overview from CMS, anonymised if needed]</p>
+              <p style={{ margin: "0" }}>A well-funded, Singapore-headquartered technology company building AI-driven products for enterprise customers across Asia-Pacific. The business has a strong engineering culture, a modern data platform and leadership that sees AI as central to its growth. The client's name will be shared with shortlisted candidates once you have spoken with a CTT consultant.</p>
             </div>
           </div>
           {/* Apply form (job application component) */}
@@ -573,7 +650,7 @@ export function Mobile() {
             Open roles
           </Link>
           <h1 id="mjd-h1" style={{ margin: "0", fontSize: "36px", lineHeight: "1.08", letterSpacing: "-0.03em", fontWeight: "700" }}>
-            [Job title]
+            Senior Machine Learning Engineer
           </h1>
           <ul
             aria-label="Role details"
@@ -601,7 +678,7 @@ export function Mobile() {
                 fontWeight: "700",
               }}
             >
-              [Location]
+              Singapore
             </li>
             <li
               style={{
@@ -613,22 +690,10 @@ export function Mobile() {
                 fontWeight: "700",
               }}
             >
-              [Employment type]
-            </li>
-            <li
-              style={{
-                padding: "6px 12px",
-                borderRadius: "999px",
-                border: "1.5px dashed #60554F",
-                fontSize: "13px",
-                fontWeight: "700",
-                color: "#D3D9DB",
-              }}
-            >
-              [Salary · optional]
+              Permanent, full-time
             </li>
           </ul>
-          <p style={{ margin: "0", fontSize: "13px", color: "#C1C3C2" }}>Posted [date]</p>
+          <p style={{ margin: "0", fontSize: "13px", color: "#C1C3C2" }}>Posted 10 Nov 2026</p>
           <a
             href="#m-apply"
             style={{
@@ -662,7 +727,7 @@ export function Mobile() {
       >
         <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
           <h2 style={{ margin: "0", fontSize: "24px", color: "#FFFFFF", fontWeight: "700" }}>About the role</h2>
-          <p style={{ margin: "0" }}>[Role overview from CMS]</p>
+          <p style={{ margin: "0" }}>Our client is scaling its AI team in Singapore and is looking for a Senior Machine Learning Engineer to take models from prototype to production. You will own the end-to-end lifecycle of ML systems that sit at the heart of the product, working in a small, senior team where your decisions on architecture, tooling and evaluation will shape how AI is built across the company. This is a hands-on role with genuine technical ownership and a clear path to technical leadership as the team grows.</p>
         </div>
         <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
           <h2 style={{ margin: "0", fontSize: "24px", color: "#FFFFFF", fontWeight: "700" }}>Responsibilities</h2>
@@ -680,7 +745,7 @@ export function Mobile() {
                   color: "#201F1E",
                 }}
               />
-              [Responsibility from CMS]
+              Design, train and deploy machine learning models that power core product features, from experimentation through to production.
             </li>
             <li style={{ display: "flex", gap: "12px" }}>
               <span
@@ -695,7 +760,67 @@ export function Mobile() {
                   color: "#201F1E",
                 }}
               />
-              [Responsibility from CMS]
+              Build and maintain reliable ML pipelines for data preparation, training, evaluation and monitoring, working closely with data engineering.
+            </li>
+            <li style={{ display: "flex", gap: "12px" }}>
+              <span
+                aria-hidden="true"
+                style={{
+                  width: "7px",
+                  height: "7px",
+                  marginTop: "10px",
+                  flexShrink: "0",
+                  background: "#DFE21B",
+                  transform: "skewX(-20deg)",
+                  color: "#201F1E",
+                }}
+              />
+              Take ownership of model serving and inference performance, balancing accuracy, latency and cost in a cloud environment.
+            </li>
+            <li style={{ display: "flex", gap: "12px" }}>
+              <span
+                aria-hidden="true"
+                style={{
+                  width: "7px",
+                  height: "7px",
+                  marginTop: "10px",
+                  flexShrink: "0",
+                  background: "#DFE21B",
+                  transform: "skewX(-20deg)",
+                  color: "#201F1E",
+                }}
+              />
+              Integrate large language models and retrieval-based approaches into products where they add real value, with sound evaluation and guardrails.
+            </li>
+            <li style={{ display: "flex", gap: "12px" }}>
+              <span
+                aria-hidden="true"
+                style={{
+                  width: "7px",
+                  height: "7px",
+                  marginTop: "10px",
+                  flexShrink: "0",
+                  background: "#DFE21B",
+                  transform: "skewX(-20deg)",
+                  color: "#201F1E",
+                }}
+              />
+              Partner with product managers and engineers to turn business problems into well-scoped ML solutions and clear success metrics.
+            </li>
+            <li style={{ display: "flex", gap: "12px" }}>
+              <span
+                aria-hidden="true"
+                style={{
+                  width: "7px",
+                  height: "7px",
+                  marginTop: "10px",
+                  flexShrink: "0",
+                  background: "#DFE21B",
+                  transform: "skewX(-20deg)",
+                  color: "#201F1E",
+                }}
+              />
+              Mentor other engineers, review code and help set engineering standards for the wider AI team.
             </li>
           </ul>
         </div>
@@ -715,7 +840,7 @@ export function Mobile() {
                   color: "#201F1E",
                 }}
               />
-              [Requirement from CMS]
+              5+ years of experience in machine learning or software engineering, including at least 3 years shipping ML models to production.
             </li>
             <li style={{ display: "flex", gap: "12px" }}>
               <span
@@ -730,7 +855,67 @@ export function Mobile() {
                   color: "#201F1E",
                 }}
               />
-              [Requirement from CMS]
+              Strong Python skills and hands-on experience with PyTorch or TensorFlow, plus solid software engineering practices (testing, CI/CD, code review).
+            </li>
+            <li style={{ display: "flex", gap: "12px" }}>
+              <span
+                aria-hidden="true"
+                style={{
+                  width: "7px",
+                  height: "7px",
+                  marginTop: "10px",
+                  flexShrink: "0",
+                  background: "#DFE21B",
+                  transform: "skewX(-20deg)",
+                  color: "#201F1E",
+                }}
+              />
+              Experience with MLOps tooling and cloud platforms such as AWS, GCP or Azure, including containerisation with Docker and Kubernetes.
+            </li>
+            <li style={{ display: "flex", gap: "12px" }}>
+              <span
+                aria-hidden="true"
+                style={{
+                  width: "7px",
+                  height: "7px",
+                  marginTop: "10px",
+                  flexShrink: "0",
+                  background: "#DFE21B",
+                  transform: "skewX(-20deg)",
+                  color: "#201F1E",
+                }}
+              />
+              A good understanding of data pipelines, feature engineering and model evaluation, and the judgement to know when a simpler approach is better.
+            </li>
+            <li style={{ display: "flex", gap: "12px" }}>
+              <span
+                aria-hidden="true"
+                style={{
+                  width: "7px",
+                  height: "7px",
+                  marginTop: "10px",
+                  flexShrink: "0",
+                  background: "#DFE21B",
+                  transform: "skewX(-20deg)",
+                  color: "#201F1E",
+                }}
+              />
+              Exposure to LLMs, retrieval-augmented generation or vector search is a strong advantage.
+            </li>
+            <li style={{ display: "flex", gap: "12px" }}>
+              <span
+                aria-hidden="true"
+                style={{
+                  width: "7px",
+                  height: "7px",
+                  marginTop: "10px",
+                  flexShrink: "0",
+                  background: "#DFE21B",
+                  transform: "skewX(-20deg)",
+                  color: "#201F1E",
+                }}
+              />
+              Clear communication skills and the ability to explain technical trade-offs to non-technical stakeholders. Must have the right to work in Singapore or be eligible for an Employment Pass.
             </li>
           </ul>
         </div>
@@ -738,7 +923,7 @@ export function Mobile() {
           style={{ display: "flex", flexDirection: "column", gap: "10px", padding: "20px", borderRadius: "16px", background: "#262423" }}
         >
           <h2 style={{ margin: "0", fontSize: "20px", color: "#FFFFFF", fontWeight: "700" }}>About the client</h2>
-          <p style={{ margin: "0" }}>[Client overview, anonymised if needed]</p>
+          <p style={{ margin: "0" }}>A well-funded, Singapore-headquartered technology company building AI-driven products for enterprise customers across Asia-Pacific. The business has a strong engineering culture, a modern data platform and leadership that sees AI as central to its growth. The client's name will be shared with shortlisted candidates once you have spoken with a CTT consultant.</p>
         </div>
       </section>
       <section aria-labelledby="map-h" style={{ padding: "0 12px 48px" }}>

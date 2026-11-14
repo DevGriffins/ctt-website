@@ -267,20 +267,6 @@ export function Desktop() {
                   <span style={{ fontSize: "18px", lineHeight: "1.4", fontWeight: "700" }}>
                     Roles matched to your skills and interests, including ones that are never advertised
                   </span>
-                  <span
-                    style={{
-                      alignSelf: "flex-start",
-                      padding: "2px 7px",
-                      border: "1.5px dashed #60554F",
-                      borderRadius: "6px",
-                      fontSize: "11px",
-                      fontWeight: "700",
-                      letterSpacing: "0.04em",
-                      color: "#C1C3C2",
-                    }}
-                  >
-                    TO CONFIRM
-                  </span>
                 </span>
               </li>
               <li
@@ -740,21 +726,8 @@ export function Desktop() {
               </span>
             </label>
             <div style={{ display: "flex", flexWrap: "wrap", alignItems: "center", justifyContent: "space-between", gap: "16px" }}>
-              <span
-                style={{
-                  display: "inline-flex",
-                  alignItems: "center",
-                  height: "40px",
-                  padding: "0 12px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "8px",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  letterSpacing: "0.05em",
-                  color: "#C1C3C2",
-                }}
-              >
-                SPAM PROTECTION (reCAPTCHA OR SIMILAR)
+              <span style={{ flex: "1 1 260px", fontSize: "14px", lineHeight: "1.5", color: "#C1C3C2" }}>
+                Your details are kept confidential and are never shared with an employer without your consent.
               </span>
               <button
                 className="btn btn-dark"
@@ -1169,19 +1142,6 @@ export function Mobile() {
             <span style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
               <span style={{ fontSize: "16px", lineHeight: "1.4", fontWeight: "700" }}>
                 Roles matched to your skills and interests, including ones that are never advertised
-              </span>
-              <span
-                style={{
-                  alignSelf: "flex-start",
-                  padding: "2px 6px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "6px",
-                  fontSize: "10px",
-                  fontWeight: "700",
-                  color: "#C1C3C2",
-                }}
-              >
-                TO CONFIRM
               </span>
             </span>
           </div>
@@ -1598,18 +1558,8 @@ export function Mobile() {
               </span>
             </span>
           </label>
-          <span
-            style={{
-              alignSelf: "flex-start",
-              padding: "8px 10px",
-              border: "1.5px dashed #60554F",
-              borderRadius: "8px",
-              fontSize: "10px",
-              fontWeight: "700",
-              color: "#C1C3C2",
-            }}
-          >
-            SPAM PROTECTION (reCAPTCHA OR SIMILAR)
+          <span style={{ fontSize: "13px", lineHeight: "1.5", color: "#C1C3C2" }}>
+            Your details are kept confidential and are never shared with an employer without your consent.
           </span>
           <button
             style={{
