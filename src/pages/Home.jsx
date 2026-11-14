@@ -899,9 +899,9 @@ export function Desktop() {
             </div>
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(260px, 100%), 1fr))", gap: "20px" }}>
-            <a
+            <Link
               className="card alink"
-              href="#"
+              to="/specialisms/ai"
               style={{
                 position: "relative",
                 display: "flex",
@@ -965,10 +965,10 @@ export function Desktop() {
                   <path d="M5 12h14M13 6l6 6-6 6" />
                 </svg>
               </span>
-            </a>
-            <a
+            </Link>
+            <Link
               className="card alink"
-              href="#"
+              to="/specialisms/data"
               style={{
                 position: "relative",
                 display: "flex",
@@ -1032,10 +1032,10 @@ export function Desktop() {
                   <path d="M5 12h14M13 6l6 6-6 6" />
                 </svg>
               </span>
-            </a>
-            <a
+            </Link>
+            <Link
               className="card alink"
-              href="#"
+              to="/specialisms/deep-tech"
               style={{
                 position: "relative",
                 display: "flex",
@@ -1100,10 +1100,10 @@ export function Desktop() {
                   <path d="M5 12h14M13 6l6 6-6 6" />
                 </svg>
               </span>
-            </a>
-            <a
+            </Link>
+            <Link
               className="card alink"
-              href="#"
+              to="/specialisms/robotics"
               style={{
                 position: "relative",
                 display: "flex",
@@ -1170,7 +1170,7 @@ export function Desktop() {
                   <path d="M5 12h14M13 6l6 6-6 6" />
                 </svg>
               </span>
-            </a>
+            </Link>
           </div>
         </div>
       </section>
@@ -3188,8 +3188,8 @@ export function Mobile() {
             Four specialisms. One focus.
           </h2>
           <div style={{ display: "flex", flexDirection: "column", gap: "12px", marginTop: "8px" }}>
-            <a
-              href="#"
+            <Link
+              to="/specialisms/ai"
               style={{
                 position: "relative",
                 display: "flex",
@@ -3243,9 +3243,9 @@ export function Mobile() {
               <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.55", color: "#D3D9DB" }}>
                 Chief AI Officers to LLM, ML and MLOps engineers.
               </p>
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              to="/specialisms/data"
               style={{
                 position: "relative",
                 display: "flex",
@@ -3299,9 +3299,9 @@ export function Mobile() {
               <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.55", color: "#D3D9DB" }}>
                 Chief Data Officers to data engineers, scientists and governance leads.
               </p>
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              to="/specialisms/deep-tech"
               style={{
                 position: "relative",
                 display: "flex",
@@ -3356,9 +3356,9 @@ export function Mobile() {
               <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.55", color: "#D3D9DB" }}>
                 Quantum, semiconductors, photonics, space and climate tech.
               </p>
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              to="/specialisms/robotics"
               style={{
                 position: "relative",
                 display: "flex",
@@ -3415,7 +3415,7 @@ export function Mobile() {
               <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.55", color: "#D3D9DB" }}>
                 Robotics, autonomy, controls, embedded and computer vision engineers.
               </p>
-            </a>
+            </Link>
           </div>
         </div>
       </section>

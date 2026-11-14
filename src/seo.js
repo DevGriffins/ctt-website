@@ -20,6 +20,24 @@ export const meta = {
       "Specialist AI recruitment, from Chief AI Officers to LLM, ML and MLOps engineers, for startups and scale-ups across APAC and the US.",
     crumb: "AI Talent",
   },
+  "/specialisms/data": {
+    title: "Data Recruitment: Data Engineering & Analytics | CTT",
+    description:
+      "Specialist data recruitment, from Chief Data Officers to data engineers, scientists, analytics and governance leads, for startups and scale-ups across APAC.",
+    crumb: "Data Talent",
+  },
+  "/specialisms/deep-tech": {
+    title: "Deep Tech Recruitment: Quantum to Climate Tech | CTT",
+    description:
+      "Specialist deep tech recruitment across quantum, semiconductors, photonics, space and climate tech, for startups and scale-ups across APAC and the US.",
+    crumb: "Deep Tech Talent",
+  },
+  "/specialisms/robotics": {
+    title: "Robotics Recruitment: Autonomy & Controls | CTT",
+    description:
+      "Specialist robotics recruitment, from robotics and autonomy engineers to controls, embedded and computer vision specialists, across APAC and the US.",
+    crumb: "Robotics Talent",
+  },
   "/how-we-work": {
     title: "How We Work: AI-Powered, Human-Led Recruitment | CTT",
     description:

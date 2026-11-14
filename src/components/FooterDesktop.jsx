@@ -195,15 +195,15 @@ export default function FooterDesktop() {
               <NavLink to="/specialisms/ai" style={{ color: "#E4E7E8" }}>
                 AI Talent
               </NavLink>
-              <a href="#" style={{ color: "#E4E7E8" }}>
+              <NavLink to="/specialisms/data" style={{ color: "#E4E7E8" }}>
                 Data Talent
-              </a>
-              <a href="#" style={{ color: "#E4E7E8" }}>
+              </NavLink>
+              <NavLink to="/specialisms/deep-tech" style={{ color: "#E4E7E8" }}>
                 Deep Tech Talent
-              </a>
-              <a href="#" style={{ color: "#E4E7E8" }}>
+              </NavLink>
+              <NavLink to="/specialisms/robotics" style={{ color: "#E4E7E8" }}>
                 Robotics Talent
-              </a>
+              </NavLink>
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "14px", fontSize: "15px" }}>
               <span style={{ fontSize: "13px", fontWeight: "700", letterSpacing: "0.08em", textTransform: "uppercase", color: "#DFE21B" }}>

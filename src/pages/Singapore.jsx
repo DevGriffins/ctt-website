@@ -302,9 +302,9 @@ export function Desktop() {
                 </svg>
               </span>
             </Link>
-            <a
+            <Link
               className="card"
-              href="#"
+              to="/specialisms/data"
               style={{
                 display: "flex",
                 flexDirection: "column",
@@ -347,10 +347,10 @@ export function Desktop() {
                   <path d="M5 12h14M13 6l6 6-6 6" />
                 </svg>
               </span>
-            </a>
-            <a
+            </Link>
+            <Link
               className="card"
-              href="#"
+              to="/specialisms/deep-tech"
               style={{
                 display: "flex",
                 flexDirection: "column",
@@ -393,10 +393,10 @@ export function Desktop() {
                   <path d="M5 12h14M13 6l6 6-6 6" />
                 </svg>
               </span>
-            </a>
-            <a
+            </Link>
+            <Link
               className="card"
-              href="#"
+              to="/specialisms/robotics"
               style={{
                 display: "flex",
                 flexDirection: "column",
@@ -439,7 +439,7 @@ export function Desktop() {
                   <path d="M5 12h14M13 6l6 6-6 6" />
                 </svg>
               </span>
-            </a>
+            </Link>
           </div>
         </div>
       </section>
@@ -1002,8 +1002,8 @@ export function Mobile() {
               Engineers who can take models into production for Singapore's AI build-out.
             </p>
           </Link>
-          <a
-            href="#"
+          <Link
+            to="/specialisms/data"
             style={{
               display: "flex",
               flexDirection: "column",
@@ -1038,9 +1038,9 @@ export function Mobile() {
             <p style={{ margin: "0", fontSize: "13px", lineHeight: "1.6", color: "#C1C3C2" }}>
               Data engineers and scientists for banks, platforms and regional HQs.
             </p>
-          </a>
-          <a
-            href="#"
+          </Link>
+          <Link
+            to="/specialisms/deep-tech"
             style={{
               display: "flex",
               flexDirection: "column",
@@ -1075,9 +1075,9 @@ export function Mobile() {
             <p style={{ margin: "0", fontSize: "13px", lineHeight: "1.6", color: "#C1C3C2" }}>
               Semiconductor, photonics and climate tech talent for Singapore's R&D base.
             </p>
-          </a>
-          <a
-            href="#"
+          </Link>
+          <Link
+            to="/specialisms/robotics"
             style={{
               display: "flex",
               flexDirection: "column",
@@ -1112,7 +1112,7 @@ export function Mobile() {
             <p style={{ margin: "0", fontSize: "13px", lineHeight: "1.6", color: "#C1C3C2" }}>
               Robotics, autonomy and vision engineers for AMR and automation companies.
             </p>
-          </a>
+          </Link>
         </div>
       </section>
       <section

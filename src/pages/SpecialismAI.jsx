@@ -181,9 +181,9 @@ export function Desktop() {
               </div>
             </div>
             <nav aria-label="Specialisms" style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
-              <a
+              <Link
                 aria-current="page"
-                href="#"
+                to="/specialisms/ai"
                 style={{
                   display: "flex",
                   alignItems: "center",
@@ -217,10 +217,10 @@ export function Desktop() {
                 >
                   <path d="M5 12l5 5 9-10" />
                 </svg>
-              </a>
-              <a
+              </Link>
+              <Link
                 className="spec-tab"
-                href="#"
+                to="/specialisms/data"
                 style={{
                   display: "flex",
                   alignItems: "center",
@@ -254,10 +254,10 @@ export function Desktop() {
                 >
                   <path d="M5 12h14M13 6l6 6-6 6" />
                 </svg>
-              </a>
-              <a
+              </Link>
+              <Link
                 className="spec-tab"
-                href="#"
+                to="/specialisms/deep-tech"
                 style={{
                   display: "flex",
                   alignItems: "center",
@@ -291,10 +291,10 @@ export function Desktop() {
                 >
                   <path d="M5 12h14M13 6l6 6-6 6" />
                 </svg>
-              </a>
-              <a
+              </Link>
+              <Link
                 className="spec-tab"
-                href="#"
+                to="/specialisms/robotics"
                 style={{
                   display: "flex",
                   alignItems: "center",
@@ -328,7 +328,7 @@ export function Desktop() {
                 >
                   <path d="M5 12h14M13 6l6 6-6 6" />
                 </svg>
-              </a>
+              </Link>
             </nav>
           </div>
         </div>
@@ -1214,9 +1214,9 @@ export function Desktop() {
             </Link>
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(320px, 100%), 1fr))", gap: "24px" }}>
-            <a
+            <Link
               className="card"
-              href="#"
+              to="/insights/article"
               style={{
                 display: "flex",
                 flexDirection: "column",
@@ -1262,10 +1262,10 @@ export function Desktop() {
                 <h3 style={{ margin: "0", fontSize: "21px", lineHeight: "1.3", fontWeight: "700" }}>The AI-Powered World Is Reshaping Talent</h3>
                 <p style={{ margin: "0", fontSize: "14px", color: "#C1C3C2" }}>15 October 2026 · 8 min read</p>
               </div>
-            </a>
-            <a
+            </Link>
+            <Link
               className="card"
-              href="#"
+              to="/insights/article"
               style={{
                 display: "flex",
                 flexDirection: "column",
@@ -1306,15 +1306,15 @@ export function Desktop() {
                     color: "#201F1E",
                   }}
                 >
-                  Artificial Intelligence
+                  Data & Analytics
                 </span>
                 <h3 style={{ margin: "0", fontSize: "21px", lineHeight: "1.3", fontWeight: "700" }}>Why Data Engineering Decides Whether Your AI Roadmap Ships</h3>
                 <p style={{ margin: "0", fontSize: "14px", color: "#C1C3C2" }}>16 September 2026 · 6 min read</p>
               </div>
-            </a>
-            <a
+            </Link>
+            <Link
               className="card"
-              href="#"
+              to="/insights/article"
               style={{
                 display: "flex",
                 flexDirection: "column",
@@ -1355,12 +1355,12 @@ export function Desktop() {
                     color: "#201F1E",
                   }}
                 >
-                  Artificial Intelligence
+                  DeepTech
                 </span>
                 <h3 style={{ margin: "0", fontSize: "21px", lineHeight: "1.3", fontWeight: "700" }}>Hiring for DeepTech: Where Hardware Meets Machine Learning</h3>
                 <p style={{ margin: "0", fontSize: "14px", color: "#C1C3C2" }}>2 September 2026 · 5 min read</p>
               </div>
-            </a>
+            </Link>
           </div>
         </div>
       </section>
@@ -1750,9 +1750,9 @@ export function Mobile() {
             </span>
           </nav>
           <nav aria-label="Specialisms" style={{ display: "flex", gap: "6px", overflowX: "auto", margin: "0 -20px", padding: "0 20px" }}>
-            <a
+            <Link
               aria-current="page"
-              href="#"
+              to="/specialisms/ai"
               style={{
                 flexShrink: "0",
                 display: "inline-flex",
@@ -1769,9 +1769,9 @@ export function Mobile() {
               }}
             >
               AI
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              to="/specialisms/data"
               style={{
                 flexShrink: "0",
                 display: "inline-flex",
@@ -1787,9 +1787,9 @@ export function Mobile() {
               }}
             >
               Data
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              to="/specialisms/deep-tech"
               style={{
                 flexShrink: "0",
                 display: "inline-flex",
@@ -1805,9 +1805,9 @@ export function Mobile() {
               }}
             >
               Deep Tech
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              to="/specialisms/robotics"
               style={{
                 flexShrink: "0",
                 display: "inline-flex",
@@ -1823,7 +1823,7 @@ export function Mobile() {
               }}
             >
               Robotics
-            </a>
+            </Link>
           </nav>
           <p
             style={{
@@ -2427,8 +2427,8 @@ export function Mobile() {
           <h2 id="ma-ins" style={{ margin: "0 0 8px", fontSize: "32px", lineHeight: "1.1", letterSpacing: "-0.025em", fontWeight: "700" }}>
             Related insights
           </h2>
-          <a
-            href="#"
+          <Link
+            to="/insights/article"
             style={{
               display: "flex",
               flexDirection: "column",
@@ -2473,9 +2473,9 @@ export function Mobile() {
               <h3 style={{ margin: "0", fontSize: "19px", lineHeight: "1.3", fontWeight: "700" }}>The AI-Powered World Is Reshaping Talent</h3>
               <p style={{ margin: "0", fontSize: "14px", color: "#C1C3C2" }}>15 October 2026 · 8 min read</p>
             </div>
-          </a>
-          <a
-            href="#"
+          </Link>
+          <Link
+            to="/insights/article"
             style={{
               display: "flex",
               alignItems: "center",
@@ -2501,11 +2501,11 @@ export function Mobile() {
             />
             <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
               <h3 style={{ margin: "0", fontSize: "16px", lineHeight: "1.35", fontWeight: "700" }}>Why Data Engineering Decides Whether Your AI Roadmap Ships</h3>
-              <p style={{ margin: "0", fontSize: "13px", color: "#C1C3C2" }}>Artificial Intelligence · 16 September 2026</p>
+              <p style={{ margin: "0", fontSize: "13px", color: "#C1C3C2" }}>Data & Analytics · 16 September 2026</p>
             </div>
-          </a>
-          <a
-            href="#"
+          </Link>
+          <Link
+            to="/insights/article"
             style={{
               display: "flex",
               alignItems: "center",
@@ -2531,9 +2531,9 @@ export function Mobile() {
             />
             <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
               <h3 style={{ margin: "0", fontSize: "16px", lineHeight: "1.35", fontWeight: "700" }}>Hiring for DeepTech: Where Hardware Meets Machine Learning</h3>
-              <p style={{ margin: "0", fontSize: "13px", color: "#C1C3C2" }}>Artificial Intelligence · 2 September 2026</p>
+              <p style={{ margin: "0", fontSize: "13px", color: "#C1C3C2" }}>DeepTech · 2 September 2026</p>
             </div>
-          </a>
+          </Link>
         </div>
       </section>
       {/* S8 FAQ */}

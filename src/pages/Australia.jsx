@@ -302,9 +302,9 @@ export function Desktop() {
                 </svg>
               </span>
             </Link>
-            <a
+            <Link
               className="card"
-              href="#"
+              to="/specialisms/data"
               style={{
                 display: "flex",
                 flexDirection: "column",
@@ -347,10 +347,10 @@ export function Desktop() {
                   <path d="M5 12h14M13 6l6 6-6 6" />
                 </svg>
               </span>
-            </a>
-            <a
+            </Link>
+            <Link
               className="card"
-              href="#"
+              to="/specialisms/deep-tech"
               style={{
                 display: "flex",
                 flexDirection: "column",
@@ -393,10 +393,10 @@ export function Desktop() {
                   <path d="M5 12h14M13 6l6 6-6 6" />
                 </svg>
               </span>
-            </a>
-            <a
+            </Link>
+            <Link
               className="card"
-              href="#"
+              to="/specialisms/robotics"
               style={{
                 display: "flex",
                 flexDirection: "column",
@@ -439,7 +439,7 @@ export function Desktop() {
                   <path d="M5 12h14M13 6l6 6-6 6" />
                 </svg>
               </span>
-            </a>
+            </Link>
           </div>
         </div>
       </section>
@@ -988,8 +988,8 @@ export function Mobile() {
               For Australian teams scaling AI, from first ML hires to AI leadership.
             </p>
           </Link>
-          <a
-            href="#"
+          <Link
+            to="/specialisms/data"
             style={{
               display: "flex",
               flexDirection: "column",
@@ -1024,9 +1024,9 @@ export function Mobile() {
             <p style={{ margin: "0", fontSize: "13px", lineHeight: "1.6", color: "#C1C3C2" }}>
               Data platform, analytics and governance hires for Australian organisations.
             </p>
-          </a>
-          <a
-            href="#"
+          </Link>
+          <Link
+            to="/specialisms/deep-tech"
             style={{
               display: "flex",
               flexDirection: "column",
@@ -1061,9 +1061,9 @@ export function Mobile() {
             <p style={{ margin: "0", fontSize: "13px", lineHeight: "1.6", color: "#C1C3C2" }}>
               Specialist engineers for Australia's quantum, space and climate tech sectors.
             </p>
-          </a>
-          <a
-            href="#"
+          </Link>
+          <Link
+            to="/specialisms/robotics"
             style={{
               display: "flex",
               flexDirection: "column",
@@ -1098,7 +1098,7 @@ export function Mobile() {
             <p style={{ margin: "0", fontSize: "13px", lineHeight: "1.6", color: "#C1C3C2" }}>
               Robotics and autonomy talent for mining, agriculture and logistics automation.
             </p>
-          </a>
+          </Link>
         </div>
       </section>
       <section

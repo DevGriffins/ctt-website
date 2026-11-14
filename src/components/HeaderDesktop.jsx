@@ -175,18 +175,18 @@ export default function HeaderDesktop({ activeNav }) {
             <strong>AI Talent</strong>
             <span>Chief AI Officers to LLM, ML and MLOps engineers.</span>
           </NavLink>{" "}
-          <a className="dd-item" href="#">
+          <NavLink className="dd-item" to="/specialisms/data">
             <strong>Data Talent</strong>
             <span>Chief Data Officers to data engineers, scientists and governance leads.</span>
-          </a>{" "}
-          <a className="dd-item" href="#">
+          </NavLink>{" "}
+          <NavLink className="dd-item" to="/specialisms/deep-tech">
             <strong>Deep Tech Talent</strong>
             <span>Quantum, semiconductors, photonics, space and climate tech.</span>
-          </a>{" "}
-          <a className="dd-item" href="#">
+          </NavLink>{" "}
+          <NavLink className="dd-item" to="/specialisms/robotics">
             <strong>Robotics Talent</strong>
             <span>Robotics, autonomy, controls, embedded and computer vision engineers.</span>
-          </a>
+          </NavLink>
           <div className="dd-cta">
             <strong>Specialist AI and Data talent requires specialist expertise.</strong>
             <NavLink to="/contact">Book a consultation</NavLink>

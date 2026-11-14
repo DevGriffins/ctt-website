@@ -133,8 +133,8 @@ export default function MobileMenu() {
                 <span aria-hidden="true" style={{ width: "8px", height: "8px", background: "#DFE21B", transform: "skewX(-20deg)" }} />
                 AI
               </NavLink>
-              <a
-                href="#"
+              <NavLink
+                to="/specialisms/data"
                 style={{
                   display: "flex",
                   alignItems: "center",
@@ -150,9 +150,9 @@ export default function MobileMenu() {
               >
                 <span aria-hidden="true" style={{ width: "8px", height: "8px", background: "#DFE21B", transform: "skewX(-20deg)" }} />
                 Data
-              </a>
-              <a
-                href="#"
+              </NavLink>
+              <NavLink
+                to="/specialisms/deep-tech"
                 style={{
                   display: "flex",
                   alignItems: "center",
@@ -168,9 +168,9 @@ export default function MobileMenu() {
               >
                 <span aria-hidden="true" style={{ width: "8px", height: "8px", background: "#DFE21B", transform: "skewX(-20deg)" }} />
                 Deep Tech
-              </a>
-              <a
-                href="#"
+              </NavLink>
+              <NavLink
+                to="/specialisms/robotics"
                 style={{
                   display: "flex",
                   alignItems: "center",
@@ -186,7 +186,7 @@ export default function MobileMenu() {
               >
                 <span aria-hidden="true" style={{ width: "8px", height: "8px", background: "#DFE21B", transform: "skewX(-20deg)" }} />
                 Robotics
-              </a>
+              </NavLink>
             </div>
           </div>
           <NavLink
