@@ -221,23 +221,17 @@ export function Desktop() {
                 style={{
                   width: "104px",
                   height: "40px",
-                  border: "1.5px dashed #60554F",
                   borderRadius: "6px",
-                  background: "#262423",
+                  background: "#FFFFFF",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
-                  fontSize: "10px",
-                  fontWeight: "700",
-                  letterSpacing: "0.06em",
-                  color: "#C1C3C2",
-                  textAlign: "center",
-                  lineHeight: "1.2",
+                  padding: "5px 10px",
+                  boxSizing: "border-box",
+                  overflow: "hidden",
                 }}
               >
-                RCSA LOGO
-                <br />
-                CLIENT TO PROVIDE
+                <img src="/assets/logos/rcsa.jpg" alt="RCSA" style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "contain" }} />
               </div>
               <span style={{ fontSize: "15px", fontWeight: "700", color: "#D3D9DB" }}>RCSA Corporate Member</span>
             </div>
@@ -246,23 +240,17 @@ export function Desktop() {
                 style={{
                   width: "104px",
                   height: "40px",
-                  border: "1.5px dashed #60554F",
                   borderRadius: "6px",
-                  background: "#262423",
+                  background: "#FFFFFF",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
-                  fontSize: "10px",
-                  fontWeight: "700",
-                  letterSpacing: "0.06em",
-                  color: "#C1C3C2",
-                  textAlign: "center",
-                  lineHeight: "1.2",
+                  padding: "5px 10px",
+                  boxSizing: "border-box",
+                  overflow: "hidden",
                 }}
               >
-                APSCO LOGO
-                <br />
-                CLIENT TO PROVIDE
+                <img src="/assets/logos/apsco.png" alt="APSCo" style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "contain" }} />
               </div>
               <span style={{ fontSize: "15px", fontWeight: "700", color: "#D3D9DB" }}>APSCo Southeast Asia</span>
             </div>
@@ -641,23 +629,17 @@ export function Desktop() {
                   style={{
                     width: "180px",
                     height: "56px",
-                    border: "1.5px dashed #60554F",
                     borderRadius: "8px",
                     background: "#201F1E",
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
-                    fontSize: "10px",
-                    fontWeight: "700",
-                    letterSpacing: "0.06em",
-                    color: "#C1C3C2",
-                    textAlign: "center",
-                    lineHeight: "1.3",
+                    padding: "10px 16px",
+                    boxSizing: "border-box",
+                    overflow: "hidden",
                   }}
                 >
-                  SESTO LOGO · CLIENT TO PROVIDE
-                  <br />
-                  (PERMISSION PENDING)
+                  <img src="/assets/logos/sesto.svg" alt="SESTO Robotics" style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "contain" }} />
                 </div>
                 <span
                   style={{
@@ -720,23 +702,17 @@ export function Desktop() {
                   style={{
                     width: "180px",
                     height: "56px",
-                    border: "1.5px dashed #60554F",
                     borderRadius: "8px",
                     background: "#201F1E",
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
-                    fontSize: "10px",
-                    fontWeight: "700",
-                    letterSpacing: "0.06em",
-                    color: "#C1C3C2",
-                    textAlign: "center",
-                    lineHeight: "1.3",
+                    padding: "10px 16px",
+                    boxSizing: "border-box",
+                    overflow: "hidden",
                   }}
                 >
-                  VELODB LOGO · CLIENT TO PROVIDE
-                  <br />
-                  (PERMISSION PENDING)
+                  <img src="/assets/logos/velodb.svg" alt="VeloDB" style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "contain" }} />
                 </div>
                 <span
                   style={{
@@ -796,82 +772,36 @@ export function Desktop() {
             <span style={{ fontSize: "13px", fontWeight: "700", letterSpacing: "0.08em", textTransform: "uppercase", color: "#D3D9DB" }}>
               Clients and partners
             </span>
-            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(200px, 100%), 1fr))", gap: "12px" }}>
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(min(200px, 100%), 1fr))", gap: "12px" }}>
               <div
                 style={{
                   height: "72px",
-                  border: "1.5px dashed #60554F",
                   borderRadius: "12px",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
-                  padding: "0 12px",
-                  textAlign: "center",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  letterSpacing: "0.06em",
-                  lineHeight: "1.4",
-                  color: "#C1C3C2",
+                  background: "#FFFFFF",
+                  padding: "10px 14px",
+                  boxSizing: "border-box",
+                  overflow: "hidden",
                 }}
               >
-                VCONNECT LOGO
+                <img src="/assets/logos/weconnect-international.jpg" alt="WEConnect International" style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "contain" }} />
               </div>
               <div
                 style={{
                   height: "72px",
-                  border: "1.5px dashed #60554F",
                   borderRadius: "12px",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
-                  padding: "0 12px",
-                  textAlign: "center",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  letterSpacing: "0.06em",
-                  lineHeight: "1.4",
-                  color: "#C1C3C2",
+                  background: "#FFFFFF",
+                  padding: "10px 14px",
+                  boxSizing: "border-box",
+                  overflow: "hidden",
                 }}
               >
-                AUSTRALIAN CHAMBER OF COMMERCE LOGO
-              </div>
-              <div
-                style={{
-                  height: "72px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "12px",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  padding: "0 12px",
-                  textAlign: "center",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  letterSpacing: "0.06em",
-                  lineHeight: "1.4",
-                  color: "#C1C3C2",
-                }}
-              >
-                MORE FROM CLIENT DECK
-              </div>
-              <div
-                style={{
-                  height: "72px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "12px",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  padding: "0 12px",
-                  textAlign: "center",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  letterSpacing: "0.06em",
-                  lineHeight: "1.4",
-                  color: "#C1C3C2",
-                }}
-              >
-                MORE FROM CLIENT DECK
+                <img src="/assets/logos/austcham-singapore.png" alt="AustCham Singapore" style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "contain" }} />
               </div>
             </div>
           </div>
@@ -879,82 +809,36 @@ export function Desktop() {
             <span style={{ fontSize: "13px", fontWeight: "700", letterSpacing: "0.08em", textTransform: "uppercase", color: "#D3D9DB" }}>
               Our team's enterprise experience
             </span>
-            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(200px, 100%), 1fr))", gap: "12px" }}>
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(min(200px, 100%), 1fr))", gap: "12px" }}>
               <div
                 style={{
                   height: "72px",
-                  border: "1.5px dashed #60554F",
                   borderRadius: "12px",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
-                  padding: "0 12px",
-                  textAlign: "center",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  letterSpacing: "0.06em",
-                  lineHeight: "1.4",
-                  color: "#C1C3C2",
+                  background: "#FFFFFF",
+                  padding: "10px 14px",
+                  boxSizing: "border-box",
+                  overflow: "hidden",
                 }}
               >
-                MICROSOFT LOGO
+                <img src="/assets/logos/microsoft.svg" alt="Microsoft" style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "contain" }} />
               </div>
               <div
                 style={{
                   height: "72px",
-                  border: "1.5px dashed #60554F",
                   borderRadius: "12px",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
-                  padding: "0 12px",
-                  textAlign: "center",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  letterSpacing: "0.06em",
-                  lineHeight: "1.4",
-                  color: "#C1C3C2",
+                  background: "#FFFFFF",
+                  padding: "10px 14px",
+                  boxSizing: "border-box",
+                  overflow: "hidden",
                 }}
               >
-                VISA LOGO
-              </div>
-              <div
-                style={{
-                  height: "72px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "12px",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  padding: "0 12px",
-                  textAlign: "center",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  letterSpacing: "0.06em",
-                  lineHeight: "1.4",
-                  color: "#C1C3C2",
-                }}
-              >
-                MORE FROM CLIENT DECK
-              </div>
-              <div
-                style={{
-                  height: "72px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "12px",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  padding: "0 12px",
-                  textAlign: "center",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  letterSpacing: "0.06em",
-                  lineHeight: "1.4",
-                  color: "#C1C3C2",
-                }}
-              >
-                MORE FROM CLIENT DECK
+                <img src="/assets/logos/visa.svg" alt="Visa" style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "contain" }} />
               </div>
             </div>
           </div>
@@ -1573,7 +1457,7 @@ export function Desktop() {
                   color: "#FFFFFF",
                 }}
               >
-                Shortlist of up to six candidates
+                Shortlist of 3 to 5 candidates per role
               </span>
               <span
                 style={{
@@ -1583,25 +1467,13 @@ export function Desktop() {
                   height: "44px",
                   padding: "0 18px",
                   borderRadius: "999px",
-                  border: "1.5px dashed #60554F",
+                  border: "1px solid #60554F",
                   fontSize: "15px",
                   fontWeight: "700",
                   color: "#FFFFFF",
                 }}
               >
-                3 to 5 day shortlist target
-                <span
-                  style={{
-                    padding: "3px 8px",
-                    borderRadius: "6px",
-                    background: "#4E4748",
-                    color: "#DFE21B",
-                    fontSize: "11px",
-                    letterSpacing: "0.06em",
-                  }}
-                >
-                  TO CONFIRM
-                </span>
+                Guarantee periods up to 12 months
               </span>
             </div>
             <Link
@@ -1887,19 +1759,7 @@ export function Desktop() {
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "14px", alignItems: "flex-start" }}>
               <div style={{ display: "flex", alignItems: "center", gap: "10px", flexWrap: "wrap" }}>
-                <span style={{ fontSize: "24px", fontWeight: "700" }}>Monthly rate</span>
-                <span
-                  style={{
-                    padding: "3px 8px",
-                    border: "1.5px dashed #60554F",
-                    borderRadius: "6px",
-                    fontSize: "11px",
-                    fontWeight: "700",
-                    color: "#C1C3C2",
-                  }}
-                >
-                  TO CONFIRM
-                </span>
+                <span style={{ fontSize: "24px", fontWeight: "700" }}>Monthly rate on request</span>
               </div>
               <Link
                 className="btn btn-ghost"
@@ -2040,145 +1900,72 @@ export function Desktop() {
           >
             Leadership
           </h3>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(240px, 100%), 1fr))", gap: "24px" }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(min(240px, 100%), 1fr))", gap: "24px" }}>
             <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
               <div
                 style={{
                   aspectRatio: "4 / 5",
                   borderRadius: "20px",
-                  border: "1.5px dashed #60554F",
-                  background: "#262423",
+                  background: "linear-gradient(135deg, #34312F, #262423)",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
                   textAlign: "center",
-                  fontSize: "11px",
                   fontWeight: "700",
-                  letterSpacing: "0.08em",
-                  lineHeight: "1.5",
-                  color: "#C1C3C2",
+                  fontSize: "56px",
+                  letterSpacing: "-0.02em",
+                  color: "#DFE21B",
                 }}
+                aria-hidden="true"
               >
-                PHOTO
-                <br />
-                CLIENT TO PROVIDE
+                SC
               </div>
-              <p style={{ margin: "0", fontSize: "22px", fontWeight: "700" }}>Suzie [Surname]</p>
-              <span style={{ fontSize: "16px", fontWeight: "700", color: "#D3D9DB" }}>Founder</span>
-              <span
-                style={{
-                  alignSelf: "flex-start",
-                  padding: "3px 8px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "6px",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  color: "#C1C3C2",
-                }}
-              >
-                SURNAME · CLIENT TO PROVIDE
-              </span>
+              <p style={{ margin: "0", fontSize: "22px", fontWeight: "700" }}>Suzie Celotti</p>
+              <span style={{ fontSize: "16px", fontWeight: "700", color: "#D3D9DB" }}>{"Founder & Director"}</span>
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
               <div
                 style={{
                   aspectRatio: "4 / 5",
                   borderRadius: "20px",
-                  border: "1.5px dashed #60554F",
-                  background: "#262423",
+                  background: "linear-gradient(135deg, #34312F, #262423)",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
                   textAlign: "center",
-                  fontSize: "11px",
                   fontWeight: "700",
-                  letterSpacing: "0.08em",
-                  lineHeight: "1.5",
-                  color: "#C1C3C2",
+                  fontSize: "56px",
+                  letterSpacing: "-0.02em",
+                  color: "#DFE21B",
                 }}
+                aria-hidden="true"
               >
-                PHOTO
-                <br />
-                CLIENT TO PROVIDE
+                AC
+              </div>
+              <p style={{ margin: "0", fontSize: "22px", fontWeight: "700" }}>Adrian Celotti</p>
+              <span style={{ fontSize: "16px", fontWeight: "700", color: "#D3D9DB" }}>Director</span>
+            </div>
+            <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
+              <div
+                style={{
+                  aspectRatio: "4 / 5",
+                  borderRadius: "20px",
+                  background: "linear-gradient(135deg, #34312F, #262423)",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  textAlign: "center",
+                  fontWeight: "700",
+                  fontSize: "56px",
+                  letterSpacing: "-0.02em",
+                  color: "#DFE21B",
+                }}
+                aria-hidden="true"
+              >
+                DK
               </div>
               <p style={{ margin: "0", fontSize: "22px", fontWeight: "700" }}>Dharshan Kumar</p>
               <span style={{ fontSize: "16px", fontWeight: "700", color: "#D3D9DB" }}>{"Business Head, AI & Data"}</span>
-            </div>
-            <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
-              <div
-                style={{
-                  aspectRatio: "4 / 5",
-                  borderRadius: "20px",
-                  border: "1.5px dashed #60554F",
-                  background: "#262423",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  textAlign: "center",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  letterSpacing: "0.08em",
-                  lineHeight: "1.5",
-                  color: "#C1C3C2",
-                }}
-              >
-                PHOTO
-                <br />
-                CLIENT TO PROVIDE
-              </div>
-              <p style={{ margin: "0", fontSize: "22px", fontWeight: "700" }}>[Name]</p>
-              <span style={{ fontSize: "16px", fontWeight: "700", color: "#D3D9DB" }}>Finance Manager</span>
-              <span
-                style={{
-                  alignSelf: "flex-start",
-                  padding: "3px 8px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "6px",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  color: "#C1C3C2",
-                }}
-              >
-                NAME · CLIENT TO PROVIDE
-              </span>
-            </div>
-            <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
-              <div
-                style={{
-                  aspectRatio: "4 / 5",
-                  borderRadius: "20px",
-                  border: "1.5px dashed #60554F",
-                  background: "#262423",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  textAlign: "center",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  letterSpacing: "0.08em",
-                  lineHeight: "1.5",
-                  color: "#C1C3C2",
-                }}
-              >
-                PHOTO
-                <br />
-                CLIENT TO PROVIDE
-              </div>
-              <p style={{ margin: "0", fontSize: "22px", fontWeight: "700" }}>[Name]</p>
-              <span style={{ fontSize: "16px", fontWeight: "700", color: "#D3D9DB" }}>Marketing Manager</span>
-              <span
-                style={{
-                  alignSelf: "flex-start",
-                  padding: "3px 8px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "6px",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  color: "#C1C3C2",
-                }}
-              >
-                NAME · CLIENT TO PROVIDE
-              </span>
             </div>
           </div>
           <h3
@@ -2199,112 +1986,66 @@ export function Desktop() {
                 style={{
                   aspectRatio: "4 / 5",
                   borderRadius: "20px",
-                  border: "1.5px dashed #60554F",
-                  background: "#262423",
+                  background: "linear-gradient(135deg, #34312F, #262423)",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
                   textAlign: "center",
-                  fontSize: "11px",
                   fontWeight: "700",
-                  letterSpacing: "0.08em",
-                  lineHeight: "1.5",
-                  color: "#C1C3C2",
+                  fontSize: "56px",
+                  letterSpacing: "-0.02em",
+                  color: "#DFE21B",
                 }}
+                aria-hidden="true"
               >
-                PHOTO
-                <br />
-                CLIENT TO PROVIDE
+                VP
               </div>
               <p style={{ margin: "0", fontSize: "22px", fontWeight: "700" }}>Veena Pujari</p>
               <span style={{ fontSize: "16px", fontWeight: "700", color: "#D3D9DB" }}>Talent Advisory</span>
-              <span
-                style={{
-                  alignSelf: "flex-start",
-                  padding: "3px 8px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "6px",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  color: "#C1C3C2",
-                }}
-              >
-                CONFIRM TITLE
-              </span>
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
               <div
                 style={{
                   aspectRatio: "4 / 5",
                   borderRadius: "20px",
-                  border: "1.5px dashed #60554F",
-                  background: "#262423",
+                  background: "linear-gradient(135deg, #34312F, #262423)",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
                   textAlign: "center",
-                  fontSize: "11px",
                   fontWeight: "700",
-                  letterSpacing: "0.08em",
-                  lineHeight: "1.5",
-                  color: "#C1C3C2",
+                  fontSize: "56px",
+                  letterSpacing: "-0.02em",
+                  color: "#DFE21B",
                 }}
+                aria-hidden="true"
               >
-                PHOTO
-                <br />
-                CLIENT TO PROVIDE
+                KR
               </div>
               <p style={{ margin: "0", fontSize: "22px", fontWeight: "700" }}>Kavena Rama</p>
-              <span
-                style={{
-                  alignSelf: "flex-start",
-                  padding: "3px 8px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "6px",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  color: "#C1C3C2",
-                }}
-              >
-                TITLE · CLIENT TO PROVIDE
-              </span>
+              <span style={{ fontSize: "16px", fontWeight: "700", color: "#D3D9DB" }}>Talent Partner</span>
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
               <div
                 style={{
                   aspectRatio: "4 / 5",
                   borderRadius: "20px",
-                  border: "1.5px dashed #60554F",
-                  background: "#262423",
+                  background: "linear-gradient(135deg, #34312F, #262423)",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
                   textAlign: "center",
-                  fontSize: "11px",
                   fontWeight: "700",
-                  letterSpacing: "0.08em",
-                  lineHeight: "1.5",
-                  color: "#C1C3C2",
+                  fontSize: "56px",
+                  letterSpacing: "-0.02em",
+                  color: "#DFE21B",
                 }}
+                aria-hidden="true"
               >
-                PHOTO
-                <br />
-                CLIENT TO PROVIDE
+                A
               </div>
-              <p style={{ margin: "0", fontSize: "22px", fontWeight: "700" }}>Alex [Surname]</p>
-              <span
-                style={{
-                  alignSelf: "flex-start",
-                  padding: "3px 8px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "6px",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  color: "#C1C3C2",
-                }}
-              >
-                SURNAME AND TITLE · CLIENT TO PROVIDE
-              </span>
+              <p style={{ margin: "0", fontSize: "22px", fontWeight: "700" }}>Alex</p>
+              <span style={{ fontSize: "16px", fontWeight: "700", color: "#D3D9DB" }}>Talent Partner</span>
             </div>
           </div>
         </div>
@@ -2440,12 +2181,12 @@ export function Desktop() {
                   }}
                   className="ax-tint"
                 >
-                  [Category]
+                  Future of Work
                 </span>
                 <h3 style={{ margin: "0", fontSize: "21px", lineHeight: "1.3", fontWeight: "700" }}>
-                  [Featured article title, pulled from CMS]
+                  The Work of the Future Is Here
                 </h3>
-                <p style={{ margin: "0", fontSize: "14px", color: "#C1C3C2" }}>[Date] · [Read time]</p>
+                <p style={{ margin: "0", fontSize: "14px", color: "#C1C3C2" }}>12 Nov 2026 · 6 min read</p>
               </div>
             </a>
             <a
@@ -2492,12 +2233,12 @@ export function Desktop() {
                   }}
                   className="ax-tint"
                 >
-                  [Category]
+                  Artificial Intelligence
                 </span>
                 <h3 style={{ margin: "0", fontSize: "21px", lineHeight: "1.3", fontWeight: "700" }}>
-                  [Featured article title, pulled from CMS]
+                  The AI-Powered World Is Reshaping Talent
                 </h3>
-                <p style={{ margin: "0", fontSize: "14px", color: "#C1C3C2" }}>[Date] · [Read time]</p>
+                <p style={{ margin: "0", fontSize: "14px", color: "#C1C3C2" }}>28 Oct 2026 · 5 min read</p>
               </div>
             </a>
             <a
@@ -2544,12 +2285,12 @@ export function Desktop() {
                   }}
                   className="ax-tint"
                 >
-                  [Category]
+                  Workforce Planning
                 </span>
                 <h3 style={{ margin: "0", fontSize: "21px", lineHeight: "1.3", fontWeight: "700" }}>
-                  [Featured article title, pulled from CMS]
+                  Building High-Performance AI, Data and Technology Teams
                 </h3>
-                <p style={{ margin: "0", fontSize: "14px", color: "#C1C3C2" }}>[Date] · [Read time]</p>
+                <p style={{ margin: "0", fontSize: "14px", color: "#C1C3C2" }}>9 Oct 2026 · 7 min read</p>
               </div>
             </a>
           </div>
@@ -2908,22 +2649,17 @@ export function Mobile() {
                 width: "88px",
                 height: "36px",
                 flexShrink: "0",
-                border: "1.5px dashed #60554F",
                 borderRadius: "6px",
-                background: "#262423",
+                background: "#FFFFFF",
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
-                fontSize: "9px",
-                fontWeight: "700",
-                color: "#C1C3C2",
-                textAlign: "center",
-                lineHeight: "1.2",
+                padding: "5px 10px",
+                boxSizing: "border-box",
+                overflow: "hidden",
               }}
             >
-              RCSA LOGO
-              <br />
-              TO PROVIDE
+              <img src="/assets/logos/rcsa.jpg" alt="RCSA" style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "contain" }} />
             </div>
             <span style={{ fontSize: "15px", fontWeight: "700", color: "#D3D9DB" }}>RCSA Corporate Member</span>
           </div>
@@ -2933,22 +2669,17 @@ export function Mobile() {
                 width: "88px",
                 height: "36px",
                 flexShrink: "0",
-                border: "1.5px dashed #60554F",
                 borderRadius: "6px",
-                background: "#262423",
+                background: "#FFFFFF",
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
-                fontSize: "9px",
-                fontWeight: "700",
-                color: "#C1C3C2",
-                textAlign: "center",
-                lineHeight: "1.2",
+                padding: "5px 10px",
+                boxSizing: "border-box",
+                overflow: "hidden",
               }}
             >
-              APSCO LOGO
-              <br />
-              TO PROVIDE
+              <img src="/assets/logos/apsco.png" alt="APSCo" style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "contain" }} />
             </div>
             <span style={{ fontSize: "15px", fontWeight: "700", color: "#D3D9DB" }}>APSCo Southeast Asia</span>
           </div>
@@ -3218,23 +2949,17 @@ export function Mobile() {
                 style={{
                   width: "160px",
                   height: "48px",
-                  border: "1.5px dashed #60554F",
                   borderRadius: "8px",
                   background: "#201F1E",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
-                  fontSize: "9px",
-                  fontWeight: "700",
-                  letterSpacing: "0.05em",
-                  color: "#C1C3C2",
-                  textAlign: "center",
-                  lineHeight: "1.3",
+                  padding: "8px 14px",
+                  boxSizing: "border-box",
+                  overflow: "hidden",
                 }}
               >
-                SESTO LOGO · TO PROVIDE
-                <br />
-                (PERMISSION PENDING)
+                <img src="/assets/logos/sesto.svg" alt="SESTO Robotics" style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "contain" }} />
               </div>
               <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
                 <span
@@ -3290,23 +3015,17 @@ export function Mobile() {
                 style={{
                   width: "160px",
                   height: "48px",
-                  border: "1.5px dashed #60554F",
                   borderRadius: "8px",
                   background: "#201F1E",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
-                  fontSize: "9px",
-                  fontWeight: "700",
-                  letterSpacing: "0.05em",
-                  color: "#C1C3C2",
-                  textAlign: "center",
-                  lineHeight: "1.3",
+                  padding: "8px 14px",
+                  boxSizing: "border-box",
+                  overflow: "hidden",
                 }}
               >
-                VELODB LOGO · TO PROVIDE
-                <br />
-                (PERMISSION PENDING)
+                <img src="/assets/logos/velodb.svg" alt="VeloDB" style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "contain" }} />
               </div>
               <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
                 <span
@@ -3375,78 +3094,32 @@ export function Mobile() {
               <div
                 style={{
                   height: "56px",
-                  border: "1.5px dashed #60554F",
                   borderRadius: "12px",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
-                  padding: "0 12px",
-                  textAlign: "center",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  letterSpacing: "0.06em",
-                  lineHeight: "1.4",
-                  color: "#C1C3C2",
+                  background: "#FFFFFF",
+                  padding: "10px 14px",
+                  boxSizing: "border-box",
+                  overflow: "hidden",
                 }}
               >
-                VCONNECT LOGO
+                <img src="/assets/logos/weconnect-international.jpg" alt="WEConnect International" style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "contain" }} />
               </div>
               <div
                 style={{
                   height: "56px",
-                  border: "1.5px dashed #60554F",
                   borderRadius: "12px",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
-                  padding: "0 12px",
-                  textAlign: "center",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  letterSpacing: "0.06em",
-                  lineHeight: "1.4",
-                  color: "#C1C3C2",
+                  background: "#FFFFFF",
+                  padding: "10px 14px",
+                  boxSizing: "border-box",
+                  overflow: "hidden",
                 }}
               >
-                AUSTRALIAN CHAMBER OF COMMERCE LOGO
-              </div>
-              <div
-                style={{
-                  height: "56px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "12px",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  padding: "0 12px",
-                  textAlign: "center",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  letterSpacing: "0.06em",
-                  lineHeight: "1.4",
-                  color: "#C1C3C2",
-                }}
-              >
-                MORE FROM CLIENT DECK
-              </div>
-              <div
-                style={{
-                  height: "56px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "12px",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  padding: "0 12px",
-                  textAlign: "center",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  letterSpacing: "0.06em",
-                  lineHeight: "1.4",
-                  color: "#C1C3C2",
-                }}
-              >
-                MORE FROM CLIENT DECK
+                <img src="/assets/logos/austcham-singapore.png" alt="AustCham Singapore" style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "contain" }} />
               </div>
             </div>
           </div>
@@ -3458,78 +3131,32 @@ export function Mobile() {
               <div
                 style={{
                   height: "56px",
-                  border: "1.5px dashed #60554F",
                   borderRadius: "12px",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
-                  padding: "0 12px",
-                  textAlign: "center",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  letterSpacing: "0.06em",
-                  lineHeight: "1.4",
-                  color: "#C1C3C2",
+                  background: "#FFFFFF",
+                  padding: "10px 14px",
+                  boxSizing: "border-box",
+                  overflow: "hidden",
                 }}
               >
-                MICROSOFT LOGO
+                <img src="/assets/logos/microsoft.svg" alt="Microsoft" style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "contain" }} />
               </div>
               <div
                 style={{
                   height: "56px",
-                  border: "1.5px dashed #60554F",
                   borderRadius: "12px",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
-                  padding: "0 12px",
-                  textAlign: "center",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  letterSpacing: "0.06em",
-                  lineHeight: "1.4",
-                  color: "#C1C3C2",
+                  background: "#FFFFFF",
+                  padding: "10px 14px",
+                  boxSizing: "border-box",
+                  overflow: "hidden",
                 }}
               >
-                VISA LOGO
-              </div>
-              <div
-                style={{
-                  height: "56px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "12px",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  padding: "0 12px",
-                  textAlign: "center",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  letterSpacing: "0.06em",
-                  lineHeight: "1.4",
-                  color: "#C1C3C2",
-                }}
-              >
-                MORE FROM CLIENT DECK
-              </div>
-              <div
-                style={{
-                  height: "56px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "12px",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  padding: "0 12px",
-                  textAlign: "center",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  letterSpacing: "0.06em",
-                  lineHeight: "1.4",
-                  color: "#C1C3C2",
-                }}
-              >
-                MORE FROM CLIENT DECK
+                <img src="/assets/logos/visa.svg" alt="Visa" style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "contain" }} />
               </div>
             </div>
           </div>
@@ -4028,7 +3655,7 @@ export function Mobile() {
                 fontWeight: "700",
               }}
             >
-              Shortlist of up to six candidates
+              Shortlist of 3 to 5 candidates per role
             </span>
             <span
               style={{
@@ -4038,24 +3665,12 @@ export function Mobile() {
                 height: "40px",
                 padding: "0 14px",
                 borderRadius: "999px",
-                border: "1.5px dashed #60554F",
+                border: "1px solid #60554F",
                 fontSize: "14px",
                 fontWeight: "700",
               }}
             >
-              3 to 5 day target
-              <span
-                style={{
-                  padding: "2px 6px",
-                  borderRadius: "5px",
-                  background: "#4E4748",
-                  color: "#DFE21B",
-                  fontSize: "10px",
-                  letterSpacing: "0.06em",
-                }}
-              >
-                TO CONFIRM
-              </span>
+              Guarantee up to 12 months
             </span>
           </div>
           <Link
@@ -4298,19 +3913,7 @@ export function Mobile() {
                 borderTop: "1px solid #3A3736",
               }}
             >
-              <span style={{ fontSize: "20px", fontWeight: "700" }}>Monthly rate</span>
-              <span
-                style={{
-                  padding: "3px 8px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "6px",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  color: "#C1C3C2",
-                }}
-              >
-                TO CONFIRM
-              </span>
+              <span style={{ fontSize: "20px", fontWeight: "700" }}>Monthly rate on request</span>
             </div>
             <Link
               to="/contact"
@@ -4416,38 +4019,23 @@ export function Mobile() {
                 height: "100px",
                 flexShrink: "0",
                 borderRadius: "14px",
-                border: "1.5px dashed #60554F",
-                background: "#262423",
+                background: "linear-gradient(135deg, #34312F, #262423)",
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
                 textAlign: "center",
-                fontSize: "9px",
                 fontWeight: "700",
-                lineHeight: "1.4",
-                color: "#C1C3C2",
+                fontSize: "32px",
+                letterSpacing: "-0.02em",
+                color: "#DFE21B",
               }}
+              aria-hidden="true"
             >
-              PHOTO
-              <br />
-              TO PROVIDE
+              SC
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
-              <p style={{ margin: "0", fontSize: "19px", fontWeight: "700" }}>Suzie [Surname]</p>
-              <span style={{ fontSize: "15px", fontWeight: "700", color: "#D3D9DB" }}>Founder</span>
-              <span
-                style={{
-                  alignSelf: "flex-start",
-                  padding: "2px 6px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "6px",
-                  fontSize: "10px",
-                  fontWeight: "700",
-                  color: "#C1C3C2",
-                }}
-              >
-                SURNAME · CLIENT TO PROVIDE
-              </span>
+              <p style={{ margin: "0", fontSize: "19px", fontWeight: "700" }}>Suzie Celotti</p>
+              <span style={{ fontSize: "15px", fontWeight: "700", color: "#D3D9DB" }}>{"Founder & Director"}</span>
             </div>
           </div>
           <div style={{ display: "flex", gap: "16px", alignItems: "center" }}>
@@ -4457,107 +4045,49 @@ export function Mobile() {
                 height: "100px",
                 flexShrink: "0",
                 borderRadius: "14px",
-                border: "1.5px dashed #60554F",
-                background: "#262423",
+                background: "linear-gradient(135deg, #34312F, #262423)",
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
                 textAlign: "center",
-                fontSize: "9px",
                 fontWeight: "700",
-                lineHeight: "1.4",
-                color: "#C1C3C2",
+                fontSize: "32px",
+                letterSpacing: "-0.02em",
+                color: "#DFE21B",
               }}
+              aria-hidden="true"
             >
-              PHOTO
-              <br />
-              TO PROVIDE
+              AC
+            </div>
+            <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
+              <p style={{ margin: "0", fontSize: "19px", fontWeight: "700" }}>Adrian Celotti</p>
+              <span style={{ fontSize: "15px", fontWeight: "700", color: "#D3D9DB" }}>Director</span>
+            </div>
+          </div>
+          <div style={{ display: "flex", gap: "16px", alignItems: "center" }}>
+            <div
+              style={{
+                width: "80px",
+                height: "100px",
+                flexShrink: "0",
+                borderRadius: "14px",
+                background: "linear-gradient(135deg, #34312F, #262423)",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                textAlign: "center",
+                fontWeight: "700",
+                fontSize: "32px",
+                letterSpacing: "-0.02em",
+                color: "#DFE21B",
+              }}
+              aria-hidden="true"
+            >
+              DK
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
               <p style={{ margin: "0", fontSize: "19px", fontWeight: "700" }}>Dharshan Kumar</p>
               <span style={{ fontSize: "15px", fontWeight: "700", color: "#D3D9DB" }}>{"Business Head, AI & Data"}</span>
-            </div>
-          </div>
-          <div style={{ display: "flex", gap: "16px", alignItems: "center" }}>
-            <div
-              style={{
-                width: "80px",
-                height: "100px",
-                flexShrink: "0",
-                borderRadius: "14px",
-                border: "1.5px dashed #60554F",
-                background: "#262423",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                textAlign: "center",
-                fontSize: "9px",
-                fontWeight: "700",
-                lineHeight: "1.4",
-                color: "#C1C3C2",
-              }}
-            >
-              PHOTO
-              <br />
-              TO PROVIDE
-            </div>
-            <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
-              <p style={{ margin: "0", fontSize: "19px", fontWeight: "700" }}>[Name]</p>
-              <span style={{ fontSize: "15px", fontWeight: "700", color: "#D3D9DB" }}>Finance Manager</span>
-              <span
-                style={{
-                  alignSelf: "flex-start",
-                  padding: "2px 6px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "6px",
-                  fontSize: "10px",
-                  fontWeight: "700",
-                  color: "#C1C3C2",
-                }}
-              >
-                NAME · CLIENT TO PROVIDE
-              </span>
-            </div>
-          </div>
-          <div style={{ display: "flex", gap: "16px", alignItems: "center" }}>
-            <div
-              style={{
-                width: "80px",
-                height: "100px",
-                flexShrink: "0",
-                borderRadius: "14px",
-                border: "1.5px dashed #60554F",
-                background: "#262423",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                textAlign: "center",
-                fontSize: "9px",
-                fontWeight: "700",
-                lineHeight: "1.4",
-                color: "#C1C3C2",
-              }}
-            >
-              PHOTO
-              <br />
-              TO PROVIDE
-            </div>
-            <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
-              <p style={{ margin: "0", fontSize: "19px", fontWeight: "700" }}>[Name]</p>
-              <span style={{ fontSize: "15px", fontWeight: "700", color: "#D3D9DB" }}>Marketing Manager</span>
-              <span
-                style={{
-                  alignSelf: "flex-start",
-                  padding: "2px 6px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "6px",
-                  fontSize: "10px",
-                  fontWeight: "700",
-                  color: "#C1C3C2",
-                }}
-              >
-                NAME · CLIENT TO PROVIDE
-              </span>
             </div>
           </div>
           <h3
@@ -4579,38 +4109,23 @@ export function Mobile() {
                 height: "100px",
                 flexShrink: "0",
                 borderRadius: "14px",
-                border: "1.5px dashed #60554F",
-                background: "#262423",
+                background: "linear-gradient(135deg, #34312F, #262423)",
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
                 textAlign: "center",
-                fontSize: "9px",
                 fontWeight: "700",
-                lineHeight: "1.4",
-                color: "#C1C3C2",
+                fontSize: "32px",
+                letterSpacing: "-0.02em",
+                color: "#DFE21B",
               }}
+              aria-hidden="true"
             >
-              PHOTO
-              <br />
-              TO PROVIDE
+              VP
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
               <p style={{ margin: "0", fontSize: "19px", fontWeight: "700" }}>Veena Pujari</p>
               <span style={{ fontSize: "15px", fontWeight: "700", color: "#D3D9DB" }}>Talent Advisory</span>
-              <span
-                style={{
-                  alignSelf: "flex-start",
-                  padding: "2px 6px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "6px",
-                  fontSize: "10px",
-                  fontWeight: "700",
-                  color: "#C1C3C2",
-                }}
-              >
-                CONFIRM TITLE
-              </span>
             </div>
           </div>
           <div style={{ display: "flex", gap: "16px", alignItems: "center" }}>
@@ -4620,37 +4135,23 @@ export function Mobile() {
                 height: "100px",
                 flexShrink: "0",
                 borderRadius: "14px",
-                border: "1.5px dashed #60554F",
-                background: "#262423",
+                background: "linear-gradient(135deg, #34312F, #262423)",
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
                 textAlign: "center",
-                fontSize: "9px",
                 fontWeight: "700",
-                lineHeight: "1.4",
-                color: "#C1C3C2",
+                fontSize: "32px",
+                letterSpacing: "-0.02em",
+                color: "#DFE21B",
               }}
+              aria-hidden="true"
             >
-              PHOTO
-              <br />
-              TO PROVIDE
+              KR
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
               <p style={{ margin: "0", fontSize: "19px", fontWeight: "700" }}>Kavena Rama</p>
-              <span
-                style={{
-                  alignSelf: "flex-start",
-                  padding: "2px 6px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "6px",
-                  fontSize: "10px",
-                  fontWeight: "700",
-                  color: "#C1C3C2",
-                }}
-              >
-                TITLE · CLIENT TO PROVIDE
-              </span>
+              <span style={{ fontSize: "15px", fontWeight: "700", color: "#D3D9DB" }}>Talent Partner</span>
             </div>
           </div>
           <div style={{ display: "flex", gap: "16px", alignItems: "center" }}>
@@ -4660,37 +4161,23 @@ export function Mobile() {
                 height: "100px",
                 flexShrink: "0",
                 borderRadius: "14px",
-                border: "1.5px dashed #60554F",
-                background: "#262423",
+                background: "linear-gradient(135deg, #34312F, #262423)",
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
                 textAlign: "center",
-                fontSize: "9px",
                 fontWeight: "700",
-                lineHeight: "1.4",
-                color: "#C1C3C2",
+                fontSize: "32px",
+                letterSpacing: "-0.02em",
+                color: "#DFE21B",
               }}
+              aria-hidden="true"
             >
-              PHOTO
-              <br />
-              TO PROVIDE
+              A
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
-              <p style={{ margin: "0", fontSize: "19px", fontWeight: "700" }}>Alex [Surname]</p>
-              <span
-                style={{
-                  alignSelf: "flex-start",
-                  padding: "2px 6px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "6px",
-                  fontSize: "10px",
-                  fontWeight: "700",
-                  color: "#C1C3C2",
-                }}
-              >
-                SURNAME AND TITLE · CLIENT TO PROVIDE
-              </span>
+              <p style={{ margin: "0", fontSize: "19px", fontWeight: "700" }}>Alex</p>
+              <span style={{ fontSize: "15px", fontWeight: "700", color: "#D3D9DB" }}>Talent Partner</span>
             </div>
           </div>
         </div>
@@ -4763,12 +4250,12 @@ export function Mobile() {
                   }}
                   className="ax-tint"
                 >
-                  [Category]
+                  Future of Work
                 </span>
                 <h3 style={{ margin: "0", fontSize: "19px", lineHeight: "1.3", fontWeight: "700" }}>
-                  [Featured article title, pulled from CMS]
+                  The Work of the Future Is Here
                 </h3>
-                <p style={{ margin: "0", fontSize: "14px", color: "#C1C3C2" }}>[Date] · [Read time]</p>
+                <p style={{ margin: "0", fontSize: "14px", color: "#C1C3C2" }}>12 Nov 2026 · 6 min read</p>
               </div>
             </a>
             <a
@@ -4798,9 +4285,9 @@ export function Mobile() {
               />
               <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
                 <h3 style={{ margin: "0", fontSize: "16px", lineHeight: "1.35", fontWeight: "700" }}>
-                  [Featured article title, pulled from CMS]
+                  The AI-Powered World Is Reshaping Talent
                 </h3>
-                <p style={{ margin: "0", fontSize: "13px", color: "#C1C3C2" }}>[Category] · [Date]</p>
+                <p style={{ margin: "0", fontSize: "13px", color: "#C1C3C2" }}>Artificial Intelligence · 28 Oct 2026</p>
               </div>
             </a>
             <a
@@ -4830,9 +4317,9 @@ export function Mobile() {
               />
               <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
                 <h3 style={{ margin: "0", fontSize: "16px", lineHeight: "1.35", fontWeight: "700" }}>
-                  [Featured article title, pulled from CMS]
+                  Building High-Performance AI, Data and Technology Teams
                 </h3>
-                <p style={{ margin: "0", fontSize: "13px", color: "#C1C3C2" }}>[Category] · [Date]</p>
+                <p style={{ margin: "0", fontSize: "13px", color: "#C1C3C2" }}>Workforce Planning · 9 Oct 2026</p>
               </div>
             </a>
           </div>
