@@ -52,20 +52,7 @@ export function Desktop() {
               color: "#D3D9DB",
             }}
           >
-            {"Book a 30-minute consultation, or send us a message. "}
-            <span
-              style={{
-                padding: "3px 8px",
-                border: "1.5px dashed #60554F",
-                borderRadius: "6px",
-                fontSize: "11px",
-                fontWeight: "700",
-                letterSpacing: "0.05em",
-                color: "#C1C3C2",
-              }}
-            >
-              CONFIRM LENGTH
-            </span>
+            {"Book a 30-minute consultation, or send us a message."}
           </p>
         </div>
       </section>
@@ -117,17 +104,14 @@ export function Desktop() {
             <div
               style={{
                 flexGrow: "1",
-                minHeight: "560px",
                 display: "flex",
                 flexDirection: "column",
-                alignItems: "center",
+                alignItems: "flex-start",
                 justifyContent: "center",
-                gap: "16px",
+                gap: "20px",
                 padding: "32px",
-                border: "1.5px dashed #60554F",
                 borderRadius: "16px",
                 background: "#383533",
-                textAlign: "center",
               }}
             >
               <span
@@ -158,9 +142,59 @@ export function Desktop() {
                   <path d="M8 14h2M14 14h2M8 17h2" />
                 </svg>
               </span>
-              <span style={{ fontSize: "18px", fontWeight: "700" }}>Calendly booking embed</span>
-              <span style={{ fontSize: "12px", fontWeight: "700", letterSpacing: "0.06em", color: "#C1C3C2" }}>
-                LINK AND CALENDAR OWNER · CLIENT TO PROVIDE
+              <span style={{ fontSize: "20px", fontWeight: "700" }}>30 minutes with a specialist consultant</span>
+              <ul
+                style={{
+                  listStyle: "none",
+                  margin: "0",
+                  padding: "0",
+                  display: "flex",
+                  flexDirection: "column",
+                  gap: "10px",
+                  fontSize: "16px",
+                  lineHeight: "1.5",
+                  color: "#D3D9DB",
+                  textAlign: "left",
+                }}
+              >
+                <li style={{ display: "flex", gap: "10px", alignItems: "flex-start" }}>
+                  <span aria-hidden="true" style={{ width: "8px", height: "8px", marginTop: "8px", flexShrink: "0", background: "#DFE21B", transform: "skewX(-20deg)" }} />
+                  Your hiring priorities across AI, Data, Deep Tech or Robotics
+                </li>
+                <li style={{ display: "flex", gap: "10px", alignItems: "flex-start" }}>
+                  <span aria-hidden="true" style={{ width: "8px", height: "8px", marginTop: "8px", flexShrink: "0", background: "#DFE21B", transform: "skewX(-20deg)" }} />
+                  What the market looks like for the roles you need
+                </li>
+                <li style={{ display: "flex", gap: "10px", alignItems: "flex-start" }}>
+                  <span aria-hidden="true" style={{ width: "8px", height: "8px", marginTop: "8px", flexShrink: "0", background: "#DFE21B", transform: "skewX(-20deg)" }} />
+                  Which engagement model fits, from a single search to a dedicated pod
+                </li>
+              </ul>
+              <a
+                className="btn btn-dark"
+                href="mailto:advisory@celottitechtalent.com?subject=Consultation%20request"
+                style={{
+                  display: "inline-flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  height: "56px",
+                  padding: "0 28px",
+                  borderRadius: "999px",
+                  background: "#DFE21B",
+                  color: "#201F1E",
+                  fontSize: "17px",
+                  fontWeight: "700",
+                  textDecoration: "none",
+                }}
+              >
+                Request a time
+              </a>
+              <span style={{ fontSize: "15px", lineHeight: "1.55", color: "#C1C3C2" }}>
+                {"Email advisory@celottitechtalent.com with a few times that suit you, or call "}
+                <a href="tel:+6560119790" style={{ color: "#FFFFFF", fontWeight: "700", whiteSpace: "nowrap" }}>
+                  +65 6011 9790
+                </a>
+                .
               </span>
             </div>
           </div>
@@ -613,23 +647,25 @@ export function Desktop() {
             >
               advisory@celottitechtalent.com
             </a>
+            <a href="tel:+6560119790" style={{ fontSize: "17px", fontWeight: "700", color: "#FFFFFF" }}>
+              +65 6011 9790
+            </a>
             <div
               style={{
-                height: "120px",
+                height: "200px",
                 marginTop: "8px",
-                border: "1.5px dashed #60554F",
                 borderRadius: "12px",
                 background: "#383533",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                fontSize: "11px",
-                fontWeight: "700",
-                letterSpacing: "0.06em",
-                color: "#C1C3C2",
+                overflow: "hidden",
               }}
             >
-              MAP EMBED · OPTIONAL
+              <iframe
+                title="Map: JustCo, The Metropolis"
+                src="https://www.google.com/maps?q=JustCo%20The%20Metropolis%2C%209%20North%20Buona%20Vista%20Drive%2C%20Singapore%20138588&output=embed"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                style={{ border: 0, width: "100%", height: "100%", display: "block" }}
+              />
             </div>
           </div>
         </div>
@@ -660,19 +696,6 @@ export function Mobile() {
           <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.55", color: "#D3D9DB" }}>
             Book a 30-minute consultation, or send us a message.
           </p>
-          <span
-            style={{
-              alignSelf: "flex-start",
-              padding: "3px 7px",
-              border: "1.5px dashed #60554F",
-              borderRadius: "6px",
-              fontSize: "10px",
-              fontWeight: "700",
-              color: "#C1C3C2",
-            }}
-          >
-            CONFIRM LENGTH
-          </span>
         </div>
       </section>
       <section aria-label="Book" style={{ padding: "0 12px 12px" }}>
@@ -702,17 +725,13 @@ export function Mobile() {
           <h2 style={{ margin: "0", fontSize: "26px", fontWeight: "700" }}>Book a consultation</h2>
           <div
             style={{
-              minHeight: "420px",
               display: "flex",
               flexDirection: "column",
-              alignItems: "center",
-              justifyContent: "center",
-              gap: "12px",
+              alignItems: "flex-start",
+              gap: "16px",
               padding: "20px",
-              border: "1.5px dashed #60554F",
               borderRadius: "14px",
               background: "#383533",
-              textAlign: "center",
             }}
           >
             <span
@@ -742,15 +761,66 @@ export function Mobile() {
                 <path d="M3 9h18M8 2v4M16 2v4" />
               </svg>
             </span>
-            <span style={{ fontSize: "17px", fontWeight: "700" }}>Calendly booking embed</span>
-            <span style={{ fontSize: "11px", fontWeight: "700", letterSpacing: "0.05em", color: "#C1C3C2" }}>
-              LINK AND OWNER · CLIENT TO PROVIDE
+            <span style={{ fontSize: "17px", fontWeight: "700" }}>30 minutes with a specialist consultant</span>
+            <ul
+              style={{
+                listStyle: "none",
+                margin: "0",
+                padding: "0",
+                display: "flex",
+                flexDirection: "column",
+                gap: "10px",
+                fontSize: "15px",
+                lineHeight: "1.5",
+                color: "#D3D9DB",
+                textAlign: "left",
+              }}
+            >
+              <li style={{ display: "flex", gap: "10px", alignItems: "flex-start" }}>
+                <span aria-hidden="true" style={{ width: "8px", height: "8px", marginTop: "8px", flexShrink: "0", background: "#DFE21B", transform: "skewX(-20deg)" }} />
+                Your hiring priorities across AI, Data, Deep Tech or Robotics
+              </li>
+              <li style={{ display: "flex", gap: "10px", alignItems: "flex-start" }}>
+                <span aria-hidden="true" style={{ width: "8px", height: "8px", marginTop: "8px", flexShrink: "0", background: "#DFE21B", transform: "skewX(-20deg)" }} />
+                What the market looks like for the roles you need
+              </li>
+              <li style={{ display: "flex", gap: "10px", alignItems: "flex-start" }}>
+                <span aria-hidden="true" style={{ width: "8px", height: "8px", marginTop: "8px", flexShrink: "0", background: "#DFE21B", transform: "skewX(-20deg)" }} />
+                Which engagement model fits, from a single search to a dedicated pod
+              </li>
+            </ul>
+            <a
+              className="btn btn-dark"
+              href="mailto:advisory@celottitechtalent.com?subject=Consultation%20request"
+              style={{
+                display: "inline-flex",
+                alignItems: "center",
+                justifyContent: "center",
+                height: "52px",
+                padding: "0 28px",
+                borderRadius: "999px",
+                background: "#DFE21B",
+                color: "#201F1E",
+                fontSize: "16px",
+                fontWeight: "700",
+                textDecoration: "none",
+              }}
+            >
+              Request a time
+            </a>
+            <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#C1C3C2" }}>
+              {"Email advisory@celottitechtalent.com with a few times that suit you, or call "}
+              <a href="tel:+6560119790" style={{ color: "#FFFFFF", fontWeight: "700", whiteSpace: "nowrap" }}>
+                +65 6011 9790
+              </a>
+              .
             </span>
           </div>
         </div>
       </section>
       <section aria-label="Enquiry" style={{ padding: "0 12px 64px" }}>
         <form
+          id="enquiry-m"
           style={{
             display: "flex",
             flexDirection: "column",
@@ -1058,7 +1128,7 @@ export function Mobile() {
             </span>
           </Link>
           <a
-            href="#"
+            href="#enquiry-m"
             style={{
               display: "flex",
               flexDirection: "column",
@@ -1112,20 +1182,24 @@ export function Mobile() {
             <a href="mailto:advisory@celottitechtalent.com" style={{ fontSize: "16px", fontWeight: "700", color: "#FFFFFF" }}>
               advisory@celottitechtalent.com
             </a>
+            <a href="tel:+6560119790" style={{ fontSize: "16px", fontWeight: "700", color: "#FFFFFF" }}>
+              +65 6011 9790
+            </a>
             <div
               style={{
-                height: "96px",
-                border: "1.5px dashed #60554F",
+                height: "180px",
                 borderRadius: "10px",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                fontSize: "10px",
-                fontWeight: "700",
-                color: "#C1C3C2",
+                background: "#383533",
+                overflow: "hidden",
               }}
             >
-              MAP EMBED · OPTIONAL
+              <iframe
+                title="Map: JustCo, The Metropolis"
+                src="https://www.google.com/maps?q=JustCo%20The%20Metropolis%2C%209%20North%20Buona%20Vista%20Drive%2C%20Singapore%20138588&output=embed"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                style={{ border: 0, width: "100%", height: "100%", display: "block" }}
+              />
             </div>
           </div>
         </div>

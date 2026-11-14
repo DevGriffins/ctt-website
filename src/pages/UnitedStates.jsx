@@ -224,18 +224,15 @@ export function Desktop() {
               gap: "14px",
               padding: "32px",
               borderRadius: "20px",
-              border: "1.5px dashed #60554F",
+              border: "1px solid #3A3736",
               background: "#262423",
             }}
           >
-            <span style={{ fontSize: "12px", fontWeight: "700", letterSpacing: "0.08em", color: "#C1C3C2" }}>
-              MARKET CONTEXT COPY · DRAFT PENDING
-            </span>
             <p style={{ margin: "0", fontSize: "18px", lineHeight: "1.6", color: "#D3D9DB" }}>
-              [Short market context for AI and data hiring in California.]
+              California remains the centre of gravity for AI investment, and competition for senior ML, data and AI product talent there is intense. More US companies are now building engineering and data teams in APAC, often with Singapore as the regional base.
             </p>
-            <p style={{ margin: "0", fontSize: "14px", color: "#C1C3C2" }}>
-              Statistics only with a cited source, or from CTT's own data later.
+            <p style={{ margin: "0", fontSize: "18px", lineHeight: "1.6", color: "#D3D9DB" }}>
+              We help US startups and scale-ups hire specialists for those teams, bringing the same advisory-led approach, market mapping and 3–5 candidate shortlists we use across the region.
             </p>
           </div>
         </div>
@@ -282,19 +279,9 @@ export function Desktop() {
               <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.55", color: "#D3D9DB" }}>
                 Chief AI Officers to LLM, ML and MLOps engineers.
               </p>
-              <span
-                style={{
-                  alignSelf: "flex-start",
-                  padding: "4px 8px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "6px",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  color: "#C1C3C2",
-                }}
-              >
-                US-SPECIFIC LINE · DRAFT
-              </span>
+              <p style={{ margin: "0", fontSize: "14px", lineHeight: "1.6", color: "#C1C3C2" }}>
+                AI engineers for US companies building capacity in APAC.
+              </p>
               <span
                 style={{ display: "inline-flex", alignItems: "center", gap: "8px", marginTop: "auto", fontSize: "15px", fontWeight: "700" }}
               >
@@ -338,19 +325,9 @@ export function Desktop() {
               <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.55", color: "#D3D9DB" }}>
                 Chief Data Officers to data engineers, scientists and governance leads.
               </p>
-              <span
-                style={{
-                  alignSelf: "flex-start",
-                  padding: "4px 8px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "6px",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  color: "#C1C3C2",
-                }}
-              >
-                US-SPECIFIC LINE · DRAFT
-              </span>
+              <p style={{ margin: "0", fontSize: "14px", lineHeight: "1.6", color: "#C1C3C2" }}>
+                Data and analytics hires for US companies expanding into the region.
+              </p>
               <span
                 style={{ display: "inline-flex", alignItems: "center", gap: "8px", marginTop: "auto", fontSize: "15px", fontWeight: "700" }}
               >
@@ -394,19 +371,9 @@ export function Desktop() {
               <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.55", color: "#D3D9DB" }}>
                 Quantum, semiconductors, photonics, space and climate tech.
               </p>
-              <span
-                style={{
-                  alignSelf: "flex-start",
-                  padding: "4px 8px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "6px",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  color: "#C1C3C2",
-                }}
-              >
-                US-SPECIFIC LINE · DRAFT
-              </span>
+              <p style={{ margin: "0", fontSize: "14px", lineHeight: "1.6", color: "#C1C3C2" }}>
+                Specialist engineers for US deep tech firms establishing teams in Asia.
+              </p>
               <span
                 style={{ display: "inline-flex", alignItems: "center", gap: "8px", marginTop: "auto", fontSize: "15px", fontWeight: "700" }}
               >
@@ -450,19 +417,9 @@ export function Desktop() {
               <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.55", color: "#D3D9DB" }}>
                 Robotics, autonomy, controls, embedded and computer vision engineers.
               </p>
-              <span
-                style={{
-                  alignSelf: "flex-start",
-                  padding: "4px 8px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "6px",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  color: "#C1C3C2",
-                }}
-              >
-                US-SPECIFIC LINE · DRAFT
-              </span>
+              <p style={{ margin: "0", fontSize: "14px", lineHeight: "1.6", color: "#C1C3C2" }}>
+                Robotics and autonomy talent for US companies with APAC operations.
+              </p>
               <span
                 style={{ display: "inline-flex", alignItems: "center", gap: "8px", marginTop: "auto", fontSize: "15px", fontWeight: "700" }}
               >
@@ -623,7 +580,7 @@ export function Desktop() {
               Local presence
             </p>
             <h2 style={{ margin: "0", fontSize: "32px", lineHeight: "1.15", letterSpacing: "-0.02em", fontWeight: "700" }}>
-              Active in California
+              Supporting US teams
             </h2>
             <div
               style={{
@@ -635,20 +592,7 @@ export function Desktop() {
                 background: "#383533",
               }}
             >
-              <span style={{ fontSize: "18px", lineHeight: "1.45", fontWeight: "700" }}>Current assignments with California startups</span>
-              <span
-                style={{
-                  alignSelf: "flex-start",
-                  padding: "3px 8px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "6px",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  color: "#C1C3C2",
-                }}
-              >
-                CONFIRM WORDING
-              </span>
+              <span style={{ fontSize: "18px", lineHeight: "1.45", fontWeight: "700" }}>Supporting California startups hiring in APAC</span>
             </div>
             <div
               style={{
@@ -660,20 +604,7 @@ export function Desktop() {
                 background: "#383533",
               }}
             >
-              <span style={{ fontSize: "18px", lineHeight: "1.45", fontWeight: "700" }}>Location focus: [Palo Alto / Bay Area]</span>
-              <span
-                style={{
-                  alignSelf: "flex-start",
-                  padding: "3px 8px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "6px",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  color: "#C1C3C2",
-                }}
-              >
-                TO CONFIRM
-              </span>
+              <span style={{ fontSize: "18px", lineHeight: "1.45", fontWeight: "700" }}>Location focus: Bay Area, served from our Singapore hub</span>
             </div>
           </div>
         </div>
@@ -773,19 +704,9 @@ export function Desktop() {
                 </button>
               </h3>
               <div style={{ padding: "0 12px 24px" }}>
-                <span
-                  style={{
-                    display: "inline-block",
-                    padding: "3px 8px",
-                    border: "1.5px dashed #60554F",
-                    borderRadius: "6px",
-                    fontSize: "12px",
-                    fontWeight: "700",
-                    color: "#C1C3C2",
-                  }}
-                >
-                  TO CONFIRM: US MARKETS AND ROLE TYPES
-                </span>
+                <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.6", color: "#D3D9DB" }}>
+                  Yes. We work with US companies, particularly California startups, hiring AI, Data, Deep Tech and Robotics specialists, most often for teams being built in Singapore and across APAC. Tell us about the role and location and we'll be clear about whether we're the right partner for it.
+                </p>
               </div>
             </div>
             <div style={{ borderBottom: "1px solid #3A3736" }}>
@@ -829,19 +750,9 @@ export function Desktop() {
                 </button>
               </h3>
               <div hidden style={{ padding: "0 12px 24px" }}>
-                <span
-                  style={{
-                    display: "inline-block",
-                    padding: "3px 8px",
-                    border: "1.5px dashed #60554F",
-                    borderRadius: "6px",
-                    fontSize: "12px",
-                    fontWeight: "700",
-                    color: "#C1C3C2",
-                  }}
-                >
-                  ANSWER: CLIENT TO PROVIDE
-                </span>
+                <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.6", color: "#D3D9DB" }}>
+                  Yes. We map and approach candidates across APAC, including Singapore, Australia and Southeast Asia, and shortlist 3–5 high-quality candidates per role wherever the strongest people are. We also advise on salary benchmarks and location strategy, and flag early where work passes or an employer-of-record arrangement will be needed.
+                </p>
               </div>
             </div>
           </div>
@@ -1023,17 +934,16 @@ export function Mobile() {
             gap: "10px",
             padding: "20px",
             borderRadius: "16px",
-            border: "1.5px dashed #60554F",
+            border: "1px solid #3A3736",
             background: "#262423",
           }}
         >
-          <span style={{ fontSize: "11px", fontWeight: "700", letterSpacing: "0.06em", color: "#C1C3C2" }}>
-            MARKET CONTEXT · DRAFT PENDING
-          </span>
           <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.6", color: "#D3D9DB" }}>
-            [Short market context for AI and data hiring in California.]
+            California remains the centre of gravity for AI investment, and competition for senior ML, data and AI product talent there is intense. More US companies are now building engineering and data teams in APAC, often with Singapore as the regional base.
           </p>
-          <p style={{ margin: "0", fontSize: "13px", color: "#C1C3C2" }}>Statistics only with a cited source.</p>
+          <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.6", color: "#D3D9DB" }}>
+            We help US startups and scale-ups hire specialists for those teams, bringing the same advisory-led approach, market mapping and 3–5 candidate shortlists we use across the region.
+          </p>
         </div>
       </section>
       <section aria-labelledby="mau-sm" style={{ background: "#262423", borderTop: "1px solid #3A3736" }}>
@@ -1072,19 +982,9 @@ export function Mobile() {
               </svg>
             </span>
             <span style={{ fontSize: "15px", lineHeight: "1.5", color: "#D3D9DB" }}>Chief AI Officers to LLM, ML and MLOps engineers.</span>
-            <span
-              style={{
-                alignSelf: "flex-start",
-                padding: "2px 6px",
-                border: "1.5px dashed #60554F",
-                borderRadius: "6px",
-                fontSize: "10px",
-                fontWeight: "700",
-                color: "#C1C3C2",
-              }}
-            >
-              US LINE · DRAFT
-            </span>
+            <p style={{ margin: "0", fontSize: "13px", lineHeight: "1.6", color: "#C1C3C2" }}>
+              AI engineers for US companies building capacity in APAC.
+            </p>
           </Link>
           <a
             href="#"
@@ -1119,19 +1019,9 @@ export function Mobile() {
             <span style={{ fontSize: "15px", lineHeight: "1.5", color: "#D3D9DB" }}>
               Chief Data Officers to data engineers, scientists and governance leads.
             </span>
-            <span
-              style={{
-                alignSelf: "flex-start",
-                padding: "2px 6px",
-                border: "1.5px dashed #60554F",
-                borderRadius: "6px",
-                fontSize: "10px",
-                fontWeight: "700",
-                color: "#C1C3C2",
-              }}
-            >
-              US LINE · DRAFT
-            </span>
+            <p style={{ margin: "0", fontSize: "13px", lineHeight: "1.6", color: "#C1C3C2" }}>
+              Data and analytics hires for US companies expanding into the region.
+            </p>
           </a>
           <a
             href="#"
@@ -1166,19 +1056,9 @@ export function Mobile() {
             <span style={{ fontSize: "15px", lineHeight: "1.5", color: "#D3D9DB" }}>
               Quantum, semiconductors, photonics, space and climate tech.
             </span>
-            <span
-              style={{
-                alignSelf: "flex-start",
-                padding: "2px 6px",
-                border: "1.5px dashed #60554F",
-                borderRadius: "6px",
-                fontSize: "10px",
-                fontWeight: "700",
-                color: "#C1C3C2",
-              }}
-            >
-              US LINE · DRAFT
-            </span>
+            <p style={{ margin: "0", fontSize: "13px", lineHeight: "1.6", color: "#C1C3C2" }}>
+              Specialist engineers for US deep tech firms establishing teams in Asia.
+            </p>
           </a>
           <a
             href="#"
@@ -1213,19 +1093,9 @@ export function Mobile() {
             <span style={{ fontSize: "15px", lineHeight: "1.5", color: "#D3D9DB" }}>
               Robotics, autonomy, controls, embedded and computer vision engineers.
             </span>
-            <span
-              style={{
-                alignSelf: "flex-start",
-                padding: "2px 6px",
-                border: "1.5px dashed #60554F",
-                borderRadius: "6px",
-                fontSize: "10px",
-                fontWeight: "700",
-                color: "#C1C3C2",
-              }}
-            >
-              US LINE · DRAFT
-            </span>
+            <p style={{ margin: "0", fontSize: "13px", lineHeight: "1.6", color: "#C1C3C2" }}>
+              Robotics and autonomy talent for US companies with APAC operations.
+            </p>
           </a>
         </div>
       </section>
@@ -1329,42 +1199,16 @@ export function Mobile() {
           >
             Local presence
           </p>
-          <h2 style={{ margin: "0", fontSize: "24px", fontWeight: "700" }}>Active in California</h2>
+          <h2 style={{ margin: "0", fontSize: "24px", fontWeight: "700" }}>Supporting US teams</h2>
           <div
             style={{ display: "flex", flexDirection: "column", gap: "8px", padding: "16px", borderRadius: "12px", background: "#383533" }}
           >
-            <span style={{ fontSize: "16px", lineHeight: "1.45", fontWeight: "700" }}>Current assignments with California startups</span>
-            <span
-              style={{
-                alignSelf: "flex-start",
-                padding: "2px 6px",
-                border: "1.5px dashed #60554F",
-                borderRadius: "6px",
-                fontSize: "10px",
-                fontWeight: "700",
-                color: "#C1C3C2",
-              }}
-            >
-              CONFIRM WORDING
-            </span>
+            <span style={{ fontSize: "16px", lineHeight: "1.45", fontWeight: "700" }}>Supporting California startups hiring in APAC</span>
           </div>
           <div
             style={{ display: "flex", flexDirection: "column", gap: "8px", padding: "16px", borderRadius: "12px", background: "#383533" }}
           >
-            <span style={{ fontSize: "16px", lineHeight: "1.45", fontWeight: "700" }}>Location focus: [Palo Alto / Bay Area]</span>
-            <span
-              style={{
-                alignSelf: "flex-start",
-                padding: "2px 6px",
-                border: "1.5px dashed #60554F",
-                borderRadius: "6px",
-                fontSize: "10px",
-                fontWeight: "700",
-                color: "#C1C3C2",
-              }}
-            >
-              TO CONFIRM
-            </span>
+            <span style={{ fontSize: "16px", lineHeight: "1.45", fontWeight: "700" }}>Location focus: Bay Area, served from our Singapore hub</span>
           </div>
         </div>
       </section>
@@ -1413,20 +1257,9 @@ export function Mobile() {
               </button>
             </h3>
             <div style={{ padding: "0 0 18px" }}>
-              <span
-                style={{
-                  display: "inline-block",
-                  padding: "3px 7px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "6px",
-                  fontSize: "10px",
-                  fontWeight: "700",
-                  lineHeight: "1.4",
-                  color: "#C1C3C2",
-                }}
-              >
-                TO CONFIRM: US MARKETS AND ROLE TYPES
-              </span>
+              <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.6", color: "#D3D9DB" }}>
+                Yes. We work with US companies, particularly California startups, hiring AI, Data, Deep Tech and Robotics specialists, most often for teams being built in Singapore and across APAC. Tell us about the role and location and we'll be clear about whether we're the right partner for it.
+              </p>
             </div>
           </div>
           <div style={{ borderBottom: "1px solid #3A3736" }}>
@@ -1468,20 +1301,10 @@ export function Mobile() {
                 </svg>
               </button>
             </h3>
-            <div hidden style={{ padding: "0 12px 24px" }}>
-              <span
-                style={{
-                  display: "inline-block",
-                  padding: "3px 8px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "6px",
-                  fontSize: "12px",
-                  fontWeight: "700",
-                  color: "#C1C3C2",
-                }}
-              >
-                ANSWER: CLIENT TO PROVIDE
-              </span>
+            <div hidden style={{ padding: "0 0 18px" }}>
+              <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.6", color: "#D3D9DB" }}>
+                Yes. We map and approach candidates across APAC, including Singapore, Australia and Southeast Asia, and shortlist 3–5 high-quality candidates per role wherever the strongest people are. We also advise on salary benchmarks and location strategy, and flag early where work passes or an employer-of-record arrangement will be needed.
+              </p>
             </div>
           </div>
         </div>

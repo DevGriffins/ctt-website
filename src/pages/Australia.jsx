@@ -224,18 +224,15 @@ export function Desktop() {
               gap: "14px",
               padding: "32px",
               borderRadius: "20px",
-              border: "1.5px dashed #60554F",
+              border: "1px solid #3A3736",
               background: "#262423",
             }}
           >
-            <span style={{ fontSize: "12px", fontWeight: "700", letterSpacing: "0.08em", color: "#C1C3C2" }}>
-              MARKET CONTEXT COPY · DRAFT PENDING
-            </span>
             <p style={{ margin: "0", fontSize: "18px", lineHeight: "1.6", color: "#D3D9DB" }}>
-              [Short market context for Australian AI and data hiring.]
+              Australian organisations, from banks and miners to government agencies and venture-backed scale-ups, are building in-house AI and data capability. Experienced ML engineers, data engineers and AI product leaders remain hard to find, and the strongest candidates are usually already employed and not applying.
             </p>
-            <p style={{ margin: "0", fontSize: "14px", color: "#C1C3C2" }}>
-              Statistics only with a cited source, or from CTT's own data later.
+            <p style={{ margin: "0", fontSize: "18px", lineHeight: "1.6", color: "#D3D9DB" }}>
+              Celotti Group has recruited in Australia since 2013. CTT pairs that heritage with a specialist AI and Data practice run from our Singapore hub, so Australian teams can hire locally or across APAC with one partner.
             </p>
           </div>
         </div>
@@ -282,19 +279,9 @@ export function Desktop() {
               <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.55", color: "#D3D9DB" }}>
                 Chief AI Officers to LLM, ML and MLOps engineers.
               </p>
-              <span
-                style={{
-                  alignSelf: "flex-start",
-                  padding: "4px 8px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "6px",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  color: "#C1C3C2",
-                }}
-              >
-                AUSTRALIA-SPECIFIC LINE · DRAFT
-              </span>
+              <p style={{ margin: "0", fontSize: "14px", lineHeight: "1.6", color: "#C1C3C2" }}>
+                For Australian teams scaling AI, from first ML hires to AI leadership.
+              </p>
               <span
                 style={{ display: "inline-flex", alignItems: "center", gap: "8px", marginTop: "auto", fontSize: "15px", fontWeight: "700" }}
               >
@@ -338,19 +325,9 @@ export function Desktop() {
               <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.55", color: "#D3D9DB" }}>
                 Chief Data Officers to data engineers, scientists and governance leads.
               </p>
-              <span
-                style={{
-                  alignSelf: "flex-start",
-                  padding: "4px 8px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "6px",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  color: "#C1C3C2",
-                }}
-              >
-                AUSTRALIA-SPECIFIC LINE · DRAFT
-              </span>
+              <p style={{ margin: "0", fontSize: "14px", lineHeight: "1.6", color: "#C1C3C2" }}>
+                Data platform, analytics and governance hires for Australian organisations.
+              </p>
               <span
                 style={{ display: "inline-flex", alignItems: "center", gap: "8px", marginTop: "auto", fontSize: "15px", fontWeight: "700" }}
               >
@@ -394,19 +371,9 @@ export function Desktop() {
               <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.55", color: "#D3D9DB" }}>
                 Quantum, semiconductors, photonics, space and climate tech.
               </p>
-              <span
-                style={{
-                  alignSelf: "flex-start",
-                  padding: "4px 8px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "6px",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  color: "#C1C3C2",
-                }}
-              >
-                AUSTRALIA-SPECIFIC LINE · DRAFT
-              </span>
+              <p style={{ margin: "0", fontSize: "14px", lineHeight: "1.6", color: "#C1C3C2" }}>
+                Specialist engineers for Australia's quantum, space and climate tech sectors.
+              </p>
               <span
                 style={{ display: "inline-flex", alignItems: "center", gap: "8px", marginTop: "auto", fontSize: "15px", fontWeight: "700" }}
               >
@@ -450,19 +417,9 @@ export function Desktop() {
               <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.55", color: "#D3D9DB" }}>
                 Robotics, autonomy, controls, embedded and computer vision engineers.
               </p>
-              <span
-                style={{
-                  alignSelf: "flex-start",
-                  padding: "4px 8px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "6px",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  color: "#C1C3C2",
-                }}
-              >
-                AUSTRALIA-SPECIFIC LINE · DRAFT
-              </span>
+              <p style={{ margin: "0", fontSize: "14px", lineHeight: "1.6", color: "#C1C3C2" }}>
+                Robotics and autonomy talent for mining, agriculture and logistics automation.
+              </p>
               <span
                 style={{ display: "inline-flex", alignItems: "center", gap: "8px", marginTop: "auto", fontSize: "15px", fontWeight: "700" }}
               >
@@ -636,20 +593,7 @@ export function Desktop() {
               }}
             >
               <span style={{ fontSize: "18px", lineHeight: "1.45", fontWeight: "700" }}>
-                Australian-backed through Celotti Group, established 2013
-              </span>
-              <span
-                style={{
-                  alignSelf: "flex-start",
-                  padding: "3px 8px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "6px",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  color: "#C1C3C2",
-                }}
-              >
-                CONFIRM WORDING
+                Australian-backed through Celotti Group, founded in Darwin in 2013
               </span>
             </div>
             <div
@@ -662,20 +606,7 @@ export function Desktop() {
                 background: "#383533",
               }}
             >
-              <span style={{ fontSize: "18px", lineHeight: "1.45", fontWeight: "700" }}>Leadership team presence in Australia</span>
-              <span
-                style={{
-                  alignSelf: "flex-start",
-                  padding: "3px 8px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "6px",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  color: "#C1C3C2",
-                }}
-              >
-                TO CONFIRM
-              </span>
+              <span style={{ fontSize: "18px", lineHeight: "1.45", fontWeight: "700" }}>Group head office in Darwin, NT, with our APAC hub in Singapore</span>
             </div>
           </div>
         </div>
@@ -775,19 +706,9 @@ export function Desktop() {
                 </button>
               </h3>
               <div style={{ padding: "0 12px 24px" }}>
-                <span
-                  style={{
-                    display: "inline-block",
-                    padding: "3px 8px",
-                    border: "1.5px dashed #60554F",
-                    borderRadius: "6px",
-                    fontSize: "12px",
-                    fontWeight: "700",
-                    color: "#C1C3C2",
-                  }}
-                >
-                  TO CONFIRM: WHETHER CTT ACTIVELY PLACES ROLES IN AUSTRALIA TODAY
-                </span>
+                <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.6", color: "#D3D9DB" }}>
+                  Yes. CTT is part of the Celotti Group, which has recruited in Australia since 2013, and we take on AI, Data, Deep Tech and Robotics searches for Australian organisations. Our specialist team works from Singapore, so we can also help Australian companies hire across the wider APAC region.
+                </p>
               </div>
             </div>
             <div style={{ borderBottom: "1px solid #3A3736" }}>
@@ -831,19 +752,9 @@ export function Desktop() {
                 </button>
               </h3>
               <div hidden style={{ padding: "0 12px 24px" }}>
-                <span
-                  style={{
-                    display: "inline-block",
-                    padding: "3px 8px",
-                    border: "1.5px dashed #60554F",
-                    borderRadius: "6px",
-                    fontSize: "12px",
-                    fontWeight: "700",
-                    color: "#C1C3C2",
-                  }}
-                >
-                  ANSWER: CLIENT TO PROVIDE
-                </span>
+                <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.6", color: "#D3D9DB" }}>
+                  Yes. We map and approach candidates across APAC, including Singapore, Australia and Southeast Asia, and shortlist 3–5 high-quality candidates per role wherever the strongest people are. We also advise on salary benchmarks and location strategy, and flag early where work passes or an employer-of-record arrangement will be needed.
+                </p>
               </div>
             </div>
           </div>
@@ -1025,17 +936,16 @@ export function Mobile() {
             gap: "10px",
             padding: "20px",
             borderRadius: "16px",
-            border: "1.5px dashed #60554F",
+            border: "1px solid #3A3736",
             background: "#262423",
           }}
         >
-          <span style={{ fontSize: "11px", fontWeight: "700", letterSpacing: "0.06em", color: "#C1C3C2" }}>
-            MARKET CONTEXT · DRAFT PENDING
-          </span>
           <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.6", color: "#D3D9DB" }}>
-            [Short market context for Australian AI and data hiring.]
+            Australian organisations, from banks and miners to government agencies and venture-backed scale-ups, are building in-house AI and data capability. Experienced ML engineers, data engineers and AI product leaders remain hard to find, and the strongest candidates are usually already employed and not applying.
           </p>
-          <p style={{ margin: "0", fontSize: "13px", color: "#C1C3C2" }}>Statistics only with a cited source.</p>
+          <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.6", color: "#D3D9DB" }}>
+            Celotti Group has recruited in Australia since 2013. CTT pairs that heritage with a specialist AI and Data practice run from our Singapore hub, so Australian teams can hire locally or across APAC with one partner.
+          </p>
         </div>
       </section>
       <section aria-labelledby="mau-sm" style={{ background: "#262423", borderTop: "1px solid #3A3736" }}>
@@ -1074,19 +984,9 @@ export function Mobile() {
               </svg>
             </span>
             <span style={{ fontSize: "15px", lineHeight: "1.5", color: "#D3D9DB" }}>Chief AI Officers to LLM, ML and MLOps engineers.</span>
-            <span
-              style={{
-                alignSelf: "flex-start",
-                padding: "2px 6px",
-                border: "1.5px dashed #60554F",
-                borderRadius: "6px",
-                fontSize: "10px",
-                fontWeight: "700",
-                color: "#C1C3C2",
-              }}
-            >
-              AUSTRALIA LINE · DRAFT
-            </span>
+            <p style={{ margin: "0", fontSize: "13px", lineHeight: "1.6", color: "#C1C3C2" }}>
+              For Australian teams scaling AI, from first ML hires to AI leadership.
+            </p>
           </Link>
           <a
             href="#"
@@ -1121,19 +1021,9 @@ export function Mobile() {
             <span style={{ fontSize: "15px", lineHeight: "1.5", color: "#D3D9DB" }}>
               Chief Data Officers to data engineers, scientists and governance leads.
             </span>
-            <span
-              style={{
-                alignSelf: "flex-start",
-                padding: "2px 6px",
-                border: "1.5px dashed #60554F",
-                borderRadius: "6px",
-                fontSize: "10px",
-                fontWeight: "700",
-                color: "#C1C3C2",
-              }}
-            >
-              AUSTRALIA LINE · DRAFT
-            </span>
+            <p style={{ margin: "0", fontSize: "13px", lineHeight: "1.6", color: "#C1C3C2" }}>
+              Data platform, analytics and governance hires for Australian organisations.
+            </p>
           </a>
           <a
             href="#"
@@ -1168,19 +1058,9 @@ export function Mobile() {
             <span style={{ fontSize: "15px", lineHeight: "1.5", color: "#D3D9DB" }}>
               Quantum, semiconductors, photonics, space and climate tech.
             </span>
-            <span
-              style={{
-                alignSelf: "flex-start",
-                padding: "2px 6px",
-                border: "1.5px dashed #60554F",
-                borderRadius: "6px",
-                fontSize: "10px",
-                fontWeight: "700",
-                color: "#C1C3C2",
-              }}
-            >
-              AUSTRALIA LINE · DRAFT
-            </span>
+            <p style={{ margin: "0", fontSize: "13px", lineHeight: "1.6", color: "#C1C3C2" }}>
+              Specialist engineers for Australia's quantum, space and climate tech sectors.
+            </p>
           </a>
           <a
             href="#"
@@ -1215,19 +1095,9 @@ export function Mobile() {
             <span style={{ fontSize: "15px", lineHeight: "1.5", color: "#D3D9DB" }}>
               Robotics, autonomy, controls, embedded and computer vision engineers.
             </span>
-            <span
-              style={{
-                alignSelf: "flex-start",
-                padding: "2px 6px",
-                border: "1.5px dashed #60554F",
-                borderRadius: "6px",
-                fontSize: "10px",
-                fontWeight: "700",
-                color: "#C1C3C2",
-              }}
-            >
-              AUSTRALIA LINE · DRAFT
-            </span>
+            <p style={{ margin: "0", fontSize: "13px", lineHeight: "1.6", color: "#C1C3C2" }}>
+              Robotics and autonomy talent for mining, agriculture and logistics automation.
+            </p>
           </a>
         </div>
       </section>
@@ -1336,39 +1206,13 @@ export function Mobile() {
             style={{ display: "flex", flexDirection: "column", gap: "8px", padding: "16px", borderRadius: "12px", background: "#383533" }}
           >
             <span style={{ fontSize: "16px", lineHeight: "1.45", fontWeight: "700" }}>
-              Australian-backed through Celotti Group, established 2013
-            </span>
-            <span
-              style={{
-                alignSelf: "flex-start",
-                padding: "2px 6px",
-                border: "1.5px dashed #60554F",
-                borderRadius: "6px",
-                fontSize: "10px",
-                fontWeight: "700",
-                color: "#C1C3C2",
-              }}
-            >
-              CONFIRM WORDING
+              Australian-backed through Celotti Group, founded in Darwin in 2013
             </span>
           </div>
           <div
             style={{ display: "flex", flexDirection: "column", gap: "8px", padding: "16px", borderRadius: "12px", background: "#383533" }}
           >
-            <span style={{ fontSize: "16px", lineHeight: "1.45", fontWeight: "700" }}>Leadership team presence in Australia</span>
-            <span
-              style={{
-                alignSelf: "flex-start",
-                padding: "2px 6px",
-                border: "1.5px dashed #60554F",
-                borderRadius: "6px",
-                fontSize: "10px",
-                fontWeight: "700",
-                color: "#C1C3C2",
-              }}
-            >
-              TO CONFIRM
-            </span>
+            <span style={{ fontSize: "16px", lineHeight: "1.45", fontWeight: "700" }}>Group head office in Darwin, NT, with our APAC hub in Singapore</span>
           </div>
         </div>
       </section>
@@ -1417,20 +1261,9 @@ export function Mobile() {
               </button>
             </h3>
             <div style={{ padding: "0 0 18px" }}>
-              <span
-                style={{
-                  display: "inline-block",
-                  padding: "3px 7px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "6px",
-                  fontSize: "10px",
-                  fontWeight: "700",
-                  lineHeight: "1.4",
-                  color: "#C1C3C2",
-                }}
-              >
-                TO CONFIRM: WHETHER CTT PLACES ROLES IN AUSTRALIA TODAY
-              </span>
+              <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.6", color: "#D3D9DB" }}>
+                Yes. CTT is part of the Celotti Group, which has recruited in Australia since 2013, and we take on AI, Data, Deep Tech and Robotics searches for Australian organisations. Our specialist team works from Singapore, so we can also help Australian companies hire across the wider APAC region.
+              </p>
             </div>
           </div>
           <div style={{ borderBottom: "1px solid #3A3736" }}>
@@ -1472,20 +1305,10 @@ export function Mobile() {
                 </svg>
               </button>
             </h3>
-            <div hidden style={{ padding: "0 12px 24px" }}>
-              <span
-                style={{
-                  display: "inline-block",
-                  padding: "3px 8px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "6px",
-                  fontSize: "12px",
-                  fontWeight: "700",
-                  color: "#C1C3C2",
-                }}
-              >
-                ANSWER: CLIENT TO PROVIDE
-              </span>
+            <div hidden style={{ padding: "0 0 18px" }}>
+              <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.6", color: "#D3D9DB" }}>
+                Yes. We map and approach candidates across APAC, including Singapore, Australia and Southeast Asia, and shortlist 3–5 high-quality candidates per role wherever the strongest people are. We also advise on salary benchmarks and location strategy, and flag early where work passes or an employer-of-record arrangement will be needed.
+              </p>
             </div>
           </div>
         </div>

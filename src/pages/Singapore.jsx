@@ -224,18 +224,15 @@ export function Desktop() {
               gap: "14px",
               padding: "32px",
               borderRadius: "20px",
-              border: "1.5px dashed #60554F",
+              border: "1px solid #3A3736",
               background: "#262423",
             }}
           >
-            <span style={{ fontSize: "12px", fontWeight: "700", letterSpacing: "0.08em", color: "#C1C3C2" }}>
-              MARKET CONTEXT COPY · DRAFT PENDING
-            </span>
             <p style={{ margin: "0", fontSize: "18px", lineHeight: "1.6", color: "#D3D9DB" }}>
-              [Short market context: AI investment, demand for specialist roles, competition for talent.]
+              Singapore is the region's hub for AI and data investment. Global technology firms, banks and venture-backed scale-ups are setting up AI, data and robotics teams here, often as their APAC headquarters.
             </p>
-            <p style={{ margin: "0", fontSize: "14px", color: "#C1C3C2" }}>
-              Statistics only with a cited source, or from CTT's own data later.
+            <p style={{ margin: "0", fontSize: "18px", lineHeight: "1.6", color: "#D3D9DB" }}>
+              Demand for experienced AI engineers, data scientists, ML engineers and product leaders keeps outpacing local supply, so companies compete for the same senior people. We work from Singapore to map that market, benchmark roles and reach candidates who are not actively applying.
             </p>
           </div>
         </div>
@@ -282,19 +279,9 @@ export function Desktop() {
               <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.55", color: "#D3D9DB" }}>
                 Chief AI Officers to LLM, ML and MLOps engineers.
               </p>
-              <span
-                style={{
-                  alignSelf: "flex-start",
-                  padding: "4px 8px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "6px",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  color: "#C1C3C2",
-                }}
-              >
-                SINGAPORE-SPECIFIC LINE · DRAFT
-              </span>
+              <p style={{ margin: "0", fontSize: "14px", lineHeight: "1.6", color: "#C1C3C2" }}>
+                Engineers who can take models into production for Singapore's AI build-out.
+              </p>
               <span
                 style={{ display: "inline-flex", alignItems: "center", gap: "8px", marginTop: "auto", fontSize: "15px", fontWeight: "700" }}
               >
@@ -338,19 +325,9 @@ export function Desktop() {
               <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.55", color: "#D3D9DB" }}>
                 Chief Data Officers to data engineers, scientists and governance leads.
               </p>
-              <span
-                style={{
-                  alignSelf: "flex-start",
-                  padding: "4px 8px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "6px",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  color: "#C1C3C2",
-                }}
-              >
-                SINGAPORE-SPECIFIC LINE · DRAFT
-              </span>
+              <p style={{ margin: "0", fontSize: "14px", lineHeight: "1.6", color: "#C1C3C2" }}>
+                Data engineers and scientists for banks, platforms and regional HQs.
+              </p>
               <span
                 style={{ display: "inline-flex", alignItems: "center", gap: "8px", marginTop: "auto", fontSize: "15px", fontWeight: "700" }}
               >
@@ -394,19 +371,9 @@ export function Desktop() {
               <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.55", color: "#D3D9DB" }}>
                 Quantum, semiconductors, photonics, space and climate tech.
               </p>
-              <span
-                style={{
-                  alignSelf: "flex-start",
-                  padding: "4px 8px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "6px",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  color: "#C1C3C2",
-                }}
-              >
-                SINGAPORE-SPECIFIC LINE · DRAFT
-              </span>
+              <p style={{ margin: "0", fontSize: "14px", lineHeight: "1.6", color: "#C1C3C2" }}>
+                Semiconductor, photonics and climate tech talent for Singapore's R&D base.
+              </p>
               <span
                 style={{ display: "inline-flex", alignItems: "center", gap: "8px", marginTop: "auto", fontSize: "15px", fontWeight: "700" }}
               >
@@ -450,19 +417,9 @@ export function Desktop() {
               <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.55", color: "#D3D9DB" }}>
                 Robotics, autonomy, controls, embedded and computer vision engineers.
               </p>
-              <span
-                style={{
-                  alignSelf: "flex-start",
-                  padding: "4px 8px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "6px",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  color: "#C1C3C2",
-                }}
-              >
-                SINGAPORE-SPECIFIC LINE · DRAFT
-              </span>
+              <p style={{ margin: "0", fontSize: "14px", lineHeight: "1.6", color: "#C1C3C2" }}>
+                Robotics, autonomy and vision engineers for AMR and automation companies.
+              </p>
               <span
                 style={{ display: "inline-flex", alignItems: "center", gap: "8px", marginTop: "auto", fontSize: "15px", fontWeight: "700" }}
               >
@@ -633,37 +590,29 @@ export function Desktop() {
               Singapore 138588
             </address>
             <span style={{ display: "flex", flexWrap: "wrap", alignItems: "center", gap: "10px", fontSize: "15px", color: "#D3D9DB" }}>
-              {"EA Licence No. "}
-              <span
-                style={{
-                  padding: "3px 8px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "6px",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  color: "#C1C3C2",
-                }}
-              >
-                CLIENT TO PROVIDE
+              <span>
+                EA Licence No. <strong style={{ color: "#FFFFFF" }}>26S3355</strong>
+              </span>
+              <span>
+                UEN <strong style={{ color: "#FFFFFF" }}>202602927R</strong>
               </span>
             </span>
             <div
               style={{
                 flexGrow: "1",
                 minHeight: "120px",
-                border: "1.5px dashed #60554F",
                 borderRadius: "12px",
                 background: "#383533",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                fontSize: "11px",
-                fontWeight: "700",
-                letterSpacing: "0.06em",
-                color: "#C1C3C2",
+                overflow: "hidden",
               }}
             >
-              MAP EMBED · OPTIONAL
+              <iframe
+                title="Map: JustCo, The Metropolis"
+                src="https://www.google.com/maps?q=JustCo%20The%20Metropolis%2C%209%20North%20Buona%20Vista%20Drive%2C%20Singapore%20138588&output=embed"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                style={{ border: 0, width: "100%", height: "100%", display: "block" }}
+              />
             </div>
           </div>
         </div>
@@ -774,19 +723,6 @@ export function Desktop() {
                 }}
               >
                 <p style={{ margin: "0" }}>Yes. We're based in Singapore and recruit AI, Data, Deep Tech and Robotics roles here.</p>
-                <span
-                  style={{
-                    alignSelf: "flex-start",
-                    padding: "3px 8px",
-                    border: "1.5px dashed #60554F",
-                    borderRadius: "6px",
-                    fontSize: "11px",
-                    fontWeight: "700",
-                    color: "#C1C3C2",
-                  }}
-                >
-                  DRAFT ANSWER
-                </span>
               </div>
             </div>
             <div style={{ borderBottom: "1px solid #3A3736" }}>
@@ -830,19 +766,9 @@ export function Desktop() {
                 </button>
               </h3>
               <div hidden style={{ padding: "0 12px 24px" }}>
-                <span
-                  style={{
-                    display: "inline-block",
-                    padding: "3px 8px",
-                    border: "1.5px dashed #60554F",
-                    borderRadius: "6px",
-                    fontSize: "12px",
-                    fontWeight: "700",
-                    color: "#C1C3C2",
-                  }}
-                >
-                  ANSWER: CLIENT TO PROVIDE
-                </span>
+                <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.6", color: "#D3D9DB" }}>
+                  Yes. We map and approach candidates across APAC, including Singapore, Australia and Southeast Asia, and shortlist 3–5 high-quality candidates per role wherever the strongest people are. We also advise on salary benchmarks and location strategy, and flag early where work passes or an employer-of-record arrangement will be needed.
+                </p>
               </div>
             </div>
           </div>
@@ -1024,17 +950,16 @@ export function Mobile() {
             gap: "10px",
             padding: "20px",
             borderRadius: "16px",
-            border: "1.5px dashed #60554F",
+            border: "1px solid #3A3736",
             background: "#262423",
           }}
         >
-          <span style={{ fontSize: "11px", fontWeight: "700", letterSpacing: "0.06em", color: "#C1C3C2" }}>
-            MARKET CONTEXT · DRAFT PENDING
-          </span>
           <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.6", color: "#D3D9DB" }}>
-            [Short market context: AI investment, demand for specialist roles, competition for talent.]
+            Singapore is the region's hub for AI and data investment. Global technology firms, banks and venture-backed scale-ups are setting up AI, data and robotics teams here, often as their APAC headquarters.
           </p>
-          <p style={{ margin: "0", fontSize: "13px", color: "#C1C3C2" }}>Statistics only with a cited source.</p>
+          <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.6", color: "#D3D9DB" }}>
+            Demand for experienced AI engineers, data scientists, ML engineers and product leaders keeps outpacing local supply, so companies compete for the same senior people. We work from Singapore to map that market, benchmark roles and reach candidates who are not actively applying.
+          </p>
         </div>
       </section>
       <section aria-labelledby="msg-sm" style={{ background: "#262423", borderTop: "1px solid #3A3736" }}>
@@ -1073,19 +998,9 @@ export function Mobile() {
               </svg>
             </span>
             <span style={{ fontSize: "15px", lineHeight: "1.5", color: "#D3D9DB" }}>Chief AI Officers to LLM, ML and MLOps engineers.</span>
-            <span
-              style={{
-                alignSelf: "flex-start",
-                padding: "2px 6px",
-                border: "1.5px dashed #60554F",
-                borderRadius: "6px",
-                fontSize: "10px",
-                fontWeight: "700",
-                color: "#C1C3C2",
-              }}
-            >
-              SINGAPORE LINE · DRAFT
-            </span>
+            <p style={{ margin: "0", fontSize: "13px", lineHeight: "1.6", color: "#C1C3C2" }}>
+              Engineers who can take models into production for Singapore's AI build-out.
+            </p>
           </Link>
           <a
             href="#"
@@ -1120,19 +1035,9 @@ export function Mobile() {
             <span style={{ fontSize: "15px", lineHeight: "1.5", color: "#D3D9DB" }}>
               Chief Data Officers to data engineers, scientists and governance leads.
             </span>
-            <span
-              style={{
-                alignSelf: "flex-start",
-                padding: "2px 6px",
-                border: "1.5px dashed #60554F",
-                borderRadius: "6px",
-                fontSize: "10px",
-                fontWeight: "700",
-                color: "#C1C3C2",
-              }}
-            >
-              SINGAPORE LINE · DRAFT
-            </span>
+            <p style={{ margin: "0", fontSize: "13px", lineHeight: "1.6", color: "#C1C3C2" }}>
+              Data engineers and scientists for banks, platforms and regional HQs.
+            </p>
           </a>
           <a
             href="#"
@@ -1167,19 +1072,9 @@ export function Mobile() {
             <span style={{ fontSize: "15px", lineHeight: "1.5", color: "#D3D9DB" }}>
               Quantum, semiconductors, photonics, space and climate tech.
             </span>
-            <span
-              style={{
-                alignSelf: "flex-start",
-                padding: "2px 6px",
-                border: "1.5px dashed #60554F",
-                borderRadius: "6px",
-                fontSize: "10px",
-                fontWeight: "700",
-                color: "#C1C3C2",
-              }}
-            >
-              SINGAPORE LINE · DRAFT
-            </span>
+            <p style={{ margin: "0", fontSize: "13px", lineHeight: "1.6", color: "#C1C3C2" }}>
+              Semiconductor, photonics and climate tech talent for Singapore's R&D base.
+            </p>
           </a>
           <a
             href="#"
@@ -1214,19 +1109,9 @@ export function Mobile() {
             <span style={{ fontSize: "15px", lineHeight: "1.5", color: "#D3D9DB" }}>
               Robotics, autonomy, controls, embedded and computer vision engineers.
             </span>
-            <span
-              style={{
-                alignSelf: "flex-start",
-                padding: "2px 6px",
-                border: "1.5px dashed #60554F",
-                borderRadius: "6px",
-                fontSize: "10px",
-                fontWeight: "700",
-                color: "#C1C3C2",
-              }}
-            >
-              SINGAPORE LINE · DRAFT
-            </span>
+            <p style={{ margin: "0", fontSize: "13px", lineHeight: "1.6", color: "#C1C3C2" }}>
+              Robotics, autonomy and vision engineers for AMR and automation companies.
+            </p>
           </a>
         </div>
       </section>
@@ -1339,19 +1224,8 @@ export function Mobile() {
             Singapore 138588
           </address>
           <span style={{ fontSize: "14px", color: "#D3D9DB" }}>
-            {"EA Licence No. "}
-            <span
-              style={{
-                padding: "2px 6px",
-                border: "1.5px dashed #60554F",
-                borderRadius: "6px",
-                fontSize: "10px",
-                fontWeight: "700",
-                color: "#C1C3C2",
-              }}
-            >
-              CLIENT TO PROVIDE
-            </span>
+            EA Licence No. <strong style={{ color: "#FFFFFF" }}>26S3355</strong> · UEN{" "}
+            <strong style={{ color: "#FFFFFF" }}>202602927R</strong>
           </span>
         </div>
       </section>
@@ -1411,19 +1285,6 @@ export function Mobile() {
               }}
             >
               <p style={{ margin: "0" }}>Yes. We're based in Singapore and recruit AI, Data, Deep Tech and Robotics roles here.</p>
-              <span
-                style={{
-                  alignSelf: "flex-start",
-                  padding: "2px 6px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "6px",
-                  fontSize: "10px",
-                  fontWeight: "700",
-                  color: "#C1C3C2",
-                }}
-              >
-                DRAFT ANSWER
-              </span>
             </div>
           </div>
           <div style={{ borderBottom: "1px solid #3A3736" }}>
@@ -1465,20 +1326,10 @@ export function Mobile() {
                 </svg>
               </button>
             </h3>
-            <div hidden style={{ padding: "0 12px 24px" }}>
-              <span
-                style={{
-                  display: "inline-block",
-                  padding: "3px 8px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "6px",
-                  fontSize: "12px",
-                  fontWeight: "700",
-                  color: "#C1C3C2",
-                }}
-              >
-                ANSWER: CLIENT TO PROVIDE
-              </span>
+            <div hidden style={{ padding: "0 0 18px" }}>
+              <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.6", color: "#D3D9DB" }}>
+                Yes. We map and approach candidates across APAC, including Singapore, Australia and Southeast Asia, and shortlist 3–5 high-quality candidates per role wherever the strongest people are. We also advise on salary benchmarks and location strategy, and flag early where work passes or an employer-of-record arrangement will be needed.
+              </p>
             </div>
           </div>
         </div>
