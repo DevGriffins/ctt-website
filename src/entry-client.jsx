@@ -5,6 +5,7 @@ import "@fontsource/figtree/400.css";
 import "@fontsource/figtree/700.css";
 import "./styles/site.css";
 import "./styles/accent.css";
+import "./styles/motion.css";
 import App from "./App.jsx";
 import { loadPage, loadAllPages } from "./pages/index.js";
 import { normalizePath } from "./seo.js";

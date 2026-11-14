@@ -6,6 +6,7 @@ import FooterMobile from "./FooterMobile.jsx";
 import MobileMenu from "./MobileMenu.jsx";
 import AccentToggle from "./AccentToggle.jsx";
 import { useSiteBehaviors } from "../lib/behaviors.js";
+import { useMotion } from "../lib/motion.js";
 import { applyHead } from "../seo.js";
 import { site } from "../site.config.js";
 
@@ -18,6 +19,7 @@ const shell = { width: "100%", background: "#201F1E", color: "#FFFFFF" };
 export default function Layout({ page, activeNav, path }) {
   const { Desktop, Mobile } = page;
   useSiteBehaviors(path);
+  useMotion(path);
   useEffect(() => applyHead(path), [path]);
 
   return (
