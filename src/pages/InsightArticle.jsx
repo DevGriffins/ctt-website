@@ -325,7 +325,7 @@ export function Desktop() {
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(340px, 100%), 1fr))", gap: "24px" }}>
             <a
               className="card"
-              href="#"
+              href="/insights/article/"
               style={{
                 display: "flex",
                 flexDirection: "column",
@@ -366,7 +366,7 @@ export function Desktop() {
             </a>
             <a
               className="card"
-              href="#"
+              href="/insights/article/"
               style={{
                 display: "flex",
                 flexDirection: "column",
@@ -407,7 +407,7 @@ export function Desktop() {
             </a>
             <a
               className="card"
-              href="#"
+              href="/insights/article/"
               style={{
                 display: "flex",
                 flexDirection: "column",
@@ -804,7 +804,7 @@ export function Mobile() {
             More on Artificial Intelligence
           </h2>
           <a
-            href="#"
+            href="/insights/article/"
             style={{
               display: "flex",
               alignItems: "center",
@@ -835,7 +835,7 @@ export function Mobile() {
             </div>
           </a>
           <a
-            href="#"
+            href="/insights/article/"
             style={{
               display: "flex",
               alignItems: "center",

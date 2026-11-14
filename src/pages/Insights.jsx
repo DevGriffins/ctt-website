@@ -568,7 +568,7 @@ export function Desktop() {
             </Link>
             <a
               className="card"
-              href="#"
+              href="/insights/article/"
               style={{
                 display: "flex",
                 flexDirection: "column",
@@ -619,7 +619,7 @@ export function Desktop() {
             </a>
             <a
               className="card"
-              href="#"
+              href="/insights/article/"
               style={{
                 display: "flex",
                 flexDirection: "column",
@@ -670,7 +670,7 @@ export function Desktop() {
             </a>
             <a
               className="card"
-              href="#"
+              href="/insights/article/"
               style={{
                 display: "flex",
                 flexDirection: "column",
@@ -1325,7 +1325,7 @@ export function Mobile() {
           </div>
         </Link>
         <a
-          href="#"
+          href="/insights/article/"
           style={{
             display: "flex",
             alignItems: "center",

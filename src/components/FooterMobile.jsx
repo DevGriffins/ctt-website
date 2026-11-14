@@ -249,10 +249,10 @@ export default function FooterMobile() {
               </a>
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "10px", fontSize: "15px" }}>
-              <a href="#" style={{ color: "#E4E7E8" }}>
+              <a href="https://www.linkedin.com/company/celotti-tech-talent/" target="_blank" rel="noopener" style={{ color: "#E4E7E8" }}>
                 LinkedIn ↗
               </a>
-              <a href="#" style={{ color: "#E4E7E8" }}>
+              <a href="https://celotti.com.au/" target="_blank" rel="noopener" style={{ color: "#E4E7E8" }}>
                 Part of Celotti Group ↗
               </a>
             </div>

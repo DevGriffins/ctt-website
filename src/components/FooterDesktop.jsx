@@ -296,10 +296,10 @@ export default function FooterDesktop() {
               <span style={{ fontSize: "13px", fontWeight: "700", letterSpacing: "0.08em", textTransform: "uppercase", color: "#FFFFFF" }}>
                 Connect
               </span>
-              <a href="#" style={{ color: "#E4E7E8" }}>
+              <a href="https://www.linkedin.com/company/celotti-tech-talent/" target="_blank" rel="noopener" style={{ color: "#E4E7E8" }}>
                 LinkedIn ↗
               </a>
-              <a href="#" style={{ color: "#E4E7E8" }}>
+              <a href="https://celotti.com.au/" target="_blank" rel="noopener" style={{ color: "#E4E7E8" }}>
                 Part of Celotti Group ↗
               </a>
             </div>

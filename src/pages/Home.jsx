@@ -611,7 +611,7 @@ export function Desktop() {
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(480px, 100%), 1fr))", gap: "20px" }}>
             <a
               className="card alink"
-              href="#"
+              href="/case-studies/"
               style={{
                 display: "flex",
                 flexDirection: "column",
@@ -684,7 +684,7 @@ export function Desktop() {
             </a>
             <a
               className="card alink"
-              href="#"
+              href="/case-studies/"
               style={{
                 display: "flex",
                 flexDirection: "column",
@@ -2139,7 +2139,7 @@ export function Desktop() {
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(320px, 100%), 1fr))", gap: "24px" }}>
             <a
               className="card"
-              href="#"
+              href="/insights/article/"
               style={{
                 display: "flex",
                 flexDirection: "column",
@@ -2191,7 +2191,7 @@ export function Desktop() {
             </a>
             <a
               className="card"
-              href="#"
+              href="/insights/article/"
               style={{
                 display: "flex",
                 flexDirection: "column",
@@ -2243,7 +2243,7 @@ export function Desktop() {
             </a>
             <a
               className="card"
-              href="#"
+              href="/insights/article/"
               style={{
                 display: "flex",
                 flexDirection: "column",
@@ -2932,7 +2932,7 @@ export function Mobile() {
           </h2>
           <div style={{ display: "flex", flexDirection: "column", gap: "12px", marginTop: "8px" }}>
             <a
-              href="#"
+              href="/case-studies/"
               style={{
                 display: "flex",
                 flexDirection: "column",
@@ -2998,7 +2998,7 @@ export function Mobile() {
               </span>
             </a>
             <a
-              href="#"
+              href="/case-studies/"
               style={{
                 display: "flex",
                 flexDirection: "column",
@@ -4209,7 +4209,7 @@ export function Mobile() {
           </h2>
           <div style={{ display: "flex", flexDirection: "column", gap: "16px", marginTop: "8px" }}>
             <a
-              href="#"
+              href="/insights/article/"
               style={{
                 display: "flex",
                 flexDirection: "column",
@@ -4259,7 +4259,7 @@ export function Mobile() {
               </div>
             </a>
             <a
-              href="#"
+              href="/insights/article/"
               style={{
                 display: "flex",
                 alignItems: "center",
@@ -4291,7 +4291,7 @@ export function Mobile() {
               </div>
             </a>
             <a
-              href="#"
+              href="/insights/article/"
               style={{
                 display: "flex",
                 alignItems: "center",
