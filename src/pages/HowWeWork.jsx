@@ -1038,27 +1038,14 @@ export function Desktop() {
                     color: "#DFE21B",
                   }}
                 >
-                  Speed
+                  Precision
                 </p>
-                <span
-                  style={{
-                    padding: "3px 8px",
-                    border: "1.5px dashed #60554F",
-                    borderRadius: "6px",
-                    fontSize: "11px",
-                    fontWeight: "700",
-                    letterSpacing: "0.06em",
-                    color: "#C1C3C2",
-                  }}
-                >
-                  TO CONFIRM BEFORE PUBLISHING
-                </span>
               </div>
               <div style={{ display: "flex", alignItems: "baseline", gap: "14px", flexWrap: "wrap" }}>
                 <span style={{ fontSize: "88px", lineHeight: "0.95", letterSpacing: "-0.04em", fontWeight: "700" }}>3–5</span>
-                <span style={{ fontSize: "24px", fontWeight: "700" }}>days</span>
+                <span style={{ fontSize: "24px", fontWeight: "700" }}>candidates</span>
               </div>
-              <p style={{ margin: "0", fontSize: "18px", lineHeight: "1.55", color: "#D3D9DB" }}>Target per role to a first shortlist.</p>
+              <p style={{ margin: "0", fontSize: "18px", lineHeight: "1.55", color: "#D3D9DB" }}>High-quality, interviewed candidates per role in every precision shortlist.</p>
             </div>
             <div
               style={{
@@ -1084,19 +1071,6 @@ export function Desktop() {
                 >
                   Tools we use
                 </p>
-                <span
-                  style={{
-                    padding: "3px 8px",
-                    border: "1.5px dashed #60554F",
-                    borderRadius: "6px",
-                    fontSize: "11px",
-                    fontWeight: "700",
-                    letterSpacing: "0.06em",
-                    color: "#C1C3C2",
-                  }}
-                >
-                  CONFIRM: NAME TOOLS PUBLICLY?
-                </span>
               </div>
               <ul style={{ listStyle: "none", margin: "0", padding: "0", display: "flex", flexDirection: "column" }}>
                 <li
@@ -1121,7 +1095,7 @@ export function Desktop() {
                   }}
                 >
                   <span style={{ fontSize: "20px", fontWeight: "700" }}>Metaview</span>
-                  <span style={{ fontSize: "16px", color: "#D3D9DB" }}>WhatsApp engagement</span>
+                  <span style={{ fontSize: "16px", color: "#D3D9DB" }}>Interview notes and summaries</span>
                 </li>
                 <li
                   style={{
@@ -2062,26 +2036,14 @@ export function Mobile() {
                   color: "#DFE21B",
                 }}
               >
-                Speed
+                Precision
               </p>
-              <span
-                style={{
-                  padding: "3px 7px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "6px",
-                  fontSize: "10px",
-                  fontWeight: "700",
-                  color: "#C1C3C2",
-                }}
-              >
-                TO CONFIRM
-              </span>
             </div>
             <div style={{ display: "flex", alignItems: "baseline", gap: "10px" }}>
               <span style={{ fontSize: "64px", lineHeight: "0.95", letterSpacing: "-0.04em", fontWeight: "700" }}>3–5</span>
-              <span style={{ fontSize: "20px", fontWeight: "700" }}>days</span>
+              <span style={{ fontSize: "20px", fontWeight: "700" }}>candidates</span>
             </div>
-            <p style={{ margin: "0", fontSize: "16px", color: "#D3D9DB" }}>Target per role to a first shortlist.</p>
+            <p style={{ margin: "0", fontSize: "16px", color: "#D3D9DB" }}>High-quality, interviewed candidates per role in every precision shortlist.</p>
           </div>
           <div
             style={{
@@ -2107,18 +2069,6 @@ export function Mobile() {
               >
                 Tools we use
               </p>
-              <span
-                style={{
-                  padding: "3px 7px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "6px",
-                  fontSize: "10px",
-                  fontWeight: "700",
-                  color: "#C1C3C2",
-                }}
-              >
-                CONFIRM: NAME PUBLICLY?
-              </span>
             </div>
             <ul style={{ listStyle: "none", margin: "0", padding: "0", display: "flex", flexDirection: "column" }}>
               <li style={{ display: "flex", flexDirection: "column", gap: "2px", padding: "12px 0", borderTop: "1px solid #3A3736" }}>
@@ -2127,7 +2077,7 @@ export function Mobile() {
               </li>
               <li style={{ display: "flex", flexDirection: "column", gap: "2px", padding: "12px 0", borderTop: "1px solid #3A3736" }}>
                 <span style={{ fontSize: "18px", fontWeight: "700" }}>Metaview</span>
-                <span style={{ fontSize: "15px", color: "#D3D9DB" }}>WhatsApp engagement</span>
+                <span style={{ fontSize: "15px", color: "#D3D9DB" }}>Interview notes and summaries</span>
               </li>
               <li style={{ display: "flex", flexDirection: "column", gap: "2px", padding: "12px 0", borderTop: "1px solid #3A3736" }}>
                 <span style={{ fontSize: "18px", fontWeight: "700" }}>Microsoft Teams</span>

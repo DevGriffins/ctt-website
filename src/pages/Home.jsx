@@ -1980,7 +1980,7 @@ export function Desktop() {
           >
             Key team
           </h3>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(4, minmax(0, 1fr))", gap: "24px" }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(min(240px, 100%), 1fr))", gap: "24px" }}>
             <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
               <div
                 style={{

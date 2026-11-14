@@ -1,6 +1,52 @@
 import { Link } from "react-router-dom";
 import { site } from "../site.config.js";
 
+// Pod-based Embedded TA Partnership (monthly, USD)
+const PODS = [
+  {
+    name: "Startup Pod",
+    price: "USD 3,000–3,800",
+    detail: "Up to 3 concurrent roles · shared specialist pod · 3-month minimum · 6-month guarantee",
+  },
+  {
+    name: "Scaleup Pod",
+    price: "USD 4,500–6,500",
+    detail: "Up to 6 concurrent roles · shared specialist pod · 6-month minimum · 12-month guarantee",
+  },
+  {
+    name: "Mid-Enterprise Pod",
+    price: "USD 7,500–10,000",
+    detail: "Up to 12 concurrent roles · fully dedicated pod · 12-month commitment · 12-month guarantee",
+  },
+  {
+    name: "Large Enterprise / MNC",
+    price: "USD 12,000–20,000+",
+    detail: "Multi-pod or hybrid · enterprise AI and Data programs · custom term, typically 12 months+ · 12-month guarantee",
+  },
+];
+
+function PodList({ compact }) {
+  return (
+    <ul style={{ listStyle: "none", margin: "4px 0 0", padding: "0", display: "flex", flexDirection: "column", borderTop: "1px solid #3A3736" }}>
+      {PODS.map((pod) => (
+        <li
+          key={pod.name}
+          style={{ display: "flex", flexDirection: "column", gap: "4px", padding: compact ? "10px 0" : "12px 0", borderBottom: "1px solid #3A3736" }}
+        >
+          <span style={{ display: "flex", flexWrap: "wrap", justifyContent: "space-between", gap: "4px 12px" }}>
+            <span style={{ fontSize: compact ? "15px" : "16px", fontWeight: "700", color: "#FFFFFF" }}>{pod.name}</span>
+            <span style={{ fontSize: compact ? "15px" : "16px", fontWeight: "700", color: "#DFE21B" }} className="ax-text">
+              {pod.price}
+              <span style={{ fontWeight: "400", color: "#C1C3C2" }}>/mo</span>
+            </span>
+          </span>
+          <span style={{ fontSize: compact ? "13px" : "14px", lineHeight: "1.45", color: "#C1C3C2" }}>{pod.detail}</span>
+        </li>
+      ))}
+    </ul>
+  );
+}
+
 // TalentAsAService: desktop layout (shown from 768px up)
 export function Desktop() {
   return (
@@ -810,18 +856,7 @@ export function Desktop() {
             <div style={{ display: "flex", flexDirection: "column", gap: "14px", alignItems: "flex-start" }}>
               <div style={{ display: "flex", alignItems: "center", gap: "10px", flexWrap: "wrap" }}>
                 <span style={{ fontSize: "24px", fontWeight: "700" }}>Monthly rate</span>
-                <span
-                  style={{
-                    padding: "3px 8px",
-                    border: "1.5px dashed #60554F",
-                    borderRadius: "6px",
-                    fontSize: "11px",
-                    fontWeight: "700",
-                    color: "#C1C3C2",
-                  }}
-                >
-                  TO CONFIRM
-                </span>
+                <span style={{ fontSize: "16px", color: "#C1C3C2" }}>Quoted per engagement, billed monthly in USD</span>
               </div>
               <Link
                 className="btn btn-ghost"
@@ -1073,52 +1108,13 @@ export function Desktop() {
                     3 roles
                   </td>
                   <td style={{ padding: "20px 24px", borderBottom: "1px solid #3A3736" }}>
-                    <span
-                      style={{
-                        display: "inline-block",
-                        padding: "3px 8px",
-                        border: "1.5px dashed #60554F",
-                        borderRadius: "6px",
-                        fontSize: "12px",
-                        fontWeight: "700",
-                        letterSpacing: "0.04em",
-                        color: "#C1C3C2",
-                      }}
-                    >
-                      TO CONFIRM
-                    </span>
+                    <span style={{ color: "#D3D9DB" }}>Monthly engagement, scoped to your hiring plan</span>
                   </td>
                   <td style={{ padding: "20px 24px", borderBottom: "1px solid #3A3736" }}>
-                    <span
-                      style={{
-                        display: "inline-block",
-                        padding: "3px 8px",
-                        border: "1.5px dashed #60554F",
-                        borderRadius: "6px",
-                        fontSize: "12px",
-                        fontWeight: "700",
-                        letterSpacing: "0.04em",
-                        color: "#C1C3C2",
-                      }}
-                    >
-                      TO CONFIRM
-                    </span>
+                    <span style={{ color: "#D3D9DB" }}>None: one role, on an exclusive mandate</span>
                   </td>
                   <td style={{ padding: "20px 24px", borderBottom: "1px solid #3A3736" }}>
-                    <span
-                      style={{
-                        display: "inline-block",
-                        padding: "3px 8px",
-                        border: "1.5px dashed #60554F",
-                        borderRadius: "6px",
-                        fontSize: "12px",
-                        fontWeight: "700",
-                        letterSpacing: "0.04em",
-                        color: "#C1C3C2",
-                      }}
-                    >
-                      TO CONFIRM
-                    </span>
+                    <span style={{ color: "#D3D9DB" }}>One role, with the first third due on commencement</span>
                   </td>
                 </tr>
                 <tr>
@@ -1146,68 +1142,16 @@ export function Desktop() {
                     Typical roles
                   </th>
                   <td className="hl" style={{ padding: "20px 24px", background: "#33321F" }}>
-                    <span
-                      style={{
-                        display: "inline-block",
-                        padding: "3px 8px",
-                        border: "1.5px dashed #60554F",
-                        borderRadius: "6px",
-                        fontSize: "12px",
-                        fontWeight: "700",
-                        letterSpacing: "0.04em",
-                        color: "#C1C3C2",
-                      }}
-                    >
-                      CLIENT TO PROVIDE
-                    </span>
+                    <span style={{ color: "#D3D9DB" }}>AI, data and software engineers hired in volume</span>
                   </td>
                   <td style={{ padding: "20px 24px" }}>
-                    <span
-                      style={{
-                        display: "inline-block",
-                        padding: "3px 8px",
-                        border: "1.5px dashed #60554F",
-                        borderRadius: "6px",
-                        fontSize: "12px",
-                        fontWeight: "700",
-                        letterSpacing: "0.04em",
-                        color: "#C1C3C2",
-                      }}
-                    >
-                      CLIENT TO PROVIDE
-                    </span>
+                    <span style={{ color: "#D3D9DB" }}>Data scientists, ML engineers and data engineers</span>
                   </td>
                   <td style={{ padding: "20px 24px" }}>
-                    <span
-                      style={{
-                        display: "inline-block",
-                        padding: "3px 8px",
-                        border: "1.5px dashed #60554F",
-                        borderRadius: "6px",
-                        fontSize: "12px",
-                        fontWeight: "700",
-                        letterSpacing: "0.04em",
-                        color: "#C1C3C2",
-                      }}
-                    >
-                      CLIENT TO PROVIDE
-                    </span>
+                    <span style={{ color: "#D3D9DB" }}>Senior AI engineers, ML and robotics specialists</span>
                   </td>
                   <td style={{ padding: "20px 24px" }}>
-                    <span
-                      style={{
-                        display: "inline-block",
-                        padding: "3px 8px",
-                        border: "1.5px dashed #60554F",
-                        borderRadius: "6px",
-                        fontSize: "12px",
-                        fontWeight: "700",
-                        letterSpacing: "0.04em",
-                        color: "#C1C3C2",
-                      }}
-                    >
-                      CLIENT TO PROVIDE
-                    </span>
+                    <span style={{ color: "#D3D9DB" }}>Heads of AI and Data, CTOs, product and digital leaders</span>
                   </td>
                 </tr>
               </tbody>
@@ -1359,19 +1303,23 @@ export function Desktop() {
                   gap: "8px",
                   padding: "5px 12px",
                   borderRadius: "999px",
-                  border: "1.5px dashed #60554F",
-                  color: "#C1C3C2",
-                  fontSize: "12px",
+                  background: "#2F2C2B",
+                  color: "#FFFFFF",
+                  fontSize: "13px",
                   fontWeight: "700",
-                  letterSpacing: "0.04em",
                 }}
               >
-                PLAN MAPPING TO CONFIRM
+                <span
+                  aria-hidden="true"
+                  style={{ width: "7px", height: "7px", background: "#DFE21B", borderRadius: "999px", color: "#201F1E" }}
+                />
+                Pod-based Partnership
               </span>
               <h3 style={{ margin: "0", fontSize: "26px", lineHeight: "1.2", fontWeight: "700" }}>Embedded TA Partnership</h3>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.6", color: "#D3D9DB" }}>
                 A dedicated specialist team embedded in your business, ideal for startups and scale-ups in rapid growth.
               </p>
+              <PodList />
             </div>
             <div
               style={{
@@ -1464,24 +1412,7 @@ export function Desktop() {
             >
               Included in every engagement
             </h2>
-            <span
-              style={{
-                alignSelf: "flex-start",
-                display: "inline-flex",
-                alignItems: "center",
-                gap: "8px",
-                height: "32px",
-                padding: "0 12px",
-                borderRadius: "8px",
-                border: "1.5px dashed #60554F",
-                fontSize: "12px",
-                fontWeight: "700",
-                letterSpacing: "0.06em",
-                color: "#C1C3C2",
-              }}
-            >
-              INCLUSIONS TO CONFIRM PER MODEL
-            </span>
+            <p style={{ margin: "0", fontSize: "18px", lineHeight: "1.6", color: "#D3D9DB" }}>The commercial terms change from model to model. The search process and the quality bar do not.</p>
           </div>
           <ul
             style={{
@@ -1544,7 +1475,7 @@ export function Desktop() {
                 03
               </span>
               <span style={{ fontSize: "18px", lineHeight: "1.45", fontWeight: "700" }}>
-                Curated shortlist of up to six candidates delivered through Loxo
+                Curated shortlist of 3–5 high-quality candidates delivered through Loxo
               </span>
             </li>
             <li
@@ -1675,21 +1606,7 @@ export function Desktop() {
                     color: "#D3D9DB",
                   }}
                 >
-                  <p style={{ margin: "0" }}>Total Annual Compensation for the hired candidate.</p>
-                  <span
-                    style={{
-                      alignSelf: "flex-start",
-                      padding: "3px 8px",
-                      border: "1.5px dashed #60554F",
-                      borderRadius: "6px",
-                      fontSize: "12px",
-                      fontWeight: "700",
-                      letterSpacing: "0.04em",
-                      color: "#C1C3C2",
-                    }}
-                  >
-                    TO CONFIRM: BASE ONLY, OR BASE PLUS BONUS AND BENEFITS
-                  </span>
+                  <p style={{ margin: "0" }}>Total Annual Compensation for the hired candidate: the first-year base salary plus guaranteed cash elements such as fixed allowances and contractual bonuses. We confirm the exact components in your terms of business before a search begins.</p>
                 </div>
               </div>
             </div>
@@ -1746,21 +1663,7 @@ export function Desktop() {
                     color: "#D3D9DB",
                   }}
                 >
-                  <p style={{ margin: "0" }}>USD.</p>
-                  <span
-                    style={{
-                      alignSelf: "flex-start",
-                      padding: "3px 8px",
-                      border: "1.5px dashed #60554F",
-                      borderRadius: "6px",
-                      fontSize: "12px",
-                      fontWeight: "700",
-                      letterSpacing: "0.04em",
-                      color: "#C1C3C2",
-                    }}
-                  >
-                    TO CONFIRM
-                  </span>
+                  <p style={{ margin: "0" }}>All fees are quoted and invoiced in USD, including monthly partnership and pod fees and success fees.</p>
                 </div>
               </div>
             </div>
@@ -1807,20 +1710,7 @@ export function Desktop() {
               </h3>
               <div className="faq-a" hidden>
                 <div style={{ padding: "0 12px 24px" }}>
-                  <span
-                    style={{
-                      display: "inline-block",
-                      padding: "3px 8px",
-                      border: "1.5px dashed #60554F",
-                      borderRadius: "6px",
-                      fontSize: "12px",
-                      fontWeight: "700",
-                      letterSpacing: "0.04em",
-                      color: "#C1C3C2",
-                    }}
-                  >
-                    CLIENT TO PROVIDE: GUARANTEE OR REPLACEMENT TERMS
-                  </span>
+                  <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.6", color: "#D3D9DB" }}>Every placement is covered by a guarantee period. On our pod partnerships that is 6 months on the Startup Pod and 12 months on the Scaleup, Mid-Enterprise and Enterprise pods. If a hire leaves within the guarantee period, we reopen the search and work to replace them. The guarantee for each search partnership is set out in your agreement.</p>
                 </div>
               </div>
             </div>
@@ -1867,20 +1757,7 @@ export function Desktop() {
               </h3>
               <div className="faq-a" hidden>
                 <div style={{ padding: "0 12px 24px" }}>
-                  <span
-                    style={{
-                      display: "inline-block",
-                      padding: "3px 8px",
-                      border: "1.5px dashed #60554F",
-                      borderRadius: "6px",
-                      fontSize: "12px",
-                      fontWeight: "700",
-                      letterSpacing: "0.04em",
-                      color: "#C1C3C2",
-                    }}
-                  >
-                    CLIENT TO PROVIDE
-                  </span>
+                  <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.6", color: "#D3D9DB" }}>Yes. Many clients start with a single exclusive or retained search, then move to a Fixed Fee Partnership or a dedicated pod as their hiring grows. Pods can also step up, from Startup to Scaleup or Mid-Enterprise, as your number of concurrent roles increases. We review fit with you at each stage.</p>
                 </div>
               </div>
             </div>
@@ -1927,20 +1804,7 @@ export function Desktop() {
               </h3>
               <div className="faq-a" hidden>
                 <div style={{ padding: "0 12px 24px" }}>
-                  <span
-                    style={{
-                      display: "inline-block",
-                      padding: "3px 8px",
-                      border: "1.5px dashed #60554F",
-                      borderRadius: "6px",
-                      fontSize: "12px",
-                      fontWeight: "700",
-                      letterSpacing: "0.04em",
-                      color: "#C1C3C2",
-                    }}
-                  >
-                    CLIENT TO PROVIDE: MARKETS SERVED ACROSS APAC
-                  </span>
+                  <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.6", color: "#D3D9DB" }}>We are based in Singapore and hire mid to senior AI, Data, Digital and Robotics talent across APAC. As part of the Celotti Group, founded in Australia in 2013, we also hire in Australia, and we support US and global companies building teams in or for the region.</p>
                 </div>
               </div>
             </div>
@@ -2753,18 +2617,7 @@ export function Mobile() {
               }}
             >
               <span style={{ fontSize: "20px", fontWeight: "700" }}>Monthly rate</span>
-              <span
-                style={{
-                  padding: "3px 8px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "6px",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  color: "#C1C3C2",
-                }}
-              >
-                TO CONFIRM
-              </span>
+              <span style={{ fontSize: "16px", color: "#C1C3C2" }}>Quoted per engagement, billed monthly in USD</span>
             </div>
             <Link
               to="/contact"
@@ -3026,49 +2879,13 @@ export function Mobile() {
                   </th>
                   <td style={{ padding: "16px", background: "#33321F", color: "#D3D9DB", borderBottom: "1px solid #3A3736" }}>3 roles</td>
                   <td style={{ padding: "16px", borderBottom: "1px solid #3A3736" }}>
-                    <span
-                      style={{
-                        display: "inline-block",
-                        padding: "3px 8px",
-                        border: "1.5px dashed #60554F",
-                        borderRadius: "6px",
-                        fontSize: "11px",
-                        fontWeight: "700",
-                        color: "#C1C3C2",
-                      }}
-                    >
-                      TO CONFIRM
-                    </span>
+                    <span style={{ color: "#D3D9DB" }}>Monthly engagement, scoped to your hiring plan</span>
                   </td>
                   <td style={{ padding: "16px", borderBottom: "1px solid #3A3736" }}>
-                    <span
-                      style={{
-                        display: "inline-block",
-                        padding: "3px 8px",
-                        border: "1.5px dashed #60554F",
-                        borderRadius: "6px",
-                        fontSize: "11px",
-                        fontWeight: "700",
-                        color: "#C1C3C2",
-                      }}
-                    >
-                      TO CONFIRM
-                    </span>
+                    <span style={{ color: "#D3D9DB" }}>None: one role, on an exclusive mandate</span>
                   </td>
                   <td style={{ padding: "16px", borderBottom: "1px solid #3A3736" }}>
-                    <span
-                      style={{
-                        display: "inline-block",
-                        padding: "3px 8px",
-                        border: "1.5px dashed #60554F",
-                        borderRadius: "6px",
-                        fontSize: "11px",
-                        fontWeight: "700",
-                        color: "#C1C3C2",
-                      }}
-                    >
-                      TO CONFIRM
-                    </span>
+                    <span style={{ color: "#D3D9DB" }}>One role, with the first third due on commencement</span>
                   </td>
                 </tr>
                 <tr>
@@ -3114,64 +2931,16 @@ export function Mobile() {
                     Typical roles
                   </th>
                   <td style={{ padding: "16px", background: "#33321F" }}>
-                    <span
-                      style={{
-                        display: "inline-block",
-                        padding: "3px 8px",
-                        border: "1.5px dashed #60554F",
-                        borderRadius: "6px",
-                        fontSize: "11px",
-                        fontWeight: "700",
-                        color: "#C1C3C2",
-                      }}
-                    >
-                      CLIENT TO PROVIDE
-                    </span>
+                    <span style={{ color: "#D3D9DB" }}>AI, data and software engineers hired in volume</span>
                   </td>
                   <td style={{ padding: "16px" }}>
-                    <span
-                      style={{
-                        display: "inline-block",
-                        padding: "3px 8px",
-                        border: "1.5px dashed #60554F",
-                        borderRadius: "6px",
-                        fontSize: "11px",
-                        fontWeight: "700",
-                        color: "#C1C3C2",
-                      }}
-                    >
-                      CLIENT TO PROVIDE
-                    </span>
+                    <span style={{ color: "#D3D9DB" }}>Data scientists, ML engineers and data engineers</span>
                   </td>
                   <td style={{ padding: "16px" }}>
-                    <span
-                      style={{
-                        display: "inline-block",
-                        padding: "3px 8px",
-                        border: "1.5px dashed #60554F",
-                        borderRadius: "6px",
-                        fontSize: "11px",
-                        fontWeight: "700",
-                        color: "#C1C3C2",
-                      }}
-                    >
-                      CLIENT TO PROVIDE
-                    </span>
+                    <span style={{ color: "#D3D9DB" }}>Senior AI engineers, ML and robotics specialists</span>
                   </td>
                   <td style={{ padding: "16px" }}>
-                    <span
-                      style={{
-                        display: "inline-block",
-                        padding: "3px 8px",
-                        border: "1.5px dashed #60554F",
-                        borderRadius: "6px",
-                        fontSize: "11px",
-                        fontWeight: "700",
-                        color: "#C1C3C2",
-                      }}
-                    >
-                      CLIENT TO PROVIDE
-                    </span>
+                    <span style={{ color: "#D3D9DB" }}>Heads of AI and Data, CTOs, product and digital leaders</span>
                   </td>
                 </tr>
               </tbody>
@@ -3290,21 +3059,28 @@ export function Mobile() {
             <span
               style={{
                 alignSelf: "flex-start",
+                display: "inline-flex",
+                alignItems: "center",
+                gap: "8px",
                 padding: "4px 10px",
                 borderRadius: "999px",
-                border: "1.5px dashed #60554F",
-                color: "#C1C3C2",
-                fontSize: "11px",
+                background: "#2F2C2B",
+                color: "#FFFFFF",
+                fontSize: "12px",
                 fontWeight: "700",
-                letterSpacing: "0.04em",
               }}
             >
-              PLAN MAPPING TO CONFIRM
+              <span
+                aria-hidden="true"
+                style={{ width: "7px", height: "7px", background: "#DFE21B", borderRadius: "999px", color: "#201F1E" }}
+              />
+              Pod-based Partnership
             </span>
             <h3 style={{ margin: "0", fontSize: "21px", fontWeight: "700" }}>Embedded TA Partnership</h3>
             <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.6", color: "#D3D9DB" }}>
               A dedicated specialist team embedded in your business, ideal for startups and scale-ups in rapid growth.
             </p>
+            <PodList compact />
           </div>
           <div
             style={{
@@ -3369,20 +3145,7 @@ export function Mobile() {
           <h2 id="mt-inc" style={{ margin: "0", fontSize: "32px", lineHeight: "1.1", letterSpacing: "-0.025em", fontWeight: "700" }}>
             Included in every engagement
           </h2>
-          <span
-            style={{
-              alignSelf: "flex-start",
-              padding: "6px 10px",
-              borderRadius: "8px",
-              border: "1.5px dashed #60554F",
-              fontSize: "11px",
-              fontWeight: "700",
-              letterSpacing: "0.06em",
-              color: "#C1C3C2",
-            }}
-          >
-            INCLUSIONS TO CONFIRM PER MODEL
-          </span>
+          <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.6", color: "#D3D9DB" }}>The commercial terms change from model to model. The search process and the quality bar do not.</p>
           <ul style={{ listStyle: "none", margin: "8px 0 0", padding: "0", display: "flex", flexDirection: "column", gap: "10px" }}>
             <li
               style={{
@@ -3432,7 +3195,7 @@ export function Mobile() {
                 03
               </span>
               <span style={{ fontSize: "17px", lineHeight: "1.45", fontWeight: "700" }}>
-                Curated shortlist of up to six candidates delivered through Loxo
+                Curated shortlist of 3–5 high-quality candidates delivered through Loxo
               </span>
             </li>
             <li
@@ -3531,20 +3294,7 @@ export function Mobile() {
                   color: "#D3D9DB",
                 }}
               >
-                <p style={{ margin: "0" }}>Total Annual Compensation for the hired candidate.</p>
-                <span
-                  style={{
-                    alignSelf: "flex-start",
-                    padding: "3px 8px",
-                    border: "1.5px dashed #60554F",
-                    borderRadius: "6px",
-                    fontSize: "11px",
-                    fontWeight: "700",
-                    color: "#C1C3C2",
-                  }}
-                >
-                  TO CONFIRM: BASE ONLY, OR BASE PLUS BONUS AND BENEFITS
-                </span>
+                <p style={{ margin: "0" }}>Total Annual Compensation for the hired candidate: the first-year base salary plus guaranteed cash elements such as fixed allowances and contractual bonuses. We confirm the exact components in your terms of business before a search begins.</p>
               </div>
             </div>
             <div style={{ borderBottom: "1px solid #3A3736" }}>
@@ -3586,20 +3336,8 @@ export function Mobile() {
                   </svg>
                 </button>
               </h3>
-              <div hidden style={{ padding: "0 12px 24px" }}>
-                <span
-                  style={{
-                    display: "inline-block",
-                    padding: "3px 8px",
-                    border: "1.5px dashed #60554F",
-                    borderRadius: "6px",
-                    fontSize: "12px",
-                    fontWeight: "700",
-                    color: "#C1C3C2",
-                  }}
-                >
-                  ANSWER: CLIENT TO PROVIDE
-                </span>
+              <div hidden style={{ padding: "0 0 20px" }}>
+                <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.6", color: "#D3D9DB" }}>All fees are quoted and invoiced in USD, including monthly partnership and pod fees and success fees.</p>
               </div>
             </div>
             <div style={{ borderBottom: "1px solid #3A3736" }}>
@@ -3641,20 +3379,8 @@ export function Mobile() {
                   </svg>
                 </button>
               </h3>
-              <div hidden style={{ padding: "0 12px 24px" }}>
-                <span
-                  style={{
-                    display: "inline-block",
-                    padding: "3px 8px",
-                    border: "1.5px dashed #60554F",
-                    borderRadius: "6px",
-                    fontSize: "12px",
-                    fontWeight: "700",
-                    color: "#C1C3C2",
-                  }}
-                >
-                  ANSWER: CLIENT TO PROVIDE
-                </span>
+              <div hidden style={{ padding: "0 0 20px" }}>
+                <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.6", color: "#D3D9DB" }}>Every placement is covered by a guarantee period. On our pod partnerships that is 6 months on the Startup Pod and 12 months on the Scaleup, Mid-Enterprise and Enterprise pods. If a hire leaves within the guarantee period, we reopen the search and work to replace them. The guarantee for each search partnership is set out in your agreement.</p>
               </div>
             </div>
             <div style={{ borderBottom: "1px solid #3A3736" }}>
@@ -3696,20 +3422,8 @@ export function Mobile() {
                   </svg>
                 </button>
               </h3>
-              <div hidden style={{ padding: "0 12px 24px" }}>
-                <span
-                  style={{
-                    display: "inline-block",
-                    padding: "3px 8px",
-                    border: "1.5px dashed #60554F",
-                    borderRadius: "6px",
-                    fontSize: "12px",
-                    fontWeight: "700",
-                    color: "#C1C3C2",
-                  }}
-                >
-                  ANSWER: CLIENT TO PROVIDE
-                </span>
+              <div hidden style={{ padding: "0 0 20px" }}>
+                <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.6", color: "#D3D9DB" }}>Yes. Many clients start with a single exclusive or retained search, then move to a Fixed Fee Partnership or a dedicated pod as their hiring grows. Pods can also step up, from Startup to Scaleup or Mid-Enterprise, as your number of concurrent roles increases. We review fit with you at each stage.</p>
               </div>
             </div>
             <div style={{ borderBottom: "1px solid #3A3736" }}>
@@ -3751,20 +3465,8 @@ export function Mobile() {
                   </svg>
                 </button>
               </h3>
-              <div hidden style={{ padding: "0 12px 24px" }}>
-                <span
-                  style={{
-                    display: "inline-block",
-                    padding: "3px 8px",
-                    border: "1.5px dashed #60554F",
-                    borderRadius: "6px",
-                    fontSize: "12px",
-                    fontWeight: "700",
-                    color: "#C1C3C2",
-                  }}
-                >
-                  ANSWER: CLIENT TO PROVIDE
-                </span>
+              <div hidden style={{ padding: "0 0 20px" }}>
+                <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.6", color: "#D3D9DB" }}>We are based in Singapore and hire mid to senior AI, Data, Digital and Robotics talent across APAC. As part of the Celotti Group, founded in Australia in 2013, we also hire in Australia, and we support US and global companies building teams in or for the region.</p>
               </div>
             </div>
           </div>
