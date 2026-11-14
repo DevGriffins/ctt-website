@@ -148,20 +148,6 @@ export function Desktop() {
               <span style={{ fontSize: "56px", lineHeight: "1", letterSpacing: "-0.04em", fontWeight: "700" }}>2013</span>
               <span style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
                 <span style={{ fontSize: "18px", lineHeight: "1.4", fontWeight: "700" }}>Celotti Group heritage since 2013</span>
-                <span
-                  style={{
-                    alignSelf: "flex-start",
-                    padding: "3px 8px",
-                    border: "1.5px dashed #60554F",
-                    borderRadius: "6px",
-                    fontSize: "11px",
-                    fontWeight: "700",
-                    letterSpacing: "0.04em",
-                    color: "#C1C3C2",
-                  }}
-                >
-                  CONFIRM YEAR AND WORDING
-                </span>
               </span>
             </div>
           </div>
@@ -672,145 +658,75 @@ export function Desktop() {
                 style={{
                   aspectRatio: "4 / 5",
                   borderRadius: "20px",
-                  border: "1.5px dashed #60554F",
-                  background: "#262423",
+                  background: "linear-gradient(135deg,#34312F,#262423)",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
-                  fontSize: "11px",
+                  fontSize: "56px",
                   fontWeight: "700",
-                  letterSpacing: "0.08em",
-                  color: "#C1C3C2",
-                  textAlign: "center",
-                  lineHeight: "1.5",
+                  letterSpacing: "0.02em",
+                  color: "#DFE21B",
                   clipPath: "polygon(0 0, calc(100% - 40px) 0, 100% 40px, 100% 100%, 0 100%)",
                 }}
+                aria-hidden="true"
               >
-                TEAM PHOTO
-                <br />
-                CLIENT TO PROVIDE
+                DK
               </div>
               <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
                 <h3 style={{ margin: "0", fontSize: "24px", fontWeight: "700" }}>Dharshan Kumar</h3>
                 <span style={{ fontSize: "16px", fontWeight: "700", color: "#D3D9DB" }}>{"Business Head, AI & Data"}</span>
               </div>
-              <span
-                style={{
-                  alignSelf: "flex-start",
-                  padding: "4px 8px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "6px",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  letterSpacing: "0.04em",
-                  color: "#C1C3C2",
-                }}
-              >
-                BIO AND LINKEDIN · CLIENT TO PROVIDE
-              </span>
+              <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.6", color: "#D3D9DB" }}>Leads CTT's AI & Data practice, partnering with founders and technology leaders across APAC to build specialist teams through long-term, advisory-led engagements.</p>
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "18px" }}>
               <div
                 style={{
                   aspectRatio: "4 / 5",
                   borderRadius: "20px",
-                  border: "1.5px dashed #60554F",
-                  background: "#262423",
+                  background: "linear-gradient(135deg,#34312F,#262423)",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
-                  fontSize: "11px",
+                  fontSize: "56px",
                   fontWeight: "700",
-                  letterSpacing: "0.08em",
-                  color: "#C1C3C2",
-                  textAlign: "center",
-                  lineHeight: "1.5",
+                  letterSpacing: "0.02em",
+                  color: "#DFE21B",
                   clipPath: "polygon(0 0, calc(100% - 40px) 0, 100% 40px, 100% 100%, 0 100%)",
                 }}
+                aria-hidden="true"
               >
-                TEAM PHOTO
-                <br />
-                CLIENT TO PROVIDE
+                VP
               </div>
               <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
                 <h3 style={{ margin: "0", fontSize: "24px", fontWeight: "700" }}>Veena Pujari</h3>
-                <span style={{ display: "flex", alignItems: "center", gap: "8px", fontSize: "16px", fontWeight: "700", color: "#D3D9DB" }}>
-                  Talent Advisory
-                  <span
-                    style={{ padding: "2px 6px", border: "1.5px dashed #60554F", borderRadius: "6px", fontSize: "10px", color: "#C1C3C2" }}
-                  >
-                    CONFIRM TITLE
-                  </span>
-                </span>
+                <span style={{ fontSize: "16px", fontWeight: "700", color: "#D3D9DB" }}>Talent Advisory</span>
               </div>
-              <span
-                style={{
-                  alignSelf: "flex-start",
-                  padding: "4px 8px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "6px",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  letterSpacing: "0.04em",
-                  color: "#C1C3C2",
-                }}
-              >
-                BIO AND LINKEDIN · CLIENT TO PROVIDE
-              </span>
+              <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.6", color: "#D3D9DB" }}>Guides clients through market mapping, benchmarking and hiring strategy, so AI and data teams are planned with clarity before a search begins.</p>
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "18px" }}>
               <div
                 style={{
                   aspectRatio: "4 / 5",
                   borderRadius: "20px",
-                  border: "1.5px dashed #60554F",
-                  background: "#262423",
+                  background: "linear-gradient(135deg,#34312F,#262423)",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
-                  fontSize: "11px",
+                  fontSize: "56px",
                   fontWeight: "700",
-                  letterSpacing: "0.08em",
-                  color: "#C1C3C2",
-                  textAlign: "center",
-                  lineHeight: "1.5",
+                  letterSpacing: "0.02em",
+                  color: "#DFE21B",
                   clipPath: "polygon(0 0, calc(100% - 40px) 0, 100% 40px, 100% 100%, 0 100%)",
                 }}
+                aria-hidden="true"
               >
-                TEAM PHOTO
-                <br />
-                CLIENT TO PROVIDE
+                KR
               </div>
               <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
                 <h3 style={{ margin: "0", fontSize: "24px", fontWeight: "700" }}>Kavena Rama</h3>
-                <span
-                  style={{
-                    alignSelf: "flex-start",
-                    padding: "2px 6px",
-                    border: "1.5px dashed #60554F",
-                    borderRadius: "6px",
-                    fontSize: "11px",
-                    fontWeight: "700",
-                    color: "#C1C3C2",
-                  }}
-                >
-                  TITLE · CLIENT TO PROVIDE
-                </span>
+                <span style={{ fontSize: "16px", fontWeight: "700", color: "#D3D9DB" }}>Talent Partner</span>
               </div>
-              <span
-                style={{
-                  alignSelf: "flex-start",
-                  padding: "4px 8px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "6px",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  letterSpacing: "0.04em",
-                  color: "#C1C3C2",
-                }}
-              >
-                BIO AND LINKEDIN · CLIENT TO PROVIDE
-              </span>
+              <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.6", color: "#D3D9DB" }}>Works alongside clients and candidates from shortlisting to offer, helping AI, data and digital professionals find roles where they can grow and stay.</p>
             </div>
           </div>
         </div>
@@ -845,18 +761,16 @@ export function Desktop() {
               <div
                 style={{
                   height: "64px",
-                  border: "1.5px dashed #60554F",
+                  background: "#FFFFFF",
                   borderRadius: "10px",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
-                  fontSize: "10px",
-                  fontWeight: "700",
-                  letterSpacing: "0.06em",
-                  color: "#C1C3C2",
+                  padding: "10px 14px",
+                  boxSizing: "border-box",
                 }}
               >
-                RCSA LOGO · CLIENT TO PROVIDE
+                <img src="/assets/logos/rcsa.jpg" alt="RCSA" style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "contain" }} />
               </div>
               <span style={{ fontSize: "18px", fontWeight: "700" }}>RCSA Corporate Member</span>
             </div>
@@ -874,18 +788,16 @@ export function Desktop() {
               <div
                 style={{
                   height: "64px",
-                  border: "1.5px dashed #60554F",
+                  background: "#FFFFFF",
                   borderRadius: "10px",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
-                  fontSize: "10px",
-                  fontWeight: "700",
-                  letterSpacing: "0.06em",
-                  color: "#C1C3C2",
+                  padding: "10px 14px",
+                  boxSizing: "border-box",
                 }}
               >
-                APSCO LOGO · CLIENT TO PROVIDE
+                <img src="/assets/logos/apsco.png" alt="APSCo Southeast Asia" style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "contain" }} />
               </div>
               <span style={{ fontSize: "18px", fontWeight: "700" }}>APSCo Southeast Asia</span>
             </div>
@@ -918,19 +830,7 @@ export function Desktop() {
               </div>
               <span style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
                 <span style={{ fontSize: "18px", fontWeight: "700" }}>Employment Agency licence</span>
-                <span
-                  style={{
-                    alignSelf: "flex-start",
-                    padding: "3px 8px",
-                    border: "1.5px dashed #60554F",
-                    borderRadius: "6px",
-                    fontSize: "11px",
-                    fontWeight: "700",
-                    color: "#C1C3C2",
-                  }}
-                >
-                  NUMBER · CLIENT TO PROVIDE
-                </span>
+                <span style={{ fontSize: "15px", fontWeight: "700", color: "#D3D9DB" }}>Licence No. 26S3355 · UEN 202602927R</span>
               </span>
             </div>
             <div
@@ -940,26 +840,25 @@ export function Desktop() {
                 gap: "18px",
                 padding: "24px",
                 borderRadius: "16px",
-                border: "1.5px dashed #60554F",
+                background: "#201F1E",
+                border: "1px solid #3A3736",
               }}
             >
               <div
                 style={{
                   height: "64px",
+                  background: "#FFFFFF",
+                  borderRadius: "10px",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
-                  fontSize: "10px",
-                  fontWeight: "700",
-                  letterSpacing: "0.06em",
-                  color: "#C1C3C2",
+                  padding: "10px 14px",
+                  boxSizing: "border-box",
                 }}
               >
-                OTHER CREDENTIALS
+                <img src="/assets/logos/weconnect-international.jpg" alt="WEConnect International" style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "contain" }} />
               </div>
-              <span style={{ fontSize: "13px", fontWeight: "700", letterSpacing: "0.04em", color: "#C1C3C2" }}>
-                OTHER CERTIFICATIONS OR COMPLIANCE CREDENTIALS · CLIENT TO PROVIDE
-              </span>
+              <span style={{ fontSize: "18px", fontWeight: "700" }}>WEConnect International</span>
             </div>
           </div>
         </div>
@@ -1163,19 +1062,6 @@ export function Mobile() {
           <span style={{ fontSize: "40px", lineHeight: "1", letterSpacing: "-0.04em", fontWeight: "700" }}>2013</span>
           <span style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
             <span style={{ fontSize: "16px", lineHeight: "1.4", fontWeight: "700" }}>Celotti Group heritage since 2013</span>
-            <span
-              style={{
-                alignSelf: "flex-start",
-                padding: "2px 6px",
-                border: "1.5px dashed #60554F",
-                borderRadius: "6px",
-                fontSize: "10px",
-                fontWeight: "700",
-                color: "#C1C3C2",
-              }}
-            >
-              CONFIRM
-            </span>
           </span>
         </div>
       </section>
@@ -1462,38 +1348,23 @@ export function Mobile() {
               height: "128px",
               flexShrink: "0",
               borderRadius: "14px",
-              border: "1.5px dashed #60554F",
-              background: "#262423",
+              background: "linear-gradient(135deg,#34312F,#262423)",
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
-              fontSize: "9px",
+              fontSize: "32px",
               fontWeight: "700",
-              color: "#C1C3C2",
-              textAlign: "center",
-              lineHeight: "1.4",
+              letterSpacing: "0.02em",
+              color: "#DFE21B",
             }}
+            aria-hidden="true"
           >
-            PHOTO
-            <br />
-            TO PROVIDE
+            DK
           </div>
           <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
             <h3 style={{ margin: "0", fontSize: "20px", fontWeight: "700" }}>Dharshan Kumar</h3>
             <span style={{ fontSize: "15px", fontWeight: "700", color: "#D3D9DB" }}>{"Business Head, AI & Data"}</span>
-            <span
-              style={{
-                alignSelf: "flex-start",
-                padding: "2px 6px",
-                border: "1.5px dashed #60554F",
-                borderRadius: "6px",
-                fontSize: "10px",
-                fontWeight: "700",
-                color: "#C1C3C2",
-              }}
-            >
-              BIO · LINKEDIN TO PROVIDE
-            </span>
+            <p style={{ margin: "0", fontSize: "14px", lineHeight: "1.55", color: "#D3D9DB" }}>Leads CTT's AI & Data practice, partnering with founders and technology leaders across APAC to build specialist teams through long-term, advisory-led engagements.</p>
           </div>
         </div>
         <div style={{ display: "flex", gap: "16px", alignItems: "center", paddingBottom: "16px", borderBottom: "1px solid #3A3736" }}>
@@ -1503,38 +1374,23 @@ export function Mobile() {
               height: "128px",
               flexShrink: "0",
               borderRadius: "14px",
-              border: "1.5px dashed #60554F",
-              background: "#262423",
+              background: "linear-gradient(135deg,#34312F,#262423)",
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
-              fontSize: "9px",
+              fontSize: "32px",
               fontWeight: "700",
-              color: "#C1C3C2",
-              textAlign: "center",
-              lineHeight: "1.4",
+              letterSpacing: "0.02em",
+              color: "#DFE21B",
             }}
+            aria-hidden="true"
           >
-            PHOTO
-            <br />
-            TO PROVIDE
+            VP
           </div>
           <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
             <h3 style={{ margin: "0", fontSize: "20px", fontWeight: "700" }}>Veena Pujari</h3>
             <span style={{ fontSize: "15px", fontWeight: "700", color: "#D3D9DB" }}>Talent Advisory</span>
-            <span
-              style={{
-                alignSelf: "flex-start",
-                padding: "2px 6px",
-                border: "1.5px dashed #60554F",
-                borderRadius: "6px",
-                fontSize: "10px",
-                fontWeight: "700",
-                color: "#C1C3C2",
-              }}
-            >
-              CONFIRM TITLE · BIO TO PROVIDE
-            </span>
+            <p style={{ margin: "0", fontSize: "14px", lineHeight: "1.55", color: "#D3D9DB" }}>Guides clients through market mapping, benchmarking and hiring strategy, so AI and data teams are planned with clarity before a search begins.</p>
           </div>
         </div>
         <div style={{ display: "flex", gap: "16px", alignItems: "center" }}>
@@ -1544,37 +1400,23 @@ export function Mobile() {
               height: "128px",
               flexShrink: "0",
               borderRadius: "14px",
-              border: "1.5px dashed #60554F",
-              background: "#262423",
+              background: "linear-gradient(135deg,#34312F,#262423)",
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
-              fontSize: "9px",
+              fontSize: "32px",
               fontWeight: "700",
-              color: "#C1C3C2",
-              textAlign: "center",
-              lineHeight: "1.4",
+              letterSpacing: "0.02em",
+              color: "#DFE21B",
             }}
+            aria-hidden="true"
           >
-            PHOTO
-            <br />
-            TO PROVIDE
+            KR
           </div>
           <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
             <h3 style={{ margin: "0", fontSize: "20px", fontWeight: "700" }}>Kavena Rama</h3>
-            <span
-              style={{
-                alignSelf: "flex-start",
-                padding: "2px 6px",
-                border: "1.5px dashed #60554F",
-                borderRadius: "6px",
-                fontSize: "10px",
-                fontWeight: "700",
-                color: "#C1C3C2",
-              }}
-            >
-              TITLE · BIO TO PROVIDE
-            </span>
+            <span style={{ fontSize: "15px", fontWeight: "700", color: "#D3D9DB" }}>Talent Partner</span>
+            <p style={{ margin: "0", fontSize: "14px", lineHeight: "1.55", color: "#D3D9DB" }}>Works alongside clients and candidates from shortlisting to offer, helping AI, data and digital professionals find roles where they can grow and stay.</p>
           </div>
         </div>
       </section>
@@ -1599,17 +1441,16 @@ export function Mobile() {
                 width: "96px",
                 height: "44px",
                 flexShrink: "0",
-                border: "1.5px dashed #60554F",
+                background: "#FFFFFF",
                 borderRadius: "8px",
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
-                fontSize: "9px",
-                fontWeight: "700",
-                color: "#C1C3C2",
+                padding: "6px 10px",
+                boxSizing: "border-box",
               }}
             >
-              RCSA LOGO
+              <img src="/assets/logos/rcsa.jpg" alt="RCSA" style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "contain" }} />
             </div>
             <span style={{ fontSize: "16px", fontWeight: "700" }}>RCSA Corporate Member</span>
           </div>
@@ -1629,17 +1470,16 @@ export function Mobile() {
                 width: "96px",
                 height: "44px",
                 flexShrink: "0",
-                border: "1.5px dashed #60554F",
+                background: "#FFFFFF",
                 borderRadius: "8px",
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
-                fontSize: "9px",
-                fontWeight: "700",
-                color: "#C1C3C2",
+                padding: "6px 10px",
+                boxSizing: "border-box",
               }}
             >
-              APSCO LOGO
+              <img src="/assets/logos/apsco.png" alt="APSCo Southeast Asia" style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "contain" }} />
             </div>
             <span style={{ fontSize: "16px", fontWeight: "700" }}>APSCo Southeast Asia</span>
           </div>
@@ -1673,21 +1513,37 @@ export function Mobile() {
             </div>
             <span style={{ display: "flex", flexDirection: "column", gap: "4px" }}>
               <span style={{ fontSize: "16px", fontWeight: "700" }}>Employment Agency licence</span>
-              <span style={{ fontSize: "10px", fontWeight: "700", color: "#C1C3C2" }}>NUMBER · CLIENT TO PROVIDE</span>
+              <span style={{ fontSize: "13px", fontWeight: "700", color: "#D3D9DB" }}>Licence No. 26S3355 · UEN 202602927R</span>
             </span>
           </div>
           <div
             style={{
+              display: "flex",
+              alignItems: "center",
+              gap: "14px",
               padding: "16px",
               borderRadius: "14px",
-              border: "1.5px dashed #60554F",
-              fontSize: "11px",
-              fontWeight: "700",
-              lineHeight: "1.4",
-              color: "#C1C3C2",
+              background: "#201F1E",
+              border: "1px solid #3A3736",
             }}
           >
-            OTHER CERTIFICATIONS OR COMPLIANCE CREDENTIALS · CLIENT TO PROVIDE
+            <div
+              style={{
+                width: "96px",
+                height: "44px",
+                flexShrink: "0",
+                background: "#FFFFFF",
+                borderRadius: "8px",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                padding: "6px 10px",
+                boxSizing: "border-box",
+              }}
+            >
+              <img src="/assets/logos/weconnect-international.jpg" alt="WEConnect International" style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "contain" }} />
+            </div>
+            <span style={{ fontSize: "16px", fontWeight: "700" }}>WEConnect International</span>
           </div>
         </div>
       </section>

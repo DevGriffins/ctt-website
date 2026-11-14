@@ -77,23 +77,16 @@ export function Desktop() {
                 style={{
                   width: "200px",
                   height: "72px",
-                  border: "1.5px dashed #60554F",
                   borderRadius: "12px",
                   background: "#262423",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
-                  fontSize: "10px",
-                  fontWeight: "700",
-                  letterSpacing: "0.06em",
-                  color: "#C1C3C2",
-                  textAlign: "center",
-                  lineHeight: "1.4",
+                  padding: "12px 20px",
+                  boxSizing: "border-box",
                 }}
               >
-                SESTO LOGO
-                <br />
-                CLIENT TO PROVIDE (PERMISSION)
+                <img src="/assets/logos/sesto.svg" alt="SESTO Robotics" style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "contain" }} />
               </div>
               <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
                 <span
@@ -175,21 +168,7 @@ export function Desktop() {
                 The challenge
               </span>
               <p style={{ margin: "0", fontSize: "22px", lineHeight: "1.35", fontWeight: "700" }}>Specialist project delivery hiring</p>
-              <span
-                style={{
-                  alignSelf: "flex-start",
-                  padding: "6px 10px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "8px",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  letterSpacing: "0.04em",
-                  lineHeight: "1.4",
-                  color: "#C1C3C2",
-                }}
-              >
-                CLIENT TO PROVIDE: ROLES, TIMELINE, WHY THEY CHOSE CTT
-              </span>
+              <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.6", color: "#D3D9DB" }}>As a Singapore robotics company scaling autonomous mobile robot deployments, SESTO needed project delivery specialists who pair technical depth with customer-facing execution. It is a niche profile that rarely responds to job ads, so they wanted a partner embedded in their hiring rather than a one-off agency.</p>
             </div>
             <div
               style={{
@@ -234,20 +213,7 @@ export function Desktop() {
               <p style={{ margin: "0", fontSize: "22px", lineHeight: "1.35", fontWeight: "700" }}>
                 A dedicated TA Manager and a CRM-led hiring workflow
               </p>
-              <span
-                style={{
-                  alignSelf: "flex-start",
-                  padding: "6px 10px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "8px",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  letterSpacing: "0.04em",
-                  color: "#C1C3C2",
-                }}
-              >
-                CLIENT TO PROVIDE: DETAIL
-              </span>
+              <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.6", color: "#D3D9DB" }}>A fixed monthly fee gave SESTO a dedicated Talent Acquisition Manager working as an extension of their team, with a shared CRM pipeline that kept every candidate, interview and decision visible to both sides.</p>
             </div>
             <div
               style={{
@@ -295,23 +261,6 @@ export function Desktop() {
               </p>
             </div>
           </div>
-          <div
-            style={{
-              display: "flex",
-              alignItems: "center",
-              gap: "20px",
-              padding: "24px 28px",
-              border: "1.5px dashed #60554F",
-              borderRadius: "16px",
-            }}
-          >
-            <span aria-hidden="true" style={{ fontSize: "56px", lineHeight: "0.6", fontWeight: "700", color: "#C1C3C2" }}>
-              “
-            </span>
-            <span style={{ fontSize: "12px", fontWeight: "700", letterSpacing: "0.06em", color: "#C1C3C2" }}>
-              CLIENT QUOTE (OPTIONAL) · CLIENT TO PROVIDE
-            </span>
-          </div>
         </div>
       </section>
       {/* S3 VELODB (case study block) */}
@@ -342,23 +291,16 @@ export function Desktop() {
                 style={{
                   width: "200px",
                   height: "72px",
-                  border: "1.5px dashed #60554F",
                   borderRadius: "12px",
                   background: "#262423",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
-                  fontSize: "10px",
-                  fontWeight: "700",
-                  letterSpacing: "0.06em",
-                  color: "#C1C3C2",
-                  textAlign: "center",
-                  lineHeight: "1.4",
+                  padding: "12px 20px",
+                  boxSizing: "border-box",
                 }}
               >
-                VELODB LOGO
-                <br />
-                CLIENT TO PROVIDE (PERMISSION)
+                <img src="/assets/logos/velodb.svg" alt="VeloDB" style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "contain" }} />
               </div>
               <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
                 <span
@@ -395,18 +337,6 @@ export function Desktop() {
               </span>
               <span style={{ padding: "8px 14px", borderRadius: "999px", background: "#34312F", fontSize: "14px", fontWeight: "700" }}>
                 Specialism: Data
-              </span>
-              <span
-                style={{
-                  padding: "4px 8px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "6px",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  color: "#C1C3C2",
-                }}
-              >
-                TO CONFIRM
               </span>
             </div>
           </div>
@@ -452,20 +382,7 @@ export function Desktop() {
                 The challenge
               </span>
               <p style={{ margin: "0", fontSize: "22px", lineHeight: "1.35", fontWeight: "700" }}>A Solution Architect search</p>
-              <span
-                style={{
-                  alignSelf: "flex-start",
-                  padding: "6px 10px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "8px",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  letterSpacing: "0.04em",
-                  color: "#C1C3C2",
-                }}
-              >
-                CLIENT TO PROVIDE: CONTEXT AND LOCATION
-              </span>
+              <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.6", color: "#D3D9DB" }}>VeloDB, the real-time analytics database built on Apache Doris, needed a Solution Architect who combines deep data-platform knowledge with the confidence to lead technical conversations with customers across APAC.</p>
             </div>
             <div
               style={{
@@ -556,23 +473,6 @@ export function Desktop() {
                 Successful placement, leading to further assignments
               </p>
             </div>
-          </div>
-          <div
-            style={{
-              display: "flex",
-              alignItems: "center",
-              gap: "20px",
-              padding: "24px 28px",
-              border: "1.5px dashed #60554F",
-              borderRadius: "16px",
-            }}
-          >
-            <span aria-hidden="true" style={{ fontSize: "56px", lineHeight: "0.6", fontWeight: "700", color: "#C1C3C2" }}>
-              “
-            </span>
-            <span style={{ fontSize: "12px", fontWeight: "700", letterSpacing: "0.06em", color: "#C1C3C2" }}>
-              CLIENT QUOTE (OPTIONAL) · CLIENT TO PROVIDE
-            </span>
           </div>
         </div>
       </section>
@@ -698,22 +598,16 @@ export function Mobile() {
           style={{
             width: "168px",
             height: "60px",
-            border: "1.5px dashed #60554F",
             borderRadius: "10px",
             background: "#262423",
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
-            fontSize: "9px",
-            fontWeight: "700",
-            color: "#C1C3C2",
-            textAlign: "center",
-            lineHeight: "1.4",
+            padding: "10px 16px",
+            boxSizing: "border-box",
           }}
         >
-          SESTO LOGO
-          <br />
-          CLIENT TO PROVIDE
+          <img src="/assets/logos/sesto.svg" alt="SESTO Robotics" style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "contain" }} />
         </div>
         <span style={{ fontSize: "13px", fontWeight: "700", letterSpacing: "0.08em", textTransform: "uppercase", color: "#C1C3C2" }}>
           Case study 01
@@ -748,20 +642,7 @@ export function Mobile() {
             1 · The challenge
           </span>
           <p style={{ margin: "0", fontSize: "19px", lineHeight: "1.35", fontWeight: "700" }}>Specialist project delivery hiring</p>
-          <span
-            style={{
-              alignSelf: "flex-start",
-              padding: "5px 8px",
-              border: "1.5px dashed #60554F",
-              borderRadius: "6px",
-              fontSize: "10px",
-              fontWeight: "700",
-              lineHeight: "1.4",
-              color: "#C1C3C2",
-            }}
-          >
-            CLIENT TO PROVIDE: ROLES, TIMELINE, WHY CTT
-          </span>
+          <p style={{ margin: "0", fontSize: "15px", lineHeight: "1.55", color: "#D3D9DB" }}>As a Singapore robotics company scaling autonomous mobile robot deployments, SESTO needed project delivery specialists who pair technical depth with customer-facing execution. It is a niche profile that rarely responds to job ads, so they wanted a partner embedded in their hiring rather than a one-off agency.</p>
         </div>
         <div
           style={{ display: "flex", flexDirection: "column", gap: "10px", padding: "20px", borderRadius: "16px", background: "#262423" }}
@@ -772,19 +653,7 @@ export function Mobile() {
           <p style={{ margin: "0", fontSize: "19px", lineHeight: "1.35", fontWeight: "700" }}>
             A dedicated TA Manager and a CRM-led hiring workflow
           </p>
-          <span
-            style={{
-              alignSelf: "flex-start",
-              padding: "5px 8px",
-              border: "1.5px dashed #60554F",
-              borderRadius: "6px",
-              fontSize: "10px",
-              fontWeight: "700",
-              color: "#C1C3C2",
-            }}
-          >
-            CLIENT TO PROVIDE: DETAIL
-          </span>
+          <p style={{ margin: "0", fontSize: "15px", lineHeight: "1.55", color: "#D3D9DB" }}>A fixed monthly fee gave SESTO a dedicated Talent Acquisition Manager working as an extension of their team, with a shared CRM pipeline that kept every candidate, interview and decision visible to both sides.</p>
         </div>
         <div
           style={{
@@ -805,18 +674,6 @@ export function Mobile() {
             Two successful placements and a renewed partnership
           </p>
         </div>
-        <div
-          style={{
-            padding: "16px",
-            border: "1.5px dashed #60554F",
-            borderRadius: "12px",
-            fontSize: "10px",
-            fontWeight: "700",
-            color: "#C1C3C2",
-          }}
-        >
-          CLIENT QUOTE (OPTIONAL) · CLIENT TO PROVIDE
-        </div>
       </section>
       <section
         aria-labelledby="mcs-2"
@@ -833,22 +690,16 @@ export function Mobile() {
           style={{
             width: "168px",
             height: "60px",
-            border: "1.5px dashed #60554F",
             borderRadius: "10px",
             background: "#262423",
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
-            fontSize: "9px",
-            fontWeight: "700",
-            color: "#C1C3C2",
-            textAlign: "center",
-            lineHeight: "1.4",
+            padding: "10px 16px",
+            boxSizing: "border-box",
           }}
         >
-          VELODB LOGO
-          <br />
-          CLIENT TO PROVIDE
+          <img src="/assets/logos/velodb.svg" alt="VeloDB" style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "contain" }} />
         </div>
         <span style={{ fontSize: "13px", fontWeight: "700", letterSpacing: "0.08em", textTransform: "uppercase", color: "#C1C3C2" }}>
           Case study 02
@@ -875,18 +726,6 @@ export function Mobile() {
           >
             Specialism: Data
           </span>
-          <span
-            style={{
-              padding: "3px 7px",
-              border: "1.5px dashed #60554F",
-              borderRadius: "6px",
-              fontSize: "10px",
-              fontWeight: "700",
-              color: "#C1C3C2",
-            }}
-          >
-            TO CONFIRM
-          </span>
         </div>
         <div
           style={{ display: "flex", flexDirection: "column", gap: "10px", padding: "20px", borderRadius: "16px", background: "#262423" }}
@@ -895,19 +734,7 @@ export function Mobile() {
             1 · The challenge
           </span>
           <p style={{ margin: "0", fontSize: "19px", lineHeight: "1.35", fontWeight: "700" }}>A Solution Architect search</p>
-          <span
-            style={{
-              alignSelf: "flex-start",
-              padding: "5px 8px",
-              border: "1.5px dashed #60554F",
-              borderRadius: "6px",
-              fontSize: "10px",
-              fontWeight: "700",
-              color: "#C1C3C2",
-            }}
-          >
-            CLIENT TO PROVIDE: CONTEXT AND LOCATION
-          </span>
+          <p style={{ margin: "0", fontSize: "15px", lineHeight: "1.55", color: "#D3D9DB" }}>VeloDB, the real-time analytics database built on Apache Doris, needed a Solution Architect who combines deep data-platform knowledge with the confidence to lead technical conversations with customers across APAC.</p>
         </div>
         <div
           style={{ display: "flex", flexDirection: "column", gap: "10px", padding: "20px", borderRadius: "16px", background: "#262423" }}
@@ -937,18 +764,6 @@ export function Mobile() {
           <p style={{ margin: "0", fontSize: "21px", lineHeight: "1.3", fontWeight: "700" }}>
             Successful placement, leading to further assignments
           </p>
-        </div>
-        <div
-          style={{
-            padding: "16px",
-            border: "1.5px dashed #60554F",
-            borderRadius: "12px",
-            fontSize: "10px",
-            fontWeight: "700",
-            color: "#C1C3C2",
-          }}
-        >
-          CLIENT QUOTE (OPTIONAL) · CLIENT TO PROVIDE
         </div>
       </section>
       <section aria-label="More case studies" style={{ background: "#262423", borderTop: "1px solid #3A3736" }}>

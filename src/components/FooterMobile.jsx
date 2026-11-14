@@ -23,19 +23,8 @@ export default function FooterMobile() {
               <span style={{ fontSize: "12px", fontWeight: "700", letterSpacing: "0.08em", textTransform: "uppercase", color: "#C1C3C2" }}>
                 UEN
               </span>
-              <span
-                style={{
-                  alignSelf: "flex-start",
-                  padding: "3px 8px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "6px",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  letterSpacing: "0.04em",
-                  color: "#C1C3C2",
-                }}
-              >
-                CLIENT TO PROVIDE
+              <span style={{ fontSize: "20px", fontWeight: "700", letterSpacing: "0.02em", color: "#FFFFFF" }}>
+                202602927R
               </span>
             </div>
             <div
@@ -52,19 +41,8 @@ export default function FooterMobile() {
               <span style={{ fontSize: "12px", fontWeight: "700", letterSpacing: "0.08em", textTransform: "uppercase", color: "#C1C3C2" }}>
                 EA Licence No.
               </span>
-              <span
-                style={{
-                  alignSelf: "flex-start",
-                  padding: "3px 8px",
-                  border: "1.5px dashed #60554F",
-                  borderRadius: "6px",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  letterSpacing: "0.04em",
-                  color: "#C1C3C2",
-                }}
-              >
-                CLIENT TO PROVIDE
+              <span style={{ fontSize: "20px", fontWeight: "700", letterSpacing: "0.02em", color: "#FFFFFF" }}>
+                26S3355
               </span>
             </div>
             <div
@@ -84,21 +62,16 @@ export default function FooterMobile() {
               <div
                 style={{
                   height: "48px",
-                  border: "1.5px dashed #60554F",
+                  background: "#FFFFFF",
                   borderRadius: "12px",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
-                  padding: "0 12px",
-                  textAlign: "center",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  letterSpacing: "0.06em",
-                  lineHeight: "1.4",
-                  color: "#C1C3C2",
+                  padding: "8px 12px",
+                  boxSizing: "border-box",
                 }}
               >
-                RCSA LOGO
+                <img src="/assets/logos/rcsa.jpg" alt="RCSA" style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "contain" }} />
               </div>
             </div>
             <div
@@ -118,21 +91,16 @@ export default function FooterMobile() {
               <div
                 style={{
                   height: "48px",
-                  border: "1.5px dashed #60554F",
+                  background: "#FFFFFF",
                   borderRadius: "12px",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
-                  padding: "0 12px",
-                  textAlign: "center",
-                  fontSize: "11px",
-                  fontWeight: "700",
-                  letterSpacing: "0.06em",
-                  lineHeight: "1.4",
-                  color: "#C1C3C2",
+                  padding: "8px 12px",
+                  boxSizing: "border-box",
                 }}
               >
-                APSCO LOGO
+                <img src="/assets/logos/apsco.png" alt="APSCo Southeast Asia" style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "contain" }} />
               </div>
             </div>
           </div>
