@@ -43,7 +43,7 @@ export default function HeaderDesktop({ activeNav }) {
             type="button"
             data-active={activeNav === "spec" ? "" : undefined}
           >
-            Specialisms
+            Specializations
             <svg
               aria-hidden="true"
               fill="none"

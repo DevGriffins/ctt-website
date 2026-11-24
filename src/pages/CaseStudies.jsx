@@ -122,7 +122,7 @@ export function Desktop() {
                 Model: Fixed Fee Partnership
               </span>
               <span style={{ padding: "8px 14px", borderRadius: "999px", background: "#34312F", fontSize: "14px", fontWeight: "700" }}>
-                Specialism: Robotics
+                Specialization: Robotics
               </span>
             </div>
           </div>
@@ -336,7 +336,7 @@ export function Desktop() {
                 Model: Exclusive Search Partnership
               </span>
               <span style={{ padding: "8px 14px", borderRadius: "999px", background: "#34312F", fontSize: "14px", fontWeight: "700" }}>
-                Specialism: Data
+                Specialization: Data
               </span>
             </div>
           </div>
@@ -632,7 +632,7 @@ export function Mobile() {
             style={{ padding: "6px 12px", borderRadius: "999px", background: "#34312F", fontSize: "13px", fontWeight: "700" }}
             className="ax-tint"
           >
-            Specialism: Robotics
+            Specialization: Robotics
           </span>
         </div>
         <div
@@ -724,7 +724,7 @@ export function Mobile() {
             style={{ padding: "6px 12px", borderRadius: "999px", background: "#34312F", fontSize: "13px", fontWeight: "700" }}
             className="ax-tint"
           >
-            Specialism: Data
+            Specialization: Data
           </span>
         </div>
         <div

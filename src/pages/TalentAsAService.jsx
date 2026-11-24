@@ -847,10 +847,9 @@ export function Desktop() {
               >
                 NEW · MONTHLY
               </span>
-              <h3 style={{ margin: "0", fontSize: "24px", fontWeight: "700" }}>FDE on Demand</h3>
+              <h3 style={{ margin: "0", fontSize: "24px", fontWeight: "700" }}>Forward Deployed Engineers (FDE)</h3>
               <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.55", color: "#D3D9DB", maxWidth: "640px" }}>
-                Forward Deployed AI Engineers, embedded in your team and billed monthly. Built for AI companies that need hands-on
-                engineering capacity fast.
+                Dedicated AI engineers embedded directly in your team on a flexible monthly retainer—built for fast-moving teams that need production capacity without long-term hiring cycles.
               </p>
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "14px", alignItems: "flex-start" }}>
@@ -875,7 +874,7 @@ export function Desktop() {
                   textDecoration: "none",
                 }}
               >
-                Ask about FDE on Demand
+                Ask about FDE
               </Link>
             </div>
           </div>
@@ -2601,10 +2600,9 @@ export function Mobile() {
             >
               NEW · MONTHLY
             </span>
-            <h3 style={{ margin: "0", fontSize: "19px", fontWeight: "700" }}>FDE on Demand</h3>
+            <h3 style={{ margin: "0", fontSize: "19px", fontWeight: "700" }}>Forward Deployed Engineers (FDE)</h3>
             <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.5", color: "#D3D9DB" }}>
-              Forward Deployed AI Engineers, embedded in your team and billed monthly. Built for AI companies that need hands-on engineering
-              capacity fast.
+              Dedicated AI engineers embedded directly in your team on a flexible monthly retainer—built for fast-moving teams that need production capacity without long-term hiring cycles.
             </p>
             <div
               style={{
@@ -2634,7 +2632,7 @@ export function Mobile() {
                 textDecoration: "none",
               }}
             >
-              Ask about FDE on Demand
+              Ask about FDE
             </Link>
           </div>
           <p style={{ margin: "4px 0 0", fontSize: "14px", lineHeight: "1.55", color: "#C1C3C2" }}>

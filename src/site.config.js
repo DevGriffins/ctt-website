@@ -19,6 +19,13 @@ export const site = {
     postalCode: "138588",
     addressCountry: "SG",
   },
+  sydneyAddress: {
+    streetAddress: "JustCo 135 King Street, Level 20, 135 King St",
+    addressLocality: "Sydney",
+    addressRegion: "NSW",
+    postalCode: "2000",
+    addressCountry: "AU",
+  },
 
   // Monthly fee shown across Talent as a Service.
   monthlyFee: "USD 4,000",

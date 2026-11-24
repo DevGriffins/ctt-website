@@ -190,7 +190,7 @@ export default function FooterDesktop() {
           >
             <div style={{ display: "flex", flexDirection: "column", gap: "14px", fontSize: "15px" }}>
               <span style={{ fontSize: "13px", fontWeight: "700", letterSpacing: "0.08em", textTransform: "uppercase", color: "#DFE21B" }}>
-                Specialisms
+                Specializations
               </span>
               <NavLink to="/specialisms/ai" style={{ color: "#E4E7E8" }}>
                 AI Talent
@@ -279,7 +279,7 @@ export default function FooterDesktop() {
           >
             <div style={{ display: "flex", flexDirection: "column", gap: "8px", fontSize: "15px", lineHeight: "1.55", color: "#C1C3C2" }}>
               <span style={{ fontSize: "13px", fontWeight: "700", letterSpacing: "0.08em", textTransform: "uppercase", color: "#FFFFFF" }}>
-                Office
+                Offices
               </span>
               <address style={{ fontStyle: "normal" }}>
                 JustCo, The Metropolis
@@ -287,6 +287,11 @@ export default function FooterDesktop() {
                 9 North Buona Vista Drive, #02-01
                 <br />
                 Singapore 138588
+              </address>
+              <address style={{ fontStyle: "normal" }}>
+                JustCo, Level 20, 135 King Street
+                <br />
+                Sydney NSW 2000, Australia
               </address>
               <a href="mailto:advisory@celottitechtalent.com" style={{ color: "#FFFFFF", fontWeight: "700" }}>
                 advisory@celottitechtalent.com

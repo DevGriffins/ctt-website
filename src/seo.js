@@ -161,7 +161,10 @@ export function buildHead(pathname) {
       url: site.url,
       logo: site.url.replace(/\/$/, "") + "/assets/ctt-logo.svg",
       email: site.email,
-      address: { "@type": "PostalAddress", ...site.address },
+      address: [
+        { "@type": "PostalAddress", ...site.address },
+        { "@type": "PostalAddress", ...site.sydneyAddress },
+      ],
       parentOrganization: { "@type": "Organization", name: "Celotti Group" },
     },
   ];

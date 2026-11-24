@@ -253,7 +253,7 @@ export function Desktop() {
             id="sm-h"
             style={{ margin: "0", fontSize: "clamp(34px, 3.6vw, 52px)", lineHeight: "1.06", letterSpacing: "-0.025em", fontWeight: "700" }}
           >
-            Specialisms in Singapore
+            Specializations in Singapore
           </h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(260px, 100%), 1fr))", gap: "20px" }}>
             <Link
@@ -965,7 +965,7 @@ export function Mobile() {
       <section aria-labelledby="msg-sm" style={{ background: "#262423", borderTop: "1px solid #3A3736" }}>
         <div style={{ padding: "56px 20px", display: "flex", flexDirection: "column", gap: "10px" }}>
           <h2 id="msg-sm" style={{ margin: "0 0 8px", fontSize: "30px", lineHeight: "1.1", fontWeight: "700" }}>
-            Specialisms in Singapore
+            Specializations in Singapore
           </h2>
           <Link
             to="/specialisms/ai"

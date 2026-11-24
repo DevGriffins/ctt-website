@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { TeamPreview } from "../components/Team.jsx";
 
 // Home: desktop layout (shown from 768px up)
 export function Desktop() {
@@ -882,7 +883,7 @@ export function Desktop() {
                     color: "#201F1E",
                   }}
                 />
-                What we specialise in
+                Our specializations
               </p>
               <h2
                 id="spec-h"
@@ -894,7 +895,7 @@ export function Desktop() {
                   fontWeight: "700",
                 }}
               >
-                Four specialisms. One focus.
+                Four core specializations. One advisory standard.
               </h2>
             </div>
           </div>
@@ -1751,10 +1752,9 @@ export function Desktop() {
               >
                 NEW · MONTHLY
               </span>
-              <h3 style={{ margin: "0", fontSize: "24px", fontWeight: "700" }}>FDE on Demand</h3>
+              <h3 style={{ margin: "0", fontSize: "24px", fontWeight: "700" }}>Forward Deployed Engineers (FDE)</h3>
               <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.55", color: "#D3D9DB", maxWidth: "640px" }}>
-                Forward Deployed AI Engineers, embedded in your team and billed monthly. Built for AI companies that need hands-on
-                engineering capacity fast.
+                Dedicated AI engineers embedded directly in your team on a flexible monthly retainer—built for fast-moving teams that need production capacity without long-term hiring cycles.
               </p>
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "14px", alignItems: "flex-start" }}>
@@ -1778,7 +1778,7 @@ export function Desktop() {
                   textDecoration: "none",
                 }}
               >
-                Ask about FDE on Demand
+                Ask about FDE
               </Link>
             </div>
           </div>
@@ -1888,166 +1888,7 @@ export function Desktop() {
               Meet the team
             </Link>
           </div>
-          <h3
-            style={{
-              margin: "8px 0 0",
-              fontSize: "14px",
-              fontWeight: "700",
-              letterSpacing: "0.08em",
-              textTransform: "uppercase",
-              color: "#D3D9DB",
-            }}
-          >
-            Leadership
-          </h3>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(min(240px, 100%), 1fr))", gap: "24px" }}>
-            <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
-              <div
-                style={{
-                  aspectRatio: "4 / 5",
-                  borderRadius: "20px",
-                  background: "linear-gradient(135deg, #34312F, #262423)",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  textAlign: "center",
-                  fontWeight: "700",
-                  fontSize: "56px",
-                  letterSpacing: "-0.02em",
-                  color: "#DFE21B",
-                }}
-                aria-hidden="true"
-              >
-                SC
-              </div>
-              <p style={{ margin: "0", fontSize: "22px", fontWeight: "700" }}>Suzie Celotti</p>
-              <span style={{ fontSize: "16px", fontWeight: "700", color: "#D3D9DB" }}>{"Founder & Director"}</span>
-            </div>
-            <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
-              <div
-                style={{
-                  aspectRatio: "4 / 5",
-                  borderRadius: "20px",
-                  background: "linear-gradient(135deg, #34312F, #262423)",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  textAlign: "center",
-                  fontWeight: "700",
-                  fontSize: "56px",
-                  letterSpacing: "-0.02em",
-                  color: "#DFE21B",
-                }}
-                aria-hidden="true"
-              >
-                AC
-              </div>
-              <p style={{ margin: "0", fontSize: "22px", fontWeight: "700" }}>Adrian Celotti</p>
-              <span style={{ fontSize: "16px", fontWeight: "700", color: "#D3D9DB" }}>Director</span>
-            </div>
-            <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
-              <div
-                style={{
-                  aspectRatio: "4 / 5",
-                  borderRadius: "20px",
-                  background: "linear-gradient(135deg, #34312F, #262423)",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  textAlign: "center",
-                  fontWeight: "700",
-                  fontSize: "56px",
-                  letterSpacing: "-0.02em",
-                  color: "#DFE21B",
-                }}
-                aria-hidden="true"
-              >
-                DK
-              </div>
-              <p style={{ margin: "0", fontSize: "22px", fontWeight: "700" }}>Dharshan Kumar</p>
-              <span style={{ fontSize: "16px", fontWeight: "700", color: "#D3D9DB" }}>{"Business Head, AI & Data"}</span>
-            </div>
-          </div>
-          <h3
-            style={{
-              margin: "8px 0 0",
-              fontSize: "14px",
-              fontWeight: "700",
-              letterSpacing: "0.08em",
-              textTransform: "uppercase",
-              color: "#D3D9DB",
-            }}
-          >
-            Key team
-          </h3>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(min(240px, 100%), 1fr))", gap: "24px" }}>
-            <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
-              <div
-                style={{
-                  aspectRatio: "4 / 5",
-                  borderRadius: "20px",
-                  background: "linear-gradient(135deg, #34312F, #262423)",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  textAlign: "center",
-                  fontWeight: "700",
-                  fontSize: "56px",
-                  letterSpacing: "-0.02em",
-                  color: "#DFE21B",
-                }}
-                aria-hidden="true"
-              >
-                VP
-              </div>
-              <p style={{ margin: "0", fontSize: "22px", fontWeight: "700" }}>Veena Pujari</p>
-              <span style={{ fontSize: "16px", fontWeight: "700", color: "#D3D9DB" }}>Talent Advisory</span>
-            </div>
-            <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
-              <div
-                style={{
-                  aspectRatio: "4 / 5",
-                  borderRadius: "20px",
-                  background: "linear-gradient(135deg, #34312F, #262423)",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  textAlign: "center",
-                  fontWeight: "700",
-                  fontSize: "56px",
-                  letterSpacing: "-0.02em",
-                  color: "#DFE21B",
-                }}
-                aria-hidden="true"
-              >
-                KR
-              </div>
-              <p style={{ margin: "0", fontSize: "22px", fontWeight: "700" }}>Kavena Rama</p>
-              <span style={{ fontSize: "16px", fontWeight: "700", color: "#D3D9DB" }}>Talent Partner</span>
-            </div>
-            <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
-              <div
-                style={{
-                  aspectRatio: "4 / 5",
-                  borderRadius: "20px",
-                  background: "linear-gradient(135deg, #34312F, #262423)",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  textAlign: "center",
-                  fontWeight: "700",
-                  fontSize: "56px",
-                  letterSpacing: "-0.02em",
-                  color: "#DFE21B",
-                }}
-                aria-hidden="true"
-              >
-                A
-              </div>
-              <p style={{ margin: "0", fontSize: "22px", fontWeight: "700" }}>Alex</p>
-              <span style={{ fontSize: "16px", fontWeight: "700", color: "#D3D9DB" }}>Talent Partner</span>
-            </div>
-          </div>
+          <TeamPreview />
         </div>
       </section>
       {/* S7 INSIGHTS */}
@@ -3182,10 +3023,10 @@ export function Mobile() {
               aria-hidden="true"
               style={{ width: "9px", height: "9px", background: "#DFE21B", display: "block", transform: "skewX(-20deg)", color: "#201F1E" }}
             />
-            What we specialise in
+            Our specializations
           </p>
           <h2 id="m-spec" style={{ margin: "0", fontSize: "32px", lineHeight: "1.1", letterSpacing: "-0.025em", fontWeight: "700" }}>
-            Four specialisms. One focus.
+            Four core specializations. One advisory standard.
           </h2>
           <div style={{ display: "flex", flexDirection: "column", gap: "12px", marginTop: "8px" }}>
             <Link
@@ -3898,10 +3739,9 @@ export function Mobile() {
             >
               NEW · MONTHLY
             </span>
-            <h3 style={{ margin: "0", fontSize: "19px", fontWeight: "700" }}>FDE on Demand</h3>
+            <h3 style={{ margin: "0", fontSize: "19px", fontWeight: "700" }}>Forward Deployed Engineers (FDE)</h3>
             <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.5", color: "#D3D9DB" }}>
-              Forward Deployed AI Engineers, embedded in your team and billed monthly. Built for AI companies that need hands-on engineering
-              capacity fast.
+              Dedicated AI engineers embedded directly in your team on a flexible monthly retainer—built for fast-moving teams that need production capacity without long-term hiring cycles.
             </p>
             <div
               style={{
@@ -3930,7 +3770,7 @@ export function Mobile() {
                 textDecoration: "none",
               }}
             >
-              Ask about FDE on Demand
+              Ask about FDE
             </Link>
           </div>
           <p style={{ margin: "0", fontSize: "14px", color: "#C1C3C2" }}>TAC = Total Annual Compensation of the hired candidate.</p>
@@ -4000,186 +3840,22 @@ export function Mobile() {
           <h2 id="m-ppl" style={{ margin: "0 0 6px", fontSize: "32px", lineHeight: "1.1", letterSpacing: "-0.025em", fontWeight: "700" }}>
             The people behind CTT
           </h2>
-          <h3
+          <TeamPreview mobile />
+          <Link
+            to="/about"
             style={{
-              margin: "10px 0 0",
-              fontSize: "13px",
+              marginTop: "12px",
+              alignSelf: "flex-start",
+              fontSize: "16px",
               fontWeight: "700",
-              letterSpacing: "0.08em",
-              textTransform: "uppercase",
-              color: "#D3D9DB",
+              textDecoration: "underline",
+              textDecorationColor: "#DFE21B",
+              textDecorationThickness: "3px",
+              textUnderlineOffset: "6px",
             }}
           >
-            Leadership
-          </h3>
-          <div style={{ display: "flex", gap: "16px", alignItems: "center" }}>
-            <div
-              style={{
-                width: "80px",
-                height: "100px",
-                flexShrink: "0",
-                borderRadius: "14px",
-                background: "linear-gradient(135deg, #34312F, #262423)",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                textAlign: "center",
-                fontWeight: "700",
-                fontSize: "32px",
-                letterSpacing: "-0.02em",
-                color: "#DFE21B",
-              }}
-              aria-hidden="true"
-            >
-              SC
-            </div>
-            <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
-              <p style={{ margin: "0", fontSize: "19px", fontWeight: "700" }}>Suzie Celotti</p>
-              <span style={{ fontSize: "15px", fontWeight: "700", color: "#D3D9DB" }}>{"Founder & Director"}</span>
-            </div>
-          </div>
-          <div style={{ display: "flex", gap: "16px", alignItems: "center" }}>
-            <div
-              style={{
-                width: "80px",
-                height: "100px",
-                flexShrink: "0",
-                borderRadius: "14px",
-                background: "linear-gradient(135deg, #34312F, #262423)",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                textAlign: "center",
-                fontWeight: "700",
-                fontSize: "32px",
-                letterSpacing: "-0.02em",
-                color: "#DFE21B",
-              }}
-              aria-hidden="true"
-            >
-              AC
-            </div>
-            <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
-              <p style={{ margin: "0", fontSize: "19px", fontWeight: "700" }}>Adrian Celotti</p>
-              <span style={{ fontSize: "15px", fontWeight: "700", color: "#D3D9DB" }}>Director</span>
-            </div>
-          </div>
-          <div style={{ display: "flex", gap: "16px", alignItems: "center" }}>
-            <div
-              style={{
-                width: "80px",
-                height: "100px",
-                flexShrink: "0",
-                borderRadius: "14px",
-                background: "linear-gradient(135deg, #34312F, #262423)",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                textAlign: "center",
-                fontWeight: "700",
-                fontSize: "32px",
-                letterSpacing: "-0.02em",
-                color: "#DFE21B",
-              }}
-              aria-hidden="true"
-            >
-              DK
-            </div>
-            <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
-              <p style={{ margin: "0", fontSize: "19px", fontWeight: "700" }}>Dharshan Kumar</p>
-              <span style={{ fontSize: "15px", fontWeight: "700", color: "#D3D9DB" }}>{"Business Head, AI & Data"}</span>
-            </div>
-          </div>
-          <h3
-            style={{
-              margin: "10px 0 0",
-              fontSize: "13px",
-              fontWeight: "700",
-              letterSpacing: "0.08em",
-              textTransform: "uppercase",
-              color: "#D3D9DB",
-            }}
-          >
-            Key team
-          </h3>
-          <div style={{ display: "flex", gap: "16px", alignItems: "center" }}>
-            <div
-              style={{
-                width: "80px",
-                height: "100px",
-                flexShrink: "0",
-                borderRadius: "14px",
-                background: "linear-gradient(135deg, #34312F, #262423)",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                textAlign: "center",
-                fontWeight: "700",
-                fontSize: "32px",
-                letterSpacing: "-0.02em",
-                color: "#DFE21B",
-              }}
-              aria-hidden="true"
-            >
-              VP
-            </div>
-            <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
-              <p style={{ margin: "0", fontSize: "19px", fontWeight: "700" }}>Veena Pujari</p>
-              <span style={{ fontSize: "15px", fontWeight: "700", color: "#D3D9DB" }}>Talent Advisory</span>
-            </div>
-          </div>
-          <div style={{ display: "flex", gap: "16px", alignItems: "center" }}>
-            <div
-              style={{
-                width: "80px",
-                height: "100px",
-                flexShrink: "0",
-                borderRadius: "14px",
-                background: "linear-gradient(135deg, #34312F, #262423)",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                textAlign: "center",
-                fontWeight: "700",
-                fontSize: "32px",
-                letterSpacing: "-0.02em",
-                color: "#DFE21B",
-              }}
-              aria-hidden="true"
-            >
-              KR
-            </div>
-            <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
-              <p style={{ margin: "0", fontSize: "19px", fontWeight: "700" }}>Kavena Rama</p>
-              <span style={{ fontSize: "15px", fontWeight: "700", color: "#D3D9DB" }}>Talent Partner</span>
-            </div>
-          </div>
-          <div style={{ display: "flex", gap: "16px", alignItems: "center" }}>
-            <div
-              style={{
-                width: "80px",
-                height: "100px",
-                flexShrink: "0",
-                borderRadius: "14px",
-                background: "linear-gradient(135deg, #34312F, #262423)",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                textAlign: "center",
-                fontWeight: "700",
-                fontSize: "32px",
-                letterSpacing: "-0.02em",
-                color: "#DFE21B",
-              }}
-              aria-hidden="true"
-            >
-              A
-            </div>
-            <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
-              <p style={{ margin: "0", fontSize: "19px", fontWeight: "700" }}>Alex</p>
-              <span style={{ fontSize: "15px", fontWeight: "700", color: "#D3D9DB" }}>Talent Partner</span>
-            </div>
-          </div>
+            Meet the team
+          </Link>
         </div>
       </section>
       {/* S7 INSIGHTS */}

@@ -23,7 +23,7 @@ export function Desktop() {
                 Home
               </Link>
               <span aria-hidden="true">/</span>
-              <span>Specialisms</span>
+              <span>Specializations</span>
               <span aria-hidden="true">/</span>
               <span aria-current="page" style={{ color: "#FFFFFF", fontWeight: "700" }}>
                 Data
@@ -53,7 +53,7 @@ export function Desktop() {
                   color: "#201F1E",
                 }}
               />
-              Specialism 02 · Data Talent
+              Specialization 02 · Data Talent
             </p>
             <h1
               id="data-h1"
@@ -137,7 +137,7 @@ export function Desktop() {
             }}
           >
             <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: "16px" }}>
-              <span style={{ fontSize: "12px", fontWeight: "700", letterSpacing: "0.14em", color: "#DFE21B" }}>FOUR SPECIALISMS</span>
+              <span style={{ fontSize: "12px", fontWeight: "700", letterSpacing: "0.14em", color: "#DFE21B" }}>FOUR SPECIALIZATIONS</span>
             </div>
             <div
               aria-hidden="true"
@@ -180,7 +180,7 @@ export function Desktop() {
                 </svg>
               </div>
             </div>
-            <nav aria-label="Specialisms" style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
+            <nav aria-label="Specializations" style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
               <Link
                 className="spec-tab"
                 to="/specialisms/ai"
@@ -778,7 +778,7 @@ export function Desktop() {
                   color: "#201F1E",
                 }}
               />
-              Across all four specialisms
+              Across all four specializations
             </p>
             <h2
               id="em-h"
@@ -1742,13 +1742,13 @@ export function Mobile() {
               Home
             </Link>
             <span aria-hidden="true">/</span>
-            <span>Specialisms</span>
+            <span>Specializations</span>
             <span aria-hidden="true">/</span>
             <span aria-current="page" style={{ color: "#FFFFFF", fontWeight: "700" }}>
               Data
             </span>
           </nav>
-          <nav aria-label="Specialisms" style={{ display: "flex", gap: "6px", overflowX: "auto", margin: "0 -20px", padding: "0 20px" }}>
+          <nav aria-label="Specializations" style={{ display: "flex", gap: "6px", overflowX: "auto", margin: "0 -20px", padding: "0 20px" }}>
             <Link
               to="/specialisms/ai"
               style={{
@@ -1841,7 +1841,7 @@ export function Mobile() {
               aria-hidden="true"
               style={{ width: "9px", height: "9px", background: "#DFE21B", display: "block", transform: "skewX(-20deg)", color: "#201F1E" }}
             />
-            Specialism 02 · Data Talent
+            Specialization 02 · Data Talent
           </p>
           <h1 id="ma-h1" style={{ margin: "0", fontSize: "40px", lineHeight: "1.05", letterSpacing: "-0.03em", fontWeight: "700" }}>
             {"Data recruitment, from strategy to "}
@@ -2229,7 +2229,7 @@ export function Mobile() {
               aria-hidden="true"
               style={{ width: "9px", height: "9px", background: "#DFE21B", display: "block", transform: "skewX(-20deg)", color: "#201F1E" }}
             />
-            Across all four specialisms
+            Across all four specializations
           </p>
           <h2 id="ma-em" style={{ margin: "0 0 8px", fontSize: "32px", lineHeight: "1.1", letterSpacing: "-0.025em", fontWeight: "700" }}>
             Emerging cross-functional roles

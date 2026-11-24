@@ -99,7 +99,7 @@ export default function MobileMenu() {
                 cursor: "pointer",
               }}
             >
-              Specialisms
+              Specializations
               <svg
                 width="20"
                 height="20"

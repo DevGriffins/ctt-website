@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { TeamDesktop, TeamMobile } from "../components/Team.jsx";
 
 // About: desktop layout (shown from 768px up)
 export function Desktop() {
@@ -600,137 +601,8 @@ export function Desktop() {
           </Link>
         </div>
       </section>
-      {/* S5 LEADERSHIP TEAM */}
-      <section aria-labelledby="team-h" style={{ background: "#201F1E" }}>
-        <div
-          style={{
-            maxWidth: "1344px",
-            margin: "0 auto",
-            padding: "112px clamp(20px, 3.5vw, 32px)",
-            display: "flex",
-            flexDirection: "column",
-            gap: "48px",
-          }}
-        >
-          <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
-            <p
-              style={{
-                margin: "0",
-                display: "flex",
-                alignItems: "center",
-                gap: "10px",
-                fontSize: "14px",
-                fontWeight: "700",
-                letterSpacing: "0.08em",
-                textTransform: "uppercase",
-                color: "#D3D9DB",
-              }}
-            >
-              <span
-                aria-hidden="true"
-                style={{
-                  width: "10px",
-                  height: "10px",
-                  background: "#DFE21B",
-                  display: "block",
-                  transform: "skewX(-20deg)",
-                  color: "#201F1E",
-                }}
-              />
-              People
-            </p>
-            <h2
-              id="team-h"
-              style={{
-                margin: "0",
-                fontSize: "clamp(34px, 3.6vw, 52px)",
-                lineHeight: "1.06",
-                letterSpacing: "-0.025em",
-                fontWeight: "700",
-              }}
-            >
-              Leadership team
-            </h2>
-          </div>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(340px, 100%), 1fr))", gap: "24px" }}>
-            <div style={{ display: "flex", flexDirection: "column", gap: "18px" }}>
-              <div
-                style={{
-                  aspectRatio: "4 / 5",
-                  borderRadius: "20px",
-                  background: "linear-gradient(135deg,#34312F,#262423)",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  fontSize: "56px",
-                  fontWeight: "700",
-                  letterSpacing: "0.02em",
-                  color: "#DFE21B",
-                  clipPath: "polygon(0 0, calc(100% - 40px) 0, 100% 40px, 100% 100%, 0 100%)",
-                }}
-                aria-hidden="true"
-              >
-                DK
-              </div>
-              <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
-                <h3 style={{ margin: "0", fontSize: "24px", fontWeight: "700" }}>Dharshan Kumar</h3>
-                <span style={{ fontSize: "16px", fontWeight: "700", color: "#D3D9DB" }}>{"Business Head, AI & Data"}</span>
-              </div>
-              <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.6", color: "#D3D9DB" }}>Leads CTT's AI & Data practice, partnering with founders and technology leaders across APAC to build specialist teams through long-term, advisory-led engagements.</p>
-            </div>
-            <div style={{ display: "flex", flexDirection: "column", gap: "18px" }}>
-              <div
-                style={{
-                  aspectRatio: "4 / 5",
-                  borderRadius: "20px",
-                  background: "linear-gradient(135deg,#34312F,#262423)",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  fontSize: "56px",
-                  fontWeight: "700",
-                  letterSpacing: "0.02em",
-                  color: "#DFE21B",
-                  clipPath: "polygon(0 0, calc(100% - 40px) 0, 100% 40px, 100% 100%, 0 100%)",
-                }}
-                aria-hidden="true"
-              >
-                VP
-              </div>
-              <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
-                <h3 style={{ margin: "0", fontSize: "24px", fontWeight: "700" }}>Veena Pujari</h3>
-                <span style={{ fontSize: "16px", fontWeight: "700", color: "#D3D9DB" }}>Talent Advisory</span>
-              </div>
-              <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.6", color: "#D3D9DB" }}>Guides clients through market mapping, benchmarking and hiring strategy, so AI and data teams are planned with clarity before a search begins.</p>
-            </div>
-            <div style={{ display: "flex", flexDirection: "column", gap: "18px" }}>
-              <div
-                style={{
-                  aspectRatio: "4 / 5",
-                  borderRadius: "20px",
-                  background: "linear-gradient(135deg,#34312F,#262423)",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  fontSize: "56px",
-                  fontWeight: "700",
-                  letterSpacing: "0.02em",
-                  color: "#DFE21B",
-                  clipPath: "polygon(0 0, calc(100% - 40px) 0, 100% 40px, 100% 100%, 0 100%)",
-                }}
-                aria-hidden="true"
-              >
-                KR
-              </div>
-              <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
-                <h3 style={{ margin: "0", fontSize: "24px", fontWeight: "700" }}>Kavena Rama</h3>
-                <span style={{ fontSize: "16px", fontWeight: "700", color: "#D3D9DB" }}>Talent Partner</span>
-              </div>
-              <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.6", color: "#D3D9DB" }}>Works alongside clients and candidates from shortlisting to offer, helping AI, data and digital professionals find roles where they can grow and stay.</p>
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* S5 MEET THE TEAM */}
+      <TeamDesktop />
       {/* S6 MEMBERSHIPS & LICENCES */}
       <section aria-labelledby="mem-h" style={{ background: "#262423", borderTop: "1px solid #3A3736" }}>
         <div
@@ -926,7 +798,7 @@ export function Desktop() {
                 <path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z" />
                 <circle cx="12" cy="10" r="2.5" />
               </svg>
-              JustCo, The Metropolis, Singapore
+              JustCo Singapore · JustCo Sydney
             </p>
             <h2
               id="ab-cta"
@@ -1337,89 +1209,7 @@ export function Mobile() {
           </ol>
         </div>
       </section>
-      <section aria-labelledby="mab-team" style={{ padding: "56px 20px", display: "flex", flexDirection: "column", gap: "16px" }}>
-        <h2 id="mab-team" style={{ margin: "0 0 4px", fontSize: "30px", fontWeight: "700" }}>
-          Leadership team
-        </h2>
-        <div style={{ display: "flex", gap: "16px", alignItems: "center", paddingBottom: "16px", borderBottom: "1px solid #3A3736" }}>
-          <div
-            style={{
-              width: "104px",
-              height: "128px",
-              flexShrink: "0",
-              borderRadius: "14px",
-              background: "linear-gradient(135deg,#34312F,#262423)",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              fontSize: "32px",
-              fontWeight: "700",
-              letterSpacing: "0.02em",
-              color: "#DFE21B",
-            }}
-            aria-hidden="true"
-          >
-            DK
-          </div>
-          <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
-            <h3 style={{ margin: "0", fontSize: "20px", fontWeight: "700" }}>Dharshan Kumar</h3>
-            <span style={{ fontSize: "15px", fontWeight: "700", color: "#D3D9DB" }}>{"Business Head, AI & Data"}</span>
-            <p style={{ margin: "0", fontSize: "14px", lineHeight: "1.55", color: "#D3D9DB" }}>Leads CTT's AI & Data practice, partnering with founders and technology leaders across APAC to build specialist teams through long-term, advisory-led engagements.</p>
-          </div>
-        </div>
-        <div style={{ display: "flex", gap: "16px", alignItems: "center", paddingBottom: "16px", borderBottom: "1px solid #3A3736" }}>
-          <div
-            style={{
-              width: "104px",
-              height: "128px",
-              flexShrink: "0",
-              borderRadius: "14px",
-              background: "linear-gradient(135deg,#34312F,#262423)",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              fontSize: "32px",
-              fontWeight: "700",
-              letterSpacing: "0.02em",
-              color: "#DFE21B",
-            }}
-            aria-hidden="true"
-          >
-            VP
-          </div>
-          <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
-            <h3 style={{ margin: "0", fontSize: "20px", fontWeight: "700" }}>Veena Pujari</h3>
-            <span style={{ fontSize: "15px", fontWeight: "700", color: "#D3D9DB" }}>Talent Advisory</span>
-            <p style={{ margin: "0", fontSize: "14px", lineHeight: "1.55", color: "#D3D9DB" }}>Guides clients through market mapping, benchmarking and hiring strategy, so AI and data teams are planned with clarity before a search begins.</p>
-          </div>
-        </div>
-        <div style={{ display: "flex", gap: "16px", alignItems: "center" }}>
-          <div
-            style={{
-              width: "104px",
-              height: "128px",
-              flexShrink: "0",
-              borderRadius: "14px",
-              background: "linear-gradient(135deg,#34312F,#262423)",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              fontSize: "32px",
-              fontWeight: "700",
-              letterSpacing: "0.02em",
-              color: "#DFE21B",
-            }}
-            aria-hidden="true"
-          >
-            KR
-          </div>
-          <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
-            <h3 style={{ margin: "0", fontSize: "20px", fontWeight: "700" }}>Kavena Rama</h3>
-            <span style={{ fontSize: "15px", fontWeight: "700", color: "#D3D9DB" }}>Talent Partner</span>
-            <p style={{ margin: "0", fontSize: "14px", lineHeight: "1.55", color: "#D3D9DB" }}>Works alongside clients and candidates from shortlisting to offer, helping AI, data and digital professionals find roles where they can grow and stay.</p>
-          </div>
-        </div>
-      </section>
+      <TeamMobile />
       <section aria-labelledby="mab-mem" style={{ background: "#262423", borderTop: "1px solid #3A3736" }}>
         <div style={{ padding: "56px 20px", display: "flex", flexDirection: "column", gap: "12px" }}>
           <h2 id="mab-mem" style={{ margin: "0 0 8px", fontSize: "26px", fontWeight: "700" }}>
@@ -1574,7 +1364,7 @@ export function Mobile() {
               color: "#201F1E",
             }}
           />
-          <p style={{ margin: "0", fontSize: "14px", color: "#D3D9DB" }}>JustCo, The Metropolis, Singapore</p>
+          <p style={{ margin: "0", fontSize: "14px", color: "#D3D9DB" }}>JustCo Singapore · JustCo Sydney</p>
           <h2 id="mab-cta" style={{ margin: "0", fontSize: "28px", lineHeight: "1.12", fontWeight: "700" }}>
             Interested in partnering with CTT? Let's talk.
           </h2>

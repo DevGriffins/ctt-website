@@ -107,7 +107,7 @@ export function Desktop() {
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
               <label htmlFor="or-sp" style={{ fontSize: "13px", fontWeight: "700" }}>
-                Specialism
+                Specialization
               </label>
               <div style={{ position: "relative" }}>
                 <select
@@ -125,7 +125,7 @@ export function Desktop() {
                     appearance: "none",
                   }}
                 >
-                  <option>All specialisms</option>
+                  <option>All specializations</option>
                   <option>AI</option>
                   <option>Data</option>
                   <option>Deep Tech</option>
@@ -829,7 +829,7 @@ export function Mobile() {
               >
                 <path d="M4 6h16M7 12h10M10 18h4" />
               </svg>
-              Filters: specialism, location, type
+              Filters: specialization, location, type
             </span>
             <svg
               aria-hidden="true"

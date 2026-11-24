@@ -624,7 +624,7 @@ export function Desktop() {
             }}
           >
             <span style={{ fontSize: "14px", fontWeight: "700", letterSpacing: "0.08em", textTransform: "uppercase", color: "#DFE21B" }}>
-              Office
+              Offices
             </span>
             <address style={{ fontStyle: "normal", fontSize: "18px", lineHeight: "1.55" }}>
               JustCo, The Metropolis
@@ -632,6 +632,11 @@ export function Desktop() {
               9 North Buona Vista Drive, #02-01
               <br />
               Singapore 138588
+            </address>
+            <address style={{ fontStyle: "normal", fontSize: "18px", lineHeight: "1.55" }}>
+              JustCo, Level 20, 135 King Street
+              <br />
+              Sydney NSW 2000, Australia
             </address>
             <a
               href="mailto:advisory@celottitechtalent.com"
@@ -662,6 +667,22 @@ export function Desktop() {
               <iframe
                 title="Map: JustCo, The Metropolis"
                 src="https://www.google.com/maps?q=JustCo%20The%20Metropolis%2C%209%20North%20Buona%20Vista%20Drive%2C%20Singapore%20138588&output=embed"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                style={{ border: 0, width: "100%", height: "100%", display: "block" }}
+              />
+            </div>
+            <div
+              style={{
+                height: "200px",
+                borderRadius: "12px",
+                background: "#383533",
+                overflow: "hidden",
+              }}
+            >
+              <iframe
+                title="Map: JustCo, 135 King Street, Sydney"
+                src="https://www.google.com/maps?q=JustCo%20135%20King%20Street%2C%20Level%2020%2C%20135%20King%20St%2C%20Sydney%20NSW%202000&output=embed"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
                 style={{ border: 0, width: "100%", height: "100%", display: "block" }}
@@ -1170,7 +1191,7 @@ export function Mobile() {
             }}
           >
             <span style={{ fontSize: "12px", fontWeight: "700", letterSpacing: "0.08em", textTransform: "uppercase", color: "#DFE21B" }}>
-              Office
+              Offices
             </span>
             <address style={{ fontStyle: "normal", fontSize: "16px", lineHeight: "1.55" }}>
               JustCo, The Metropolis
@@ -1178,6 +1199,11 @@ export function Mobile() {
               9 North Buona Vista Drive, #02-01
               <br />
               Singapore 138588
+            </address>
+            <address style={{ fontStyle: "normal", fontSize: "16px", lineHeight: "1.55" }}>
+              JustCo, Level 20, 135 King Street
+              <br />
+              Sydney NSW 2000, Australia
             </address>
             <a href="mailto:advisory@celottitechtalent.com" style={{ fontSize: "16px", fontWeight: "700", color: "#FFFFFF" }}>
               advisory@celottitechtalent.com
@@ -1196,6 +1222,22 @@ export function Mobile() {
               <iframe
                 title="Map: JustCo, The Metropolis"
                 src="https://www.google.com/maps?q=JustCo%20The%20Metropolis%2C%209%20North%20Buona%20Vista%20Drive%2C%20Singapore%20138588&output=embed"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                style={{ border: 0, width: "100%", height: "100%", display: "block" }}
+              />
+            </div>
+            <div
+              style={{
+                height: "180px",
+                borderRadius: "10px",
+                background: "#383533",
+                overflow: "hidden",
+              }}
+            >
+              <iframe
+                title="Map: JustCo, 135 King Street, Sydney"
+                src="https://www.google.com/maps?q=JustCo%20135%20King%20Street%2C%20Level%2020%2C%20135%20King%20St%2C%20Sydney%20NSW%202000&output=embed"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
                 style={{ border: 0, width: "100%", height: "100%", display: "block" }}
